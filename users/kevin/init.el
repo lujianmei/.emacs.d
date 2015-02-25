@@ -21,10 +21,6 @@
 (add-hook 'sass-mode-hook 'flymake-sass-load)   
 
 
-;; Fixed the indentation of line just after the style tag.
-(autoload 'css-mode "css-mode")
-(setq auto-mode-alist
-        (cons '("\\.css\\'" . css-mode) auto-mode-alist))
 
 
 ;;设置窗口位置为屏库左上角(0,0)
