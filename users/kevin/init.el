@@ -20,6 +20,11 @@
 (require 'flymake-sass)
 (add-hook 'sass-mode-hook 'flymake-sass-load)   
 
+;;add scss-mode
+(setq exec-path (cons (expand-file-name "~/.gem/ruby/2.2.0/bin") exec-path))
+(autoload 'scss-mode "scss-mode")
+(add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
+
 
 
 
