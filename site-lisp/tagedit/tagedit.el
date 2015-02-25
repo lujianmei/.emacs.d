@@ -150,7 +150,8 @@
 (defun tagedit-add-experimental-features ()
   (setq tagedit-experimental-features-on? t)
   (te/maybe-turn-on-tag-editing)
-  (define-key tagedit-mode-map (kbd "<") 'tagedit-insert-lt)
+  ;; commend by lujianmei
+  ;;(define-key tagedit-mode-map (kbd "<") 'tagedit-insert-lt)
   (define-key tagedit-mode-map (kbd ">") 'tagedit-insert-gt)
   (define-key tagedit-mode-map (kbd ".") 'tagedit-insert-dot)
   (define-key tagedit-mode-map (kbd "#") 'tagedit-insert-hash)

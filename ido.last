@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/kevin/.emacs.d/users/" . "kevin/")
+ ("/home/kevin/.emacs.d/" . "users/")
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/" . "images/")
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/" . "my/")
  ("/home/kevin/workspace/javascript-frameworks/frames/" . "jquery/")
@@ -11,6 +13,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/kevin/.emacs.d/users/kevin/"
  "/home/kevin/workspace/javascript-frameworks/frames/jquery/my/images/"
  "/home/kevin/"
  "/home/kevin/workspace/javascript-frameworks/frames/jquery/my/"
@@ -18,24 +21,33 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "init.el"
+ "index.css"
+ "home.css.map"
+ "home.css"
+ "test.scss"
+ "home.scss"
+ "casarte_test.html"
  "index.sass"
  "test.css"
  "test.html"
- "test.js"
- "test.sass"
- "boottest.html"
- "casarte_test.html"
- "index.css"
- "my.css"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/images/" (21741 58737 25886 917000) "pro1.jpg" "pro5.jpg" "ad.jpg" "pro2.jpg" "../" "index.css" "pro3.jpg" "pro2_1.jpg" "ico2.gif" "banner3.jpg" "./" "ico1.gif" "pro4.jpg" "banner2.jpg" "banner1.jpg")
+ ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/" (21742 19655 773465 854000) "index.html" "resposivedemo.html" "casarte.html" "#casarte_test.html#" "../" ".#casarte_test.html" "casarte_test.html" "oritationdemo.html" "pages/" "my.css" "images/" "./" "casarte_files/")
 
- ("/home/kevin/" (21741 57791 562520 981000) "#test.html#" ".mplayer/" ".ddd/" ".gemrc" ".netbeans/" ".mozilla/" ".emacs.d.originalbakup/" ".viminfo" ".gem/" "VirtualBox VMs/" ".freemind/" ".m2/" ".emacs.d.fromPurcell2/" ".config/" "test.sass" ".adobe/" "../" ".fgfs/" ".cache/" ".asoundrc" "Projects/" ".dmrc" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" ".svnqt/" ".sunpinyin/" "vn/" "study-material/" ".other/" ".cask/" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" "test.js" ".scorched3d/" ".emacs.d2/" ".xinitrc" "haier russia website html .zip" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" ".wireshark/" ".python_history" ".ICEauthority" "jquery-1.11.2.js" ".macromedia/" "sync/" "Programe/" ".pki/" "notes/" ".dia/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" "test.html~" ".matho_history" ".trash/" ".java/" ".bash_profile" ".sass-cache/" ".thumbnails/" ".IntelliJIdea13/" "./" ".eclipse/" ".smex-items" ".semanticdb/" "svn/" ".screenlayout/" ".ccache/" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" "Desktop/" ".esd_auth" ".gnome2/" ".chewing/" "#test.js#" "test.css" ".gnupg/" "Downloads/" "bandicam 2015-01-24 08-19-09-458.avi" ".cgdb/" "TRS/" ".gtkrc-2.0-kde4" ".ssh/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".vim/" ".emacs.d/" "haier russia website html new.zip" "Users/" ".npm/" "#test.css#" ".emacs.keyfreq" "test.html" ".Skype/")
+ ("/home/kevin/.emacs.d/users/kevin/" (21742 14558 566623 414000) "flymake-css.el" "aj-compilation.el" "../" "flymake-jslint.el" "flymake-sass.el" "smart-forward.el" "init.el" "zencoding-mode.el" "scss-mode.el" "haml-mode.el" "./" "flymake-easy.el" "sass-mode.el" "zencoding-trie.nw")
 
- ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/" (21741 40595 835261 334000) "index.html" "resposivedemo.html" "casarte.html" "#casarte_test.html#" "../" ".#casarte_test.html" "casarte_test.html" "oritationdemo.html" "pages/" "my.css" "images/" "./" "casarte_files/")
+ ("/home/kevin/.emacs.d/" (21742 14572 173290 550000) "var/" ".places" "site-lisp/" "../" "README.md" "defuns/" "themes/" ".cask/" "init.el" "backups/" "ido.last" ".gitignore" "custom.el" ".gitmodules" "users/" "./" "settings/" "elpa/" "history" ".git/" "snippets/" "auto-save-list/" ".mc-lists.el" "project-archetypes/")
+
+ ("/home/kevin/" (21742 14572 123290 549000) "#test.html#" ".mplayer/" ".ddd/" ".gemrc" ".netbeans/" ".mozilla/" ".emacs.d.originalbakup/" ".viminfo" ".gem/" "VirtualBox VMs/" ".freemind/" ".m2/" ".emacs.d.fromPurcell2/" ".config/" ".adobe/" "../" ".fgfs/" ".cache/" ".asoundrc" "Projects/" ".dmrc" "test.scss" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" ".svnqt/" ".sunpinyin/" "vn/" "study-material/" ".other/" ".cask/" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" "test.js" ".scorched3d/" ".emacs.d2/" ".xinitrc" "haier russia website html .zip" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" ".wireshark/" ".python_history" ".ICEauthority" "jquery-1.11.2.js" ".macromedia/" "sync/" "Programe/" ".pki/" "notes/" ".dia/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" "test.html~" ".matho_history" ".trash/" ".java/" ".bash_profile" ".sass-cache/" ".thumbnails/" ".IntelliJIdea13/" "./" ".eclipse/" ".smex-items" ".semanticdb/" "svn/" ".screenlayout/" ".ccache/" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" "Desktop/" ".esd_auth" ".gnome2/" ".chewing/" "#test.js#" "test.css" ".gnupg/" "Downloads/" "bandicam 2015-01-24 08-19-09-458.avi" ".cgdb/" "TRS/" ".gtkrc-2.0-kde4" ".ssh/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".vim/" ".emacs.d/" "haier russia website html new.zip" "Users/" ".npm/" "#test.css#" ".emacs.keyfreq" "test.html" ".Skype/")
+
+ ("/home/kevin/.emacs.d/users/" (21741 56296 185802 747000) "../" "kevin/" "./")
+
+ ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/images/" (21742 785 779481 805000) "home.css" "pro1.jpg" "pro5.jpg" "ad.jpg" "download.html" "pro2.jpg" "../" "base_ico.png" "pro3.jpg" "home.scss" "pro2_1.jpg" "ico2.gif" "banner3.jpg" ".sass-cache/" "#home.scss#" "./" "ico1.gif" "pro4.jpg" "banner2.jpg" ".#home.scss" "home.css.map" "banner1.jpg")
+
+ ("/home/kevin/workspace/javascript-frameworks/my/" (21720 65062 229607 633000) "casarte/" "third.html" "../" "jquery/" "bootstrap/" "casarteys.zip" "first_home.html" "starter-template.css" "./" "test_media.html" "media.css" "second.html")
 
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/" (21738 32154 740685 53000) "jquery.mobile/" "qunit/" "../" "my/" "templates/" "jquery-1.11.2.js" "jquery-ui/" "jquery-ui-1.11.3.zip" "jquery-1.11.2.min.js" "./" "jquery-ui-themes-1.11.3.zip")
 
