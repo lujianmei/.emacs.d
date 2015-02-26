@@ -19,13 +19,16 @@
 ;;;;add flymake-sass for checking sass files.
 ;;(require 'flymake-sass)
 ;;(add-hook 'sass-mode-hook 'flymake-sass-load)   
-;;
-;;;;add scss-mode
-;;(setq exec-path (cons (expand-file-name "~/.gem/ruby/2.2.0/bin") exec-path))
-;;(autoload 'scss-mode "scss-mode")
-;;(add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
-;;
-;;
+
+
+
+;;add scss-mode
+(setq exec-path (cons (expand-file-name "~/.gem/ruby/2.2.0/bin") exec-path))
+(autoload 'scss-mode "scss-mode")
+(add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
+(setq scss-compile-at-save t)
+
+
 
 ;;设置窗口位置为屏库左上角(0,0)
 (set-frame-position (selected-frame) 6 0)
@@ -48,7 +51,7 @@
  
 ;; 回车缩进
 ;;(global-set-key "\C-m" 'reindent-then-newline-and-indent)
-(global-set-key (kbd "C-<return>") 'reindent-then-newline-and-indent)
+(global-set-key (kbd "\C-<return>") 'reindent-then-newline-and-indent)
 (global-set-key (kbd "C-S-i") 'indent-region)
 
 
