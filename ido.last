@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/kevin/" . "workspace/")
  ("/home/kevin/.emacs.d/users/" . "kevin/")
  ("/home/kevin/.emacs.d/" . "users/")
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/" . "images/")
@@ -14,36 +15,50 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/kevin/workspace/javascript-frameworks/frames/jquery/my/images/"
+ "/home/kevin/workspace/javascript-frameworks/frames/jquery/my/"
  "/home/kevin/.emacs.d/users/kevin/"
  "/home/kevin/"
- "/home/kevin/workspace/javascript-frameworks/frames/jquery/my/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "home.js"
+ "test1.scss"
+ "home.scss"
+ "casartehome.html"
+ "test1.css"
  "init.el"
+ "smart-forward.el"
+ "test1.html"
+ "home.js"
  "index.css"
  "home.css.map"
- "home.css"
- "test.scss"
- "home.scss"
- "casarte_test.html"
- "index.sass"
- "test.css"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/images/" (21742 47842 726721 176000) "home.css" "pro1.jpg" "pro5.jpg" "ad.jpg" "download.html" "pro2.jpg" "../" "base_ico.png" "pro3.jpg" "home.scss" "pro2_1.jpg" "ico2.gif" "banner3.jpg" ".sass-cache/" "./" "ico1.gif" "pro4.jpg" "banner2.jpg" "home.css.map" "banner1.jpg")
+ ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/images/" (21743 16202 24556 693000) "home.css" "pro1.jpg" "pro5.jpg" "ad.jpg" "download.html" "pro2.jpg" "../" "test1.scss" "base_ico.png" "pro3.jpg" "home.scss" "pro2_1.jpg" "ico2.gif" "banner3.jpg" ".sass-cache/" "#home.scss#" "./" "home.js" "ico1.gif" "pro4.jpg" "banner2.jpg" ".#home.scss" "home.css.map" "banner1.jpg")
 
- ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/" (21742 47996 230059 803000) "index.html" "resposivedemo.html" "casarte.html" "../" "casarte_test.html" "oritationdemo.html" "pages/" "my.css" "images/" "./" "casarte_files/")
+ ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/" (21743 13239 611121 204000) "index.html" "resposivedemo.html" "casarte.html" "#casarte_test.html#" "../" "casarte_test.html" "oritationdemo.html" "casartehome.html" "pages/" "my.css" "images/" "test1.html" "./" "casarte_files/")
 
- ("/home/kevin/.emacs.d/users/kevin/" (21742 14558 566623 414000) "flymake-css.el" "aj-compilation.el" "../" "flymake-jslint.el" "flymake-sass.el" "smart-forward.el" "init.el" "zencoding-mode.el" "scss-mode.el" "haml-mode.el" "./" "flymake-easy.el" "sass-mode.el" "zencoding-trie.nw")
+ ("/home/kevin/" (21743 13093 227782 822000) "#test.html#" ".mplayer/" ".ddd/" ".gemrc" ".netbeans/" ".mozilla/" ".emacs.d.originalbakup/" ".viminfo" ".gem/" "VirtualBox VMs/" ".freemind/" ".m2/" ".emacs.d.fromPurcell2/" ".config/" ".adobe/" "../" ".fgfs/" ".cache/" ".asoundrc" "Projects/" ".dmrc" "test.scss" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" ".svnqt/" ".sunpinyin/" "vn/" "study-material/" ".other/" ".cask/" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" "Site improvements www.haier.com.rar" "test.js" ".scorched3d/" ".emacs.d2/" ".xinitrc" "haier russia website html .zip" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" ".wireshark/" ".python_history" ".ICEauthority" "jquery-1.11.2.js" ".macromedia/" "sync/" "Programe/" ".pki/" "notes/" ".dia/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" "test.html~" ".matho_history" ".trash/" ".java/" ".bash_profile" ".sass-cache/" ".thumbnails/" ".IntelliJIdea13/" "./" ".eclipse/" ".smex-items" ".semanticdb/" "svn/" ".screenlayout/" ".ccache/" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" "Desktop/" ".esd_auth" ".gnome2/" ".chewing/" "#test.js#" "test.css" ".gnupg/" "Downloads/" "bandicam 2015-01-24 08-19-09-458.avi" ".cgdb/" "TRS/" ".gtkrc-2.0-kde4" ".ssh/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".vim/" ".emacs.d/" "haier russia website html new.zip" "Users/" ".npm/" "#test.css#" ".emacs.keyfreq" "test.html" ".Skype/")
 
- ("/home/kevin/.emacs.d/" (21742 14572 173290 550000) "var/" ".places" "site-lisp/" "../" "README.md" "defuns/" "themes/" ".cask/" "init.el" "backups/" "ido.last" ".gitignore" "custom.el" ".gitmodules" "users/" "./" "settings/" "elpa/" "history" ".git/" "snippets/" "auto-save-list/" ".mc-lists.el" "project-archetypes/")
+ ("/home/" (21627 17885 376688 128000) "../" "lost+found/" "kevin/" "./" "root/")
 
- ("/home/kevin/" (21742 14572 123290 549000) "#test.html#" ".mplayer/" ".ddd/" ".gemrc" ".netbeans/" ".mozilla/" ".emacs.d.originalbakup/" ".viminfo" ".gem/" "VirtualBox VMs/" ".freemind/" ".m2/" ".emacs.d.fromPurcell2/" ".config/" ".adobe/" "../" ".fgfs/" ".cache/" ".asoundrc" "Projects/" ".dmrc" "test.scss" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" ".svnqt/" ".sunpinyin/" "vn/" "study-material/" ".other/" ".cask/" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" "test.js" ".scorched3d/" ".emacs.d2/" ".xinitrc" "haier russia website html .zip" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" ".wireshark/" ".python_history" ".ICEauthority" "jquery-1.11.2.js" ".macromedia/" "sync/" "Programe/" ".pki/" "notes/" ".dia/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" "test.html~" ".matho_history" ".trash/" ".java/" ".bash_profile" ".sass-cache/" ".thumbnails/" ".IntelliJIdea13/" "./" ".eclipse/" ".smex-items" ".semanticdb/" "svn/" ".screenlayout/" ".ccache/" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" "Desktop/" ".esd_auth" ".gnome2/" ".chewing/" "#test.js#" "test.css" ".gnupg/" "Downloads/" "bandicam 2015-01-24 08-19-09-458.avi" ".cgdb/" "TRS/" ".gtkrc-2.0-kde4" ".ssh/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".vim/" ".emacs.d/" "haier russia website html new.zip" "Users/" ".npm/" "#test.css#" ".emacs.keyfreq" "test.html" ".Skype/")
+ ("/home/kevin/.emacs.d/users/kevin/" (21742 49981 880128 276000) "flymake-css.el" "aj-compilation.el" "../" "flymake-jslint.el" "flymake-sass.el" "smart-forward.el" "init.el" "zencoding-mode.el" "scss-mode.el" "haml-mode.el" "./" "flymake-easy.el" "sass-mode.el" "zencoding-trie.nw")
+
+ ("/home/kevin/.emacs.d/" (21743 12012 547745 556000) "var/" ".places" "site-lisp/" "../" "README.md" "defuns/" "themes/" ".cask/" "init.el" "backups/" "ido.last" ".gitignore" "custom.el" ".gitmodules" "users/" "./" "settings/" "elpa/" "history" ".git/" "snippets/" "auto-save-list/" ".mc-lists.el" "project-archetypes/")
+
+ ("/home/kevin/study-material/" (21706 13071 881954 981000) "database/" "4 2014BDTC基于全网内容的新闻客户端推荐系统刘佳.pdf" "php/" "linux_programming/" "2.jpg" "../" "lua05.pdf" "tools/" "ppt resource/" "185952980.jpg" "1983aa0f7cfea0c70b8f9df1eb5c320e1e6a84.png" "CISSP/" "github/" "install_record.txt" "network/" "ARM/" "security/" "oops.gif" "./" "架构文档/" "Perl/" "mysheel/" "responsive/" "Javascript/" "Android/" "data structure/" "free and open-source software display servers and UI toolkits.svg" ".directory" "Infoq/" "0. First things First/" "videos/" "others/" "Python/")
+
+ ("/home/kevin/study-material/Javascript/" (21723 48063 523356 490000) "javascript/" "../" "css3/" "./")
+
+ ("/home/kevin/study-material/Javascript/javascript/" (21743 10699 927700 292000) "JavaScript基础教程（第8版) (1).pdf" "移动优先与响应式Web设计 pdf 试读.pdf" "APP：jQuery Mobile移动应用实战.pdf" "../" "163disk.com_JavaScript框架设计现代魔法指南PDF电子书带目录simple.pdf" "[www.java1234.com]jQuery基础教程（第四版）.pdf" "jquery/" "JavaScript框架高级编程  应用Prototype、YUI、Ext JS、Dojo、MooTools.pdf" "./" "9_95201410302248045017474.pdf" "Bootstrap用户手册：设计响应式网站.mobi" "JavaScript框架设计新迷你书新.pdf" "《JavaScript框架设计》迷你书.pdf")
+
+ ("/home/kevin/study-material/Javascript/javascript/jquery/" (21743 11204 441051 23000) "《jQuery Mobile实战》(陶国荣)源码/" "jQuery Mobile快速入门/" "Sams Teach Yourself jQuery Mobile in 24 Hours.pdf" "../" "jQuery Mobile快速入门.pdf" "./")
+
+ ("/home/kevin/study-material/Javascript/javascript/jquery/jQuery Mobile快速入门/" (21743 10715 574367 498000) "ch5/" "ch2/" "../" "ch6/" "images/" "ch8/" "ch9/" "jqm-webapp/" "./" "ch10/" "ch7/" "ch3/" "ch4/" "ch1/")
+
+ ("/home/kevin/study-material/Javascript/javascript/jquery/jQuery Mobile快速入门/ch2/" (20199 5076 0 0) "action-sheet1.html" ".tmp_template.html.50862~" ".tmp_template.html.48660~" "responsive.html" ".tmp_responsive.html.45824~" "../" ".tmp_multi.html.25311~" "contact.html" ".tmp_responsive.html.38427~" "alert.html" ".tmp_responsive.html.52793~" "action-sheet2.html" "hijax.html" ".tmp_multi.html.37060~" ".tmp_hijax.html.99021~" "template.html" "multi-page.html" ".tmp_responsive.html.13840~" "dialog.html" "./" ".tmp_responsive.html.59100~" ".tmp_login.html.5791~")
 
  ("/home/kevin/.emacs.d/users/" (21741 56296 185802 747000) "../" "kevin/" "./")
 

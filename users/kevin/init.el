@@ -51,7 +51,7 @@
  
 ;; 回车缩进
 ;;(global-set-key "\C-m" 'reindent-then-newline-and-indent)
-(global-set-key (kbd "\C-<return>") 'reindent-then-newline-and-indent)
+(global-set-key (kbd "C-<return>") 'reindent-then-newline-and-indent)
 (global-set-key (kbd "C-S-i") 'indent-region)
 
 
@@ -140,3 +140,17 @@
 
 ;; set flycheck run on all buffers:
 (add-hook 'after-init-hook #'global-flycheck-mode)
+
+
+;; add support for create new shell based on buffer directory
+(require 'shell-current-directory)
+(shell-current-directory)
+
+;;open eshell as default
+(add-hook 'after-init-hook 'eshell-mode)
+
+;;set shell file
+ (setq shell-file-name "/bin/bash")
+ (autoload 'ansi-color-for-comint-mode-on "ansi-color" nil t) 
+ (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on t)
+
