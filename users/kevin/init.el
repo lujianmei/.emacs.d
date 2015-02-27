@@ -144,13 +144,23 @@
 
 ;; add support for create new shell based on buffer directory
 (require 'shell-current-directory)
-(shell-current-directory)
+;;(shell-current-directory)
 
 ;;open eshell as default
-(add-hook 'after-init-hook 'eshell-mode)
+;;(add-hook 'after-init-hook 'eshell-mode)
+;;(setq eshell-aliases-file "~/.emacs.d/eshell/alias")
 
 ;;set shell file
  (setq shell-file-name "/bin/bash")
  (autoload 'ansi-color-for-comint-mode-on "ansi-color" nil t) 
  (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on t)
+ 
+;; change theme to solarized,use light frames in the GUI and dark frames in my terminal
+(load-theme 'solarized-light t)
+(add-hook 'after-make-frame-functions
+          (lambda (frame)
+            (set-frame-parameter frame
+                                 'background-mode
+                                 (if (display-graphic-p frame) 'light 'dark))
+
 

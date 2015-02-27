@@ -7,23 +7,27 @@ unrar
 exit
 fff
 dd
-dir
 ls
-ls -al
-drwxrwxr-x   4 kevin          kevin         4096 2015-02-26 17:36 ls thunderbird
-ls
-Desktop                               ls software
-ls -l
-ls -a
-ls -l
-ll
-e
-pwd
-cd /
-ls
-cd run
-ls
-ls -al
-e
-ec
 eshell
+exit
+cd workspace/javascript-frameworks/frames/jquery/my/
+ls
+ec test1.html images/test1.scss 
+emacs test1.html images/test1.scss 
+xfce4-about 
+/d
+d t
+ll
+ll
+ls
+ec
+test
+ls -al
+ls -l
+test
+test
+test
+cd workspace/
+..
+ll
+ls
