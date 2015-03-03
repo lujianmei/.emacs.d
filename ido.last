@@ -2,8 +2,16 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/kevin/study-material/github/jekyllblog/" . "_layouts/")
+ ("/home/kevin/study-material/github/" . "jekyllblog/")
+ ("/home/kevin/study-material/" . "github/")
+ ("/home/" . "kevin/")
+ ("/home/kevin/.gem/ruby/2.2.0/gems/jekyll-watch-1.2.1/lib/" . "jekyll/")
+ ("/home/kevin/.gem/ruby/2.2.0/gems/jekyll-watch-1.2.1/" . "lib/")
+ ("/home/kevin/.gem/ruby/2.2.0/gems/i18n-0.7.0.beta1/" . "gemfiles/")
+ ("/home/kevin/.gem/ruby/2.2.0/gems/" . "jekyll-watch-1.2.1/")
  ("/home/kevin/.emacs.d/themes/" . "emacs-color-theme-solarized-master/")
- ("/home/kevin/" . "workspace/")
+ ("/home/kevin/" . "notes/")
  ("/home/kevin/.emacs.d/users/" . "kevin/")
  ("/home/kevin/.emacs.d/" . "users/")
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/" . "images/")
@@ -16,46 +24,89 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/kevin/.emacs.d/users/kevin/"
- "/home/kevin/.emacs.d/themes/emacs-color-theme-solarized-master/"
  "/home/kevin/notes/"
+ "/home/kevin/study-material/github/jekyllblog/_layouts/"
+ "/home/kevin/study-material/github/jekyllblog/_site/"
+ "/home/kevin/study-material/github/jekyllblog/"
+ "/home/kevin/.gem/ruby/2.2.0/gems/jekyll-watch-1.2.1/lib/jekyll/"
+ "/home/kevin/.gem/ruby/2.2.0/gems/jekyll-watch-1.2.1/lib/"
+ "/home/kevin/.gem/ruby/2.2.0/gems/i18n-0.7.0.beta1/gemfiles/"
+ "/home/kevin/.gem/ruby/2.2.0/gems/jekyll-2.5.3/bin/"
+ "/home/kevin/"
  "/home/kevin/.emacs.d/settings/"
+ "/home/kevin/.emacs.d/themes/emacs-color-theme-solarized-master/"
  "/home/kevin/.emacs.d/site-lisp/"
  "/home/kevin/workspace/javascript-frameworks/frames/jquery/my/"
  "/home/kevin/workspace/javascript-frameworks/frames/jquery/my/images/"
- "/home/kevin/"
 )
 
 ;; ----- ido-work-file-list -----
 (
  "init.el"
- "solarized-light-theme.el"
- "solarized-theme.el"
+ "work-note-in-2015.org"
+ "front-end-dev-plan.org"
+ "work-note-in-2015.html"
+ "org.css"
+ "notes.html"
  "notes.org"
- "key-bindings.el"
- "zoom-frm.el"
- "test1.html"
- "test1.scss"
- "home.scss"
- "casartehome.html"
+ "post-server.html"
+ "post-personal.html"
+ "post-linux.html"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/kevin/.emacs.d/" (21750 1625 618239 234000) "var/" "eshell/" ".places" "site-lisp/" "../" "README.md" "defuns/" "themes/" ".cask/" "init.el" "backups/" "ido.last" ".gitignore" "custom.el" ".gitmodules" "users/" "./" "settings/" "elpa/" "history" ".git/" "snippets/" "auto-save-list/" ".mc-lists.el" "project-archetypes/")
+
+ ("/home/kevin/notes/" (21750 2254 931565 37000) "notes.org~" "org.css" "../" "notes.html~" "notes.html" "front-end-dev-plan.org" "test.org" "work-note-in-2015.org" "./" "work-note-in-2015.html" "notes.txt" "notes.org" "front-end-dev-plan.html")
+
+ ("/home/kevin/" (21749 60548 811651 692000) ".mplayer/" ".ddd/" ".gemrc" ".netbeans/" ".mozilla/" ".emacs.d.originalbakup/" ".viminfo" "1.txt" ".gem/" "VirtualBox VMs/" ".freemind/" ".m2/" ".emacs.d.fromPurcell2/" ".config/" ".adobe/" ".fgfs/" ".cache/" ".asoundrc" "Projects/" ".dmrc" "test.scss" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" "checkurls.py" ".svnqt/" ".sunpinyin/" "study-material/" "test.tex.tex" ".other/" ".cask/" "tes" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" "test.js" ".scorched3d/" ".emacs.d2/" ".xinitrc" "excels/" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" ".wireshark/" ".python_history" ".ICEauthority" ".macromedia/" "sync/" "Programe/" ".pki/" "notes/" ".bash_profile~" ".bashrc~" ".dia/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" "test.html~" ".matho_history" ".newsrc-dribble" ".trash/" "tes.tex" ".java/" ".w3m/" ".bash_profile" ".sass-cache/" ".thumbnails/" "#tes#" ".IntelliJIdea13/" ".eclipse/" ".smex-items" ".semanticdb/" "test.tex" "svn/" ".screenlayout/" ".ccache/" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" "Desktop/" ".esd_auth" ".gnome2/" ".chewing/" "test.css" ".gnupg/" "Downloads/" "bandicam 2015-01-24 08-19-09-458.avi" ".cgdb/" "TRS/" ".gtkrc-2.0-kde4" ".ssh/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".vim/" ".emacs.d/" "Users/" ".npm/" ".emacs.keyfreq" "test.html" ".Skype/" "../" "./")
+
+ ("/home/kevin/.emacs.d/users/kevin/" (21749 56224 245036 769000) "aj-compilation.el" "../" "shell-current-directory.el" " *Minibuf-2*" "smart-forward.el" "init.el" ".# *Minibuf-2*" "zencoding-mode.el" "scss-mode.el" "haml-mode.el" "./" "sass-mode.el" "zencoding-trie.nw")
+
+ ("/home/kevin/.emacs.d2/" (21712 39750 773297 859000) "plugins/" "var/" "site-lisp/" "../" ".session" "README.md" ".agignore" ".emacs.desktop" "LICENSE" "init.el" "ido.last" "ac-comphist.dat" "lisp/" ".gitignore" "custom.el" "./" ".smex-items" "elpa/" "history" ".git/" "snippets/" "auto-save-list/")
+
+ ("/home/kevin/study-material/github/jekyllblog/_posts/" (21748 12544 496639 739000) "2014-11-01-archlinux-xfce4-complete-installation-1.md" "../" "2015-03-01-work-note-in-2015.md" "2014-11-04-archlinux-xfce4-complete-installation-4.md" "olds/" "2014-11-02-archlinux-xfce4-complete-installation-2.md" "./" "2014-11-03-archlinux-xfce4-complete-installation-3.md")
+
+ ("/home/kevin/study-material/github/jekyllblog/_layouts/" (21748 11310 763321 167000) "post-index-server-side.html" "post-client.html" "../" "post-index-personal.html" "post-index-client-side.html" "home.html" "post-linux.html" "post-server.html" "post-personal.html" "./" "post-index-linux.html" "page.html")
+
+ ("/home/kevin/study-material/github/jekyllblog/" (21747 49687 880440 58000) "favicon.ico" "CNAME" "404.md" "../" "personal.md" "README.md" "package.json" "_layouts/" "favicon.png" "client-side.md" "_site/" "linux.md" "index.md" "feed.xml" "images/" "_posts/" "server-side.md" "./" "_includes/" ".git/" "assets/" "about.md" "_config.yml")
+
+ ("/home/kevin/study-material/github/" (21747 47412 223800 620000) "jekyllblog/" "../" "jekyllblog3 (copy 1)/" "qdframe-project/" "./" "responsive/")
+
+ ("/home/kevin/study-material/github/jekyllblog/_site/" (21621 60295 896649 947000) "favicon.ico" "index.html" "CNAME" "Gemfile.lock" "client-side/" "../" "README.md" "Gemfile" "about/" "linux/" "favicon.png" "server-side/" "feed.xml" "images/" "./" "assets/" "404.html")
+
+ ("/home/kevin/.gem/" (21619 1559 522922 480000) "../" "ruby/" "specs/" "./")
+
+ ("/home/kevin/.gem/ruby/" (21714 15772 926590 737000) "../" "2.1.0/" "2.2.0/" "./")
+
+ ("/home/kevin/.gem/ruby/2.2.0/" (21714 15786 853257 236000) "../" "specifications/" "extensions/" "doc/" "bin/" "build_info/" "cache/" "./" "gems/")
+
+ ("/home/kevin/.gem/ruby/2.2.0/gems/" (21747 44905 713830 611000) "execjs-2.3.0/" "blankslate-2.1.2.4/" "tzinfo-1.2.2/" "compass-1.0.3/" "i18n-0.7.0.beta1/" "safe_yaml-1.0.4/" "jekyll-coffeescript-1.0.1/" "listen-2.8.5/" "thor-0.19.1/" "jekyll-2.5.3/" "hitimes-1.2.2/" "classifier-reborn-2.0.3/" "../" "rb-inotify-0.9.5/" "parslet-1.5.0/" "celluloid-0.16.0/" "compass-import-once-1.0.5/" "coffee-script-source-1.9.1/" "thread_safe-0.3.4/" "chunky_png-1.3.3/" "multi_json-1.10.1/" "redcarpet-3.2.2/" "i18n-0.7.0/" "timers-4.0.1/" "yajl-ruby-1.2.1/" "jekyll-sass-converter-1.3.0/" "jekyll-watch-1.2.1/" "activesupport-4.2.0/" "liquid-2.6.2/" "kramdown-1.6.0/" "toml-0.1.2/" "coffee-script-2.3.0/" "./" "RedCloth-4.2.9/" "fast-stemmer-1.0.2/" "jekyll-gist-1.1.0/" "foundation-1.0.4/" "ffi-1.9.6/" "compass-core-1.0.3/" "sass-3.4.11/" "pygments.rb-0.6.2/" "mercenary-0.3.5/" "bundler-1.7.12/" "rb-fsevent-0.9.4/" "jekyll-paginate-1.1.0/" "posix-spawn-0.3.10/" "colorator-0.1/")
+
+ ("/home/kevin/.gem/ruby/2.2.0/gems/jekyll-watch-1.2.1/lib/jekyll/" (21747 41137 123168 332000) "../" "commands/" "watcher.rb" "./")
+
+ ("/home/kevin/.gem/ruby/2.2.0/gems/jekyll-watch-1.2.1/lib/" (21747 41137 123168 332000) "../" "jekyll-watch.rb" "./" "jekyll/")
+
+ ("/home/kevin/.gem/ruby/2.2.0/gems/jekyll-watch-1.2.1/" (21747 41137 119834 998000) "../" "lib/" "./")
+
+ ("/home/kevin/.gem/ruby/2.2.0/gems/i18n-0.7.0.beta1/gemfiles/" (21747 42418 446486 334000) "Gemfile.rails-master" "Gemfile.rails-master.lock" "Gemfile.rails-4.0.x.lock" "Gemfile.rails-4.1.x.lock" "../" "Gemfile.rails-3.2.x" "Gemfile.rails-4.0.x" "./" "Gemfile.rails-4.1.x" "Gemfile.rails-3.2.x.lock")
+
+ ("/home/kevin/.gem/ruby/2.2.0/gems/i18n-0.7.0.beta1/" (21747 42418 489819 667000) "MIT-LICENSE" "gemfiles/" "../" "README.md" "lib/" "./" "test/")
+
+ ("/home/kevin/.gem/ruby/2.2.0/gems/jekyll-2.5.3/" (21747 41233 656500 510000) "../" "lib/" "README.markdown" "bin/" "LICENSE" "./")
+
+ ("/home/kevin/.gem/ruby/2.2.0/gems/jekyll-2.5.3/bin/" (21747 41233 656500 510000) "../" "./" "jekyll")
+
+ ("/home/kevin/.emacs.d/settings/" (21746 44702 669973 488000) "setup-org.el" "setup-ido.el" "setup-markdown-mode.el" "setup-perspective.el" "setup-hippie.el" "../" "setup-ruby-mode.el" "setup-skewer.el" "setup-rgrep.el" "key-bindings.el" "my-misc.el" "setup-ffip.el" "setup-yesqlg.el" "setup-paredit.el" "setup-yasnippet.el" "mac.el" "appearance.el" "setup-flycheck.el" "sane-defaults.el" "setup-js2-mode.el" "mode-mappings.el" "setup-package.el" "./" "setup-magit.el" "setup-html-mode.el" ".git/" "setup-shell.el" "setup-clojure-mode.el" "setup-dired.el" "setup-elnode.el")
+
+ ("/home/kevin/study-material/github/jekyllblog/_includes/" (21619 28421 939267 732000) "../" "_footer.html" "_author-bio.html" "_head.html" "_scripts.html" "_navigation.html" "./" "_browser-upgrade.html")
+
  ("/home/kevin/.emacs.d/themes/emacs-color-theme-solarized-master/" (21744 39111 499991 809000) "solarized-theme.el" "../" "solarized-light-theme.el" "solarized-dark-theme.el" "README.md" "LICENSE" ".gitignore" "solarized-definitions.el" "./" "color-theme-solarized-pkg.el" "ert-tests/" "color-theme-solarized.el" "Makefile" "makepkg.sh" ".travis.yml")
 
  ("/home/kevin/.emacs.d/themes/" (21744 7829 73388 338000) "../" "prez-theme.el" "emacs-color-theme-solarized-master/" "./" "default-black-theme.el")
 
- ("/home/kevin/.emacs.d/" (21744 37340 281651 524000) "var/" "eshell/" ".places" "site-lisp/" "../" "README.md" "defuns/" "themes/" ".cask/" "init.el" "backups/" "ido.last" ".gitignore" "custom.el" ".gitmodules" "users/" "./" "settings/" "elpa/" "history" ".git/" "snippets/" "auto-save-list/" ".mc-lists.el" "project-archetypes/")
-
- ("/home/kevin/notes/" (21744 38982 503326 686000) "notes.org~" "../" "notes.html~" "test.org" "notes.tex~" "./" "notes.org")
-
- ("/home/kevin/" (21744 37340 241651 524000) "#test.html#" ".mplayer/" ".ddd/" ".gemrc" ".netbeans/" ".mozilla/" ".emacs.d.originalbakup/" ".viminfo" ".gem/" "VirtualBox VMs/" ".freemind/" ".m2/" ".emacs.d.fromPurcell2/" ".config/" ".adobe/" ".fgfs/" ".cache/" ".asoundrc" "Projects/" ".dmrc" "test.scss" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" ".svnqt/" ".sunpinyin/" "vn/" "study-material/" ".other/" ".cask/" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" "Site improvements www.haier.com.rar" "test.js" ".scorched3d/" ".emacs.d2/" ".xinitrc" "excels/" "haier russia website html .zip" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" ".wireshark/" ".python_history" ".ICEauthority" "jquery-1.11.2.js" ".macromedia/" "sync/" "Programe/" ".pki/" "notes/" ".bashrc~" ".dia/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" "test.html~" ".matho_history" ".trash/" ".java/" ".bash_profile" ".sass-cache/" ".thumbnails/" ".IntelliJIdea13/" ".eclipse/" ".smex-items" ".semanticdb/" "svn/" ".screenlayout/" ".ccache/" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" "Desktop/" ".esd_auth" ".gnome2/" ".chewing/" "#test.js#" "test.css" ".gnupg/" "Downloads/" "bandicam 2015-01-24 08-19-09-458.avi" ".cgdb/" "TRS/" ".gtkrc-2.0-kde4" ".ssh/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".vim/" ".emacs.d/" "haier russia website html new.zip" "Users/" ".npm/" "#test.css#" ".emacs.keyfreq" "test.html" ".Skype/" "nohup.out" "../" "./")
-
- ("/home/kevin/.emacs.d/settings/" (21744 36971 851655 932000) "setup-org.el" "setup-ido.el" "setup-markdown-mode.el" "setup-perspective.el" "setup-hippie.el" "../" "setup-ruby-mode.el" "setup-skewer.el" "setup-rgrep.el" "key-bindings.el" "my-misc.el" "setup-ffip.el" "setup-yesqlg.el" "setup-paredit.el" "setup-yasnippet.el" "mac.el" "appearance.el" "setup-flycheck.el" "sane-defaults.el" "setup-js2-mode.el" "mode-mappings.el" "setup-package.el" "./" "setup-magit.el" "setup-html-mode.el" ".git/" "setup-shell.el" "setup-clojure-mode.el" "setup-dired.el" "setup-elnode.el")
-
  ("/home/kevin/.emacs.d/site-lisp/" (21741 1693 368554 687000) "mouse-slider-mode.el" "smex/" "groovy-mode/" "delsel/" "yaml-mode/" "buster-snippets/" "tern/" "smooth-scrolling.el" "annoying-arrows-mode/" "feature-mode/" "../" "diminish.el" "buster-mode/" "angular-snippets/" "single-quotes-mode.el" "datomic-snippets/" "apache-mode.el" "find-file-in-project/" "jump-char/" "rhtml-mode/" "browse-kill-ring/" "fill-column-indicator/" "oppdrag-mode.el" "s/" "change-inner/" "bash-completion/" "js2-mode/" "shell-command.el" "evil/" "clj-refactor/" "undo-tree.el" "skewer-mode/" "multifiles/" "puppet-mode/" "perspective/" "jade-mode/" "multiple-cursors/" "eproject/" "frame-fns.el" "dash/" "js2-refactor/" "frame-cmds.el" "./" "php-mode/" "expand-region/" "hardcore-mode/" "ido-ubiquitous/" "wgrep/" "smart-forward/" "ace-jump-mode/" "tagedit/" "fold-this/" "project-archetypes/" "crappy-jsp-mode/" "zoom-frm.el" "simplezen/" "top-mode.el")
-
- ("/home/kevin/.emacs.d/users/kevin/" (21744 16646 600119 301000) "aj-compilation.el" "../" "shell-current-directory.el" "smart-forward.el" "init.el" "zencoding-mode.el" "scss-mode.el" "haml-mode.el" "./" "sass-mode.el" "zencoding-trie.nw")
 
  ("/home/kevin/.emacs.d/users/" (21743 37436 689538 116000) "../" "kevin/" "./")
 

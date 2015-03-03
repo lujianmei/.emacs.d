@@ -5,6 +5,7 @@ backups
 session.*
 tramp
 elpa
+eshell
 swank
 emms
 site-lisp/adventur-mode

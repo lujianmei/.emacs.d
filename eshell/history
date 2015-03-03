@@ -31,3 +31,37 @@ cd workspace/
 ..
 ll
 ls
+exit
+chmod +x checkurls.py 
+./checkurls.py 
+python checkurls.py
+pie install requests
+pip
+easy_install
+easy_install requests
+sudo easy_install requests
+python checkurls.py 
+python checkurls.py 
+python checkurls.py 
+ls
+cd notes/
+ls
+rm notes.tex\~ 
+exit
+jekyll server --watch
+gem install jekyll
+cd ~/study-material/github/jekyllblog/
+ls
+sudo pacman -Syu
+reboot
+cd .gem/ruby/
+ls
+cd 2.2.0/
+ls
+cd gems
+ls
+cd jekyll-2.5.3/
+ls
+cd bin
+ls
+sudo nginx

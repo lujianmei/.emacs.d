@@ -153,6 +153,7 @@
         tagedit-maybe-insert-slash
         tagedit-raise-tag
         tagedit-splice-tag
+        tagedit-split-tag
         tern-ac-dot-complete
         toggle-assert-refute
         toggle-quotes
@@ -192,6 +193,7 @@
         magit-status
         mc/add-cursor-on-click
         mc/add-cursors-to-all-matches
+        mouse-save-then-kill
         multiple-cursors-mode
         ns-prev-frame
         persp-switch
