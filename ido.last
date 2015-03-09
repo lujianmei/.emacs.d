@@ -2,8 +2,13 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/casarte/" . "css/")
+ ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/" . "casarte/")
+ ("/home/kevin/workspace/javascript-frameworks/my/" . "bootstrap/")
+ ("/home/kevin/Downloads/bootstrap/" . "dgfp_32_hr/")
+ ("/home/kevin/Downloads/" . "bootstrap/")
  ("/home/kevin/study-material/github/jekyllblog/" . "_layouts/")
- ("/home/kevin/study-material/github/" . "jekyllblog/")
+ ("/home/kevin/study-material/github/" . "work-notes/")
  ("/home/kevin/study-material/" . "github/")
  ("/home/" . "kevin/")
  ("/home/kevin/.gem/ruby/2.2.0/gems/jekyll-watch-1.2.1/lib/" . "jekyll/")
@@ -11,18 +16,26 @@
  ("/home/kevin/.gem/ruby/2.2.0/gems/i18n-0.7.0.beta1/" . "gemfiles/")
  ("/home/kevin/.gem/ruby/2.2.0/gems/" . "jekyll-watch-1.2.1/")
  ("/home/kevin/.emacs.d/themes/" . "emacs-color-theme-solarized-master/")
- ("/home/kevin/" . "notes/")
+ ("/home/kevin/" . "workspace/")
  ("/home/kevin/.emacs.d/users/" . "kevin/")
- ("/home/kevin/.emacs.d/" . "users/")
+ ("/home/kevin/.emacs.d/" . "settings/")
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/" . "images/")
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/" . "my/")
  ("/home/kevin/workspace/javascript-frameworks/frames/" . "jquery/")
- ("/home/kevin/workspace/javascript-frameworks/" . "frames/")
+ ("/home/kevin/workspace/javascript-frameworks/" . "my/")
  ("/home/kevin/workspace/" . "javascript-frameworks/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/kevin/workspace/javascript-frameworks/my/bootstrap/casarte/"
+ "/home/kevin/workspace/javascript-frameworks/frames/jquery/my/images/"
+ "/home/kevin/workspace/javascript-frameworks/my/bootstrap/casarte/css/"
+ "/home/kevin/Downloads/bootstrap/dgfp_32_hr/"
+ "/home/kevin/study-material/github/work-notes/"
+ "/home/kevin/.emacs.d/settings/"
+ "/home/kevin/workspace/javascript-frameworks/frames/jquery/my/"
+ "/home/kevin/study-material/github/Worg/"
  "/home/kevin/.emacs.d/users/kevin/"
  "/home/kevin/notes/"
  "/home/kevin/study-material/github/jekyllblog/_layouts/"
@@ -33,36 +46,61 @@
  "/home/kevin/.gem/ruby/2.2.0/gems/i18n-0.7.0.beta1/gemfiles/"
  "/home/kevin/.gem/ruby/2.2.0/gems/jekyll-2.5.3/bin/"
  "/home/kevin/"
- "/home/kevin/.emacs.d/settings/"
  "/home/kevin/.emacs.d/themes/emacs-color-theme-solarized-master/"
  "/home/kevin/.emacs.d/site-lisp/"
- "/home/kevin/workspace/javascript-frameworks/frames/jquery/my/"
- "/home/kevin/workspace/javascript-frameworks/frames/jquery/my/images/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "init.el"
+ "index.html"
+ "test1.scss"
+ "style.css"
  "work-note-in-2015.org"
+ "key-bindings.el"
+ "test1.html"
  "front-end-dev-plan.org"
- "work-note-in-2015.html"
- "org.css"
- "notes.html"
- "notes.org"
- "post-server.html"
- "post-personal.html"
- "post-linux.html"
+ "baby-home-project.org"
+ "test"
+ "index.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/kevin/.emacs.d/" (21750 1625 618239 234000) "var/" "eshell/" ".places" "site-lisp/" "../" "README.md" "defuns/" "themes/" ".cask/" "init.el" "backups/" "ido.last" ".gitignore" "custom.el" ".gitmodules" "users/" "./" "settings/" "elpa/" "history" ".git/" "snippets/" "auto-save-list/" ".mc-lists.el" "project-archetypes/")
+ ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/casarte/" (21757 2448 466812 759000) "index.html" "template/" "css/" "../" "js/" "images/" "./" "casarte.zip" "index-finished.html")
 
- ("/home/kevin/notes/" (21750 2254 931565 37000) "notes.org~" "org.css" "../" "notes.html~" "notes.html" "front-end-dev-plan.org" "test.org" "work-note-in-2015.org" "./" "work-note-in-2015.html" "notes.txt" "notes.org" "front-end-dev-plan.html")
+ ("/home/kevin/" (21757 1444 130111 458000) ".mplayer/" ".ddd/" ".gemrc" ".netbeans/" ".mozilla/" ".emacs.d.originalbakup/" ".viminfo" "1.txt" ".gem/" "VirtualBox VMs/" ".freemind/" ".m2/" ".emacs.d.fromPurcell2/" ".config/" ".adobe/" ".fgfs/" ".cache/" ".asoundrc" "Projects/" ".dmrc" "test.scss" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" "checkurls.py" ".svnqt/" ".sunpinyin/" "study-material/" "test.tex.tex" ".other/" ".cask/" "tes" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" "test.js" ".scorched3d/" ".emacs.d2/" ".xinitrc" "excels/" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" ".wireshark/" ".python_history" ".ICEauthority" ".macromedia/" "sync/" "Programe/" ".pki/" "notes/" ".bash_profile~" ".bashrc~" ".dia/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" "test.html~" ".matho_history" ".newsrc-dribble" ".trash/" "tes.tex" ".java/" ".w3m/" ".bash_profile" ".sass-cache/" ".thumbnails/" "#tes#" ".IntelliJIdea13/" ".eclipse/" ".smex-items" ".semanticdb/" "test.tex" "svn/" ".screenlayout/" ".ccache/" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" "Desktop/" ".esd_auth" ".gnome2/" ".chewing/" "c28c93cc77b8bf60e64423254846eedb34975c43.6.pdf" "test.css" ".gnupg/" "Downloads/" "bandicam 2015-01-24 08-19-09-458.avi" ".cgdb/" "TRS/" ".gtkrc-2.0-kde4" ".ssh/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".vim/" ".emacs.d/" "Users/" ".npm/" ".emacs.keyfreq" "test.html" ".Skype/" "../" "./")
 
- ("/home/kevin/" (21749 60548 811651 692000) ".mplayer/" ".ddd/" ".gemrc" ".netbeans/" ".mozilla/" ".emacs.d.originalbakup/" ".viminfo" "1.txt" ".gem/" "VirtualBox VMs/" ".freemind/" ".m2/" ".emacs.d.fromPurcell2/" ".config/" ".adobe/" ".fgfs/" ".cache/" ".asoundrc" "Projects/" ".dmrc" "test.scss" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" "checkurls.py" ".svnqt/" ".sunpinyin/" "study-material/" "test.tex.tex" ".other/" ".cask/" "tes" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" "test.js" ".scorched3d/" ".emacs.d2/" ".xinitrc" "excels/" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" ".wireshark/" ".python_history" ".ICEauthority" ".macromedia/" "sync/" "Programe/" ".pki/" "notes/" ".bash_profile~" ".bashrc~" ".dia/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" "test.html~" ".matho_history" ".newsrc-dribble" ".trash/" "tes.tex" ".java/" ".w3m/" ".bash_profile" ".sass-cache/" ".thumbnails/" "#tes#" ".IntelliJIdea13/" ".eclipse/" ".smex-items" ".semanticdb/" "test.tex" "svn/" ".screenlayout/" ".ccache/" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" "Desktop/" ".esd_auth" ".gnome2/" ".chewing/" "test.css" ".gnupg/" "Downloads/" "bandicam 2015-01-24 08-19-09-458.avi" ".cgdb/" "TRS/" ".gtkrc-2.0-kde4" ".ssh/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".vim/" ".emacs.d/" "Users/" ".npm/" ".emacs.keyfreq" "test.html" ".Skype/" "../" "./")
+ ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/images/" (21756 9823 806815 11000) "home.css" "pro1.jpg" "pro5.jpg" "ad.jpg" "test1.css" "download.html" "pro2.jpg" "../" "test1.scss" "footer_ma.gif" "test1 (copy 1).scss" "base_ico.png" "test1.css.map" "test1.js" "pro3.jpg" "home.scss" "pro2_1.jpg" "ico2.gif" "banner3.jpg" ".sass-cache/" "./" "home.js" "tessssss" "test1 (copy 1).css" "ico1.gif" "pro4.jpg" "banner2.jpg" "ad1-small.jpg" "ad1.jpg" "home.css.map" "test1 (copy 1).css.map" "banner1.jpg")
 
- ("/home/kevin/.emacs.d/users/kevin/" (21749 56224 245036 769000) "aj-compilation.el" "../" "shell-current-directory.el" " *Minibuf-2*" "smart-forward.el" "init.el" ".# *Minibuf-2*" "zencoding-mode.el" "scss-mode.el" "haml-mode.el" "./" "sass-mode.el" "zencoding-trie.nw")
+ ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/" (21756 42549 832998 644000) "index.html" "resposivedemo.html" "casarte.html" "#casarte_test.html#" "../" "casarte_test.html" "oritationdemo.html" "casartehome.html" "pages/" "my.css" "test1 (copy 1).html" "images/" "test1.html" "./" "test1 (copy 2).html" "casarte_files/")
+
+ ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/casarte/css/" (21756 44487 812669 162000) "jquery.fancybox.css" "../" "etalage.css" "./" "style.css" "bootstrap.css" "magnific-popup.css" "fwslider.css")
+
+ ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/" (21756 12739 295780 695000) "casarte/" "css/" "fonts/" "../" "js/" "./")
+
+ ("/home/kevin/Downloads/bootstrap/dgfp_32_hr/" (21756 11465 986871 640000) "index.html" "css/" "../" "contact.html" "checkout.html" "shop.html" "js/" "images/" "txt.txt" "experiance.html" "team.html" "./" "single.html" "login.html" "register.html")
+
+ ("/home/kevin/Downloads/bootstrap/" (21756 12475 725783 849000) "dgfp_32_hr/" "../" "tpmo_433_gloss/" "zip files original/" "./")
+
+ ("/home/kevin/Downloads/" (21756 11370 620201 685000) ".session/" "mozrepl-master/" "movie/" "Data Structures & Algorithms In Java 5th Edition.pdf" "mozrepl-master.zip" "bootstrap/" "Data Structures and Algorithms in C++, 4th edition.pdf" "bbc/" "Data Structures/" "P020140221378749677867/" "Learning_by_Breaking_A_New_Project_Insecure_Web_Apps-Chuck_Willis.ppt" "../" "./")
+
+ ("/home/kevin/.emacs.d/settings/" (21752 37022 828859 133000) "setup-org.el" "setup-ido.el" "setup-markdown-mode.el" "setup-perspective.el" "setup-hippie.el" "../" "setup-ruby-mode.el" "setup-skewer.el" "setup-rgrep.el" "key-bindings.el" "my-misc.el" "setup-ffip.el" "#key-bindings.el#" "setup-yesqlg.el" "setup-paredit.el" "setup-yasnippet.el" "mac.el" "appearance.el" "setup-flycheck.el" "sane-defaults.el" "setup-js2-mode.el" "mode-mappings.el" "setup-package.el" "./" "setup-magit.el" "setup-html-mode.el" ".git/" "setup-shell.el" "setup-clojure-mode.el" "setup-dired.el" "setup-elnode.el")
+
+ ("/home/kevin/.emacs.d/users/kevin/" (21750 13702 196636 739000) "aj-compilation.el" "../" "shell-current-directory.el" " *Minibuf-2*" "smart-forward.el" "init.el" ".# *Minibuf-2*" "zencoding-mode.el" "scss-mode.el" "haml-mode.el" "./" "sass-mode.el" "zencoding-trie.nw")
+
+ ("/home/kevin/.emacs.d/" (21752 37630 598880 91000) "var/" "eshell/" ".places" "site-lisp/" "../" "README.md" "defuns/" "themes/" ".cask/" "init.el" "backups/" "ido.last" ".gitignore" "custom.el" ".gitmodules" "users/" "./" "settings/" "elpa/" "history" ".git/" "snippets/" "auto-save-list/" ".mc-lists.el" "project-archetypes/")
+
+ ("/home/kevin/study-material/github/work-notes/" (21752 33417 915401 486000) "org.css" "../" "README.md" "front-end-dev-plan.org" "work-note-in-2015.org" "./" ".git/" "work-note-in-2015.html" "test" "front-end-dev-plan.html")
+
+ ("/home/kevin/workspace/javascript-frameworks/frames/jquery/templates/" (21738 32951 567379 198000) "ryrych-rlightbox2-1.1.1-0-g5d7c953.zip" "johnpolacek-ResponsiveThumbnailGallery-46cb2e2.zip" "../" "ConvertMenuToDropdown.zip" "Mobilize.html" "ResponsiveSlides.js-master.zip" "Mobilize_files/" "./" "HeadsUpGrid_download.zip")
+
+ ("/home/kevin/workspace/" (21746 62948 919965 900000) "TRS.WCM.V6.5Developer/" "pie.zip" "BV_SEO2/" "kde/" "bv_seo/" "Qdframe/" "../" "python/" ".metadata/" "RemoteSystemsTempFiles/" "taobao/" "linux_c/" "qt/" "Fillezilla/" "bv_seo_dynamic/" "android/" "perl/" "HaierFramework/" "arduino/" "aptana/" "pie/" "Mytest/" "shell/" "html/" "./" "javascript-frameworks/" "android_src/")
+
+ ("/home/kevin/study-material/github/" (21751 8034 939994 137000) "jekyllblog/" "../" "qdframe-project/" "./" "Worg-3b157bd120a9ad360644f91bfe12738e42f8941a.tar.gz" "jekyllblog_back/" ".git/" "work-notes/" "responsive/" "Worg/")
+
+ ("/home/kevin/study-material/github/Worg/" (20274 4346 0 0) "blorgit.org" "worg-editing.org" "worg-git-ssh-key.org" "org-color-themes.org" "ChangeLog.org" "org-testimonies/" "org-translators.org" "../" "worg-todo_archive" "org-gtd-etc.org" "org-people.org" "worgers.org" "worg-about.org" "org-conference.org" "org-tutorials/" "org-configs/" "org-tools/" "worg-maintainance.org" "orgcamps.org" "org-worg-stats.org" "org-devel.org" "org-issues.org" "index.org" "org-screenshots.org" "org-glossary.org" "worg-header.org" "gitrdone.org" "org-contrib/" "org-faq.org" ".gitignore" "org-mac.org" "style/" "org-info-js.org" "images/" "org-web.org" "org-symbols.org" "users/" "org-quotes.org" "org-hacks.org" "org-mailing-list.org" "worg-todo.org" "sandbox.org" "./" "worg-git-advanced.org" "macros.setupfile" "worg-git.org" "org-screenshots-org-on-the-web.org" "code/" "org-contribute.org" "worg-setup.org" "org-dependencies.org" "FIXME/" "org-tests/" "org-survey.org" "color-themes/" "color-themes-screenshot.org" "gtd-software-comparison.org" "org-blog-wiki.org" "org-blog-articles.org")
+
+ ("/home/kevin/notes/" (21750 15411 476616 287000) "notes.org~" "../" "notes.html~" "notes.html" "./" "notes.txt" "notes.org")
 
  ("/home/kevin/.emacs.d2/" (21712 39750 773297 859000) "plugins/" "var/" "site-lisp/" "../" ".session" "README.md" ".agignore" ".emacs.desktop" "LICENSE" "init.el" "ido.last" "ac-comphist.dat" "lisp/" ".gitignore" "custom.el" "./" ".smex-items" "elpa/" "history" ".git/" "snippets/" "auto-save-list/")
 
@@ -71,8 +109,6 @@
  ("/home/kevin/study-material/github/jekyllblog/_layouts/" (21748 11310 763321 167000) "post-index-server-side.html" "post-client.html" "../" "post-index-personal.html" "post-index-client-side.html" "home.html" "post-linux.html" "post-server.html" "post-personal.html" "./" "post-index-linux.html" "page.html")
 
  ("/home/kevin/study-material/github/jekyllblog/" (21747 49687 880440 58000) "favicon.ico" "CNAME" "404.md" "../" "personal.md" "README.md" "package.json" "_layouts/" "favicon.png" "client-side.md" "_site/" "linux.md" "index.md" "feed.xml" "images/" "_posts/" "server-side.md" "./" "_includes/" ".git/" "assets/" "about.md" "_config.yml")
-
- ("/home/kevin/study-material/github/" (21747 47412 223800 620000) "jekyllblog/" "../" "jekyllblog3 (copy 1)/" "qdframe-project/" "./" "responsive/")
 
  ("/home/kevin/study-material/github/jekyllblog/_site/" (21621 60295 896649 947000) "favicon.ico" "index.html" "CNAME" "Gemfile.lock" "client-side/" "../" "README.md" "Gemfile" "about/" "linux/" "favicon.png" "server-side/" "feed.xml" "images/" "./" "assets/" "404.html")
 
@@ -98,8 +134,6 @@
 
  ("/home/kevin/.gem/ruby/2.2.0/gems/jekyll-2.5.3/bin/" (21747 41233 656500 510000) "../" "./" "jekyll")
 
- ("/home/kevin/.emacs.d/settings/" (21746 44702 669973 488000) "setup-org.el" "setup-ido.el" "setup-markdown-mode.el" "setup-perspective.el" "setup-hippie.el" "../" "setup-ruby-mode.el" "setup-skewer.el" "setup-rgrep.el" "key-bindings.el" "my-misc.el" "setup-ffip.el" "setup-yesqlg.el" "setup-paredit.el" "setup-yasnippet.el" "mac.el" "appearance.el" "setup-flycheck.el" "sane-defaults.el" "setup-js2-mode.el" "mode-mappings.el" "setup-package.el" "./" "setup-magit.el" "setup-html-mode.el" ".git/" "setup-shell.el" "setup-clojure-mode.el" "setup-dired.el" "setup-elnode.el")
-
  ("/home/kevin/study-material/github/jekyllblog/_includes/" (21619 28421 939267 732000) "../" "_footer.html" "_author-bio.html" "_head.html" "_scripts.html" "_navigation.html" "./" "_browser-upgrade.html")
 
  ("/home/kevin/.emacs.d/themes/emacs-color-theme-solarized-master/" (21744 39111 499991 809000) "solarized-theme.el" "../" "solarized-light-theme.el" "solarized-dark-theme.el" "README.md" "LICENSE" ".gitignore" "solarized-definitions.el" "./" "color-theme-solarized-pkg.el" "ert-tests/" "color-theme-solarized.el" "Makefile" "makepkg.sh" ".travis.yml")
@@ -109,10 +143,6 @@
  ("/home/kevin/.emacs.d/site-lisp/" (21741 1693 368554 687000) "mouse-slider-mode.el" "smex/" "groovy-mode/" "delsel/" "yaml-mode/" "buster-snippets/" "tern/" "smooth-scrolling.el" "annoying-arrows-mode/" "feature-mode/" "../" "diminish.el" "buster-mode/" "angular-snippets/" "single-quotes-mode.el" "datomic-snippets/" "apache-mode.el" "find-file-in-project/" "jump-char/" "rhtml-mode/" "browse-kill-ring/" "fill-column-indicator/" "oppdrag-mode.el" "s/" "change-inner/" "bash-completion/" "js2-mode/" "shell-command.el" "evil/" "clj-refactor/" "undo-tree.el" "skewer-mode/" "multifiles/" "puppet-mode/" "perspective/" "jade-mode/" "multiple-cursors/" "eproject/" "frame-fns.el" "dash/" "js2-refactor/" "frame-cmds.el" "./" "php-mode/" "expand-region/" "hardcore-mode/" "ido-ubiquitous/" "wgrep/" "smart-forward/" "ace-jump-mode/" "tagedit/" "fold-this/" "project-archetypes/" "crappy-jsp-mode/" "zoom-frm.el" "simplezen/" "top-mode.el")
 
  ("/home/kevin/.emacs.d/users/" (21743 37436 689538 116000) "../" "kevin/" "./")
-
- ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/" (21743 21790 44749 391000) "index.html" "resposivedemo.html" "casarte.html" "#casarte_test.html#" "../" "casarte_test.html" "oritationdemo.html" "casartehome.html" "pages/" "my.css" "images/" "test1.html" "./" "casarte_files/")
-
- ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/images/" (21743 16202 24556 693000) "home.css" "pro1.jpg" "pro5.jpg" "ad.jpg" "download.html" "pro2.jpg" "../" "test1.scss" "base_ico.png" "pro3.jpg" "home.scss" "pro2_1.jpg" "ico2.gif" "banner3.jpg" ".sass-cache/" "#home.scss#" "./" "home.js" "ico1.gif" "pro4.jpg" "banner2.jpg" ".#home.scss" "home.css.map" "banner1.jpg")
 
  ("/home/" (21627 17885 376688 128000) "../" "lost+found/" "kevin/" "./" "root/")
 
@@ -135,8 +165,6 @@
  ("/home/kevin/workspace/javascript-frameworks/frames/" (21731 49135 883332 189000) "../" "metronic.bootstrap.rar" "foundation-5.5/" "yaml412-130728.zip" "快切——响应css框架v1.2.zip" "foundation.zip" "jquery/" "jquery.mobile-1.4.5.zip" "Semantic-UI-1.8.1.zip" "yaml412-130728/" "AmazeUI-2.1.0.zip" "foundation-5.5.0.zip" "bootstrap-3.3.2.zip" "foundation.7z" "./" "bootstrap-3.3.2/" "foundation/")
 
  ("/home/kevin/workspace/javascript-frameworks/" (21731 49129 956665 532000) "../" "my/" "templates/" "npm-debug.log" "demo/" "frames/" "./" "dev_tools/")
-
- ("/home/kevin/workspace/" (21704 7777 860149 2000) "TRS.WCM.V6.5Developer/" "pie.zip" "BV_SEO2/" "kde/" "bv_seo/" "Qdframe/" "../" "python/" ".metadata/" "RemoteSystemsTempFiles/" "linux_c/" "qt/" "Fillezilla/" "bv_seo_dynamic/" "android/" "perl/" "HaierFramework/" "arduino/" "aptana/" "pie/" "Mytest/" "shell/" "html/" "./" "javascript-frameworks/" "android_src/")
 )
 
 ;; ----- ido-unc-hosts-cache -----

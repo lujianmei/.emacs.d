@@ -65,3 +65,14 @@ ls
 cd bin
 ls
 sudo nginx
+ls
+ls
+pwd
+ls
+cd ..
+ls
+tar xvf Worg-3b157bd120a9ad360644f91bfe12738e42f8941a.tar.gz 
+ls
+cd Worg/
+ls
+4/3
