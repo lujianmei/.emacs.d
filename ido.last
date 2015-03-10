@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/kevin/workspace/phonegap/seedgap/" . "www/")
+ ("/home/kevin/workspace/phonegap/" . "seedgap/")
  ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/casarte/" . "css/")
  ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/" . "casarte/")
  ("/home/kevin/workspace/javascript-frameworks/my/" . "bootstrap/")
@@ -23,16 +25,17 @@
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/" . "my/")
  ("/home/kevin/workspace/javascript-frameworks/frames/" . "jquery/")
  ("/home/kevin/workspace/javascript-frameworks/" . "my/")
- ("/home/kevin/workspace/" . "javascript-frameworks/")
+ ("/home/kevin/workspace/" . "phonegap/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/kevin/workspace/phonegap/seedgap/www/"
+ "/home/kevin/study-material/github/work-notes/"
  "/home/kevin/workspace/javascript-frameworks/my/bootstrap/casarte/"
  "/home/kevin/workspace/javascript-frameworks/frames/jquery/my/images/"
  "/home/kevin/workspace/javascript-frameworks/my/bootstrap/casarte/css/"
  "/home/kevin/Downloads/bootstrap/dgfp_32_hr/"
- "/home/kevin/study-material/github/work-notes/"
  "/home/kevin/.emacs.d/settings/"
  "/home/kevin/workspace/javascript-frameworks/frames/jquery/my/"
  "/home/kevin/study-material/github/Worg/"
@@ -52,23 +55,33 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "index-old.html"
  "index.html"
+ "front-end-dev-plan.org"
+ "work-note-in-2015.org"
  "test1.scss"
  "style.css"
- "work-note-in-2015.org"
  "key-bindings.el"
  "test1.html"
- "front-end-dev-plan.org"
  "baby-home-project.org"
  "test"
- "index.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/casarte/" (21757 2448 466812 759000) "index.html" "template/" "css/" "../" "js/" "images/" "./" "casarte.zip" "index-finished.html")
+ ("/home/kevin/workspace/phonegap/seedgap/www/" (21757 57957 95791 271000) "app.js" "index.html" "css/" "index-old.html" "../" "app.css" "icon.png" "img/" "view1/" "res/" "js/" "spec.html" "index-async.html" "view2/" "./" "components/" "spec/")
 
- ("/home/kevin/" (21757 1444 130111 458000) ".mplayer/" ".ddd/" ".gemrc" ".netbeans/" ".mozilla/" ".emacs.d.originalbakup/" ".viminfo" "1.txt" ".gem/" "VirtualBox VMs/" ".freemind/" ".m2/" ".emacs.d.fromPurcell2/" ".config/" ".adobe/" ".fgfs/" ".cache/" ".asoundrc" "Projects/" ".dmrc" "test.scss" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" "checkurls.py" ".svnqt/" ".sunpinyin/" "study-material/" "test.tex.tex" ".other/" ".cask/" "tes" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" "test.js" ".scorched3d/" ".emacs.d2/" ".xinitrc" "excels/" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" ".wireshark/" ".python_history" ".ICEauthority" ".macromedia/" "sync/" "Programe/" ".pki/" "notes/" ".bash_profile~" ".bashrc~" ".dia/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" "test.html~" ".matho_history" ".newsrc-dribble" ".trash/" "tes.tex" ".java/" ".w3m/" ".bash_profile" ".sass-cache/" ".thumbnails/" "#tes#" ".IntelliJIdea13/" ".eclipse/" ".smex-items" ".semanticdb/" "test.tex" "svn/" ".screenlayout/" ".ccache/" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" "Desktop/" ".esd_auth" ".gnome2/" ".chewing/" "c28c93cc77b8bf60e64423254846eedb34975c43.6.pdf" "test.css" ".gnupg/" "Downloads/" "bandicam 2015-01-24 08-19-09-458.avi" ".cgdb/" "TRS/" ".gtkrc-2.0-kde4" ".ssh/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".vim/" ".emacs.d/" "Users/" ".npm/" ".emacs.keyfreq" "test.html" ".Skype/" "../" "./")
+ ("/home/kevin/workspace/phonegap/seedgap/" (21757 57457 35774 27000) "plugins/" "hooks/" "platforms/" "../" "README.md" "package.json" "./" "config.xml" "www/" ".cordova/")
+
+ ("/home/kevin/workspace/phonegap/" (21757 56955 989090 82000) "../" "seedgap/" "angular-seed/" "./")
+
+ ("/home/kevin/workspace/" (21757 56873 52420 555000) "TRS.WCM.V6.5Developer/" "pie.zip" "BV_SEO2/" "kde/" "bv_seo/" "Qdframe/" "../" "python/" ".metadata/" "RemoteSystemsTempFiles/" "taobao/" "linux_c/" "qt/" "Fillezilla/" "bv_seo_dynamic/" "android/" "perl/" "HaierFramework/" "arduino/" "aptana/" "pie/" "Mytest/" "shell/" "html/" "./" "phonegap/" "javascript-frameworks/" "android_src/")
+
+ ("/home/kevin/" (21757 56911 302421 874000) ".mplayer/" ".ddd/" ".gemrc" ".xfce4-session.verbose-log" ".netbeans/" ".mozilla/" ".emacs.d.originalbakup/" ".viminfo" "1.txt" ".gem/" "VirtualBox VMs/" ".freemind/" ".m2/" ".emacs.d.fromPurcell2/" ".config/" ".adobe/" ".fgfs/" ".cache/" ".asoundrc" "Projects/" ".dmrc" "test.scss" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" "checkurls.py" ".svnqt/" ".sunpinyin/" "study-material/" "test.tex.tex" ".other/" ".cask/" "tes" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" "test.js" ".scorched3d/" ".emacs.d2/" ".xinitrc" "excels/" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" ".wireshark/" ".xfce4-session.verbose-log.last" ".python_history" ".ICEauthority" ".macromedia/" "sync/" "Programe/" ".pki/" "notes/" ".bash_profile~" ".bashrc~" ".dia/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" "test.html~" ".matho_history" ".newsrc-dribble" ".trash/" "tes.tex" ".java/" ".w3m/" ".bash_profile" ".sass-cache/" ".thumbnails/" "#tes#" ".IntelliJIdea13/" ".eclipse/" ".smex-items" ".semanticdb/" "test.tex" "svn/" ".screenlayout/" ".ccache/" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" "Desktop/" ".esd_auth" ".gnome2/" ".chewing/" "c28c93cc77b8bf60e64423254846eedb34975c43.6.pdf" "test.css" ".gnupg/" "Downloads/" "bandicam 2015-01-24 08-19-09-458.avi" ".cgdb/" "TRS/" ".gtkrc-2.0-kde4" ".ssh/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".vim/" ".emacs.d/" "Users/" ".npm/" ".cordova/" ".emacs.keyfreq" "test.html" ".Skype/" "../" "./")
+
+ ("/home/kevin/study-material/github/work-notes/" (21754 46180 80006 107000) "org.css" "../" "README.md" "front-end-dev-plan.org" "work-note-in-2015.org" "./" ".git/" "work-note-in-2015.html" "test" "front-end-dev-plan.html")
+
+ ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/casarte/" (21757 2448 466812 759000) "index.html" "template/" "css/" "../" "js/" "images/" "./" "casarte.zip" "index-finished.html")
 
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/images/" (21756 9823 806815 11000) "home.css" "pro1.jpg" "pro5.jpg" "ad.jpg" "test1.css" "download.html" "pro2.jpg" "../" "test1.scss" "footer_ma.gif" "test1 (copy 1).scss" "base_ico.png" "test1.css.map" "test1.js" "pro3.jpg" "home.scss" "pro2_1.jpg" "ico2.gif" "banner3.jpg" ".sass-cache/" "./" "home.js" "tessssss" "test1 (copy 1).css" "ico1.gif" "pro4.jpg" "banner2.jpg" "ad1-small.jpg" "ad1.jpg" "home.css.map" "test1 (copy 1).css.map" "banner1.jpg")
 
@@ -90,11 +103,7 @@
 
  ("/home/kevin/.emacs.d/" (21752 37630 598880 91000) "var/" "eshell/" ".places" "site-lisp/" "../" "README.md" "defuns/" "themes/" ".cask/" "init.el" "backups/" "ido.last" ".gitignore" "custom.el" ".gitmodules" "users/" "./" "settings/" "elpa/" "history" ".git/" "snippets/" "auto-save-list/" ".mc-lists.el" "project-archetypes/")
 
- ("/home/kevin/study-material/github/work-notes/" (21752 33417 915401 486000) "org.css" "../" "README.md" "front-end-dev-plan.org" "work-note-in-2015.org" "./" ".git/" "work-note-in-2015.html" "test" "front-end-dev-plan.html")
-
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/templates/" (21738 32951 567379 198000) "ryrych-rlightbox2-1.1.1-0-g5d7c953.zip" "johnpolacek-ResponsiveThumbnailGallery-46cb2e2.zip" "../" "ConvertMenuToDropdown.zip" "Mobilize.html" "ResponsiveSlides.js-master.zip" "Mobilize_files/" "./" "HeadsUpGrid_download.zip")
-
- ("/home/kevin/workspace/" (21746 62948 919965 900000) "TRS.WCM.V6.5Developer/" "pie.zip" "BV_SEO2/" "kde/" "bv_seo/" "Qdframe/" "../" "python/" ".metadata/" "RemoteSystemsTempFiles/" "taobao/" "linux_c/" "qt/" "Fillezilla/" "bv_seo_dynamic/" "android/" "perl/" "HaierFramework/" "arduino/" "aptana/" "pie/" "Mytest/" "shell/" "html/" "./" "javascript-frameworks/" "android_src/")
 
  ("/home/kevin/study-material/github/" (21751 8034 939994 137000) "jekyllblog/" "../" "qdframe-project/" "./" "Worg-3b157bd120a9ad360644f91bfe12738e42f8941a.tar.gz" "jekyllblog_back/" ".git/" "work-notes/" "responsive/" "Worg/")
 
