@@ -129,6 +129,7 @@
         paredit-wrap-round
         paredit-wrap-round-from-behind
         paredit-wrap-square
+        query-replace
         quoted-insert
         save-region-or-current-line
         sgml-delete-tag
@@ -185,6 +186,7 @@
         goto-line-with-feedback
         handle-switch-frame
         ido-switch-buffer
+        indent-region
         js2r-extract-var
         js2r-rename-var
         jump-between-source-and-test-files
@@ -193,6 +195,7 @@
         magit-status
         mc/add-cursor-on-click
         mc/add-cursors-to-all-matches
+        mouse-drag-vertical-line
         mouse-save-then-kill
         multiple-cursors-mode
         ns-prev-frame
