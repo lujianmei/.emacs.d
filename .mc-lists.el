@@ -193,6 +193,7 @@
         kill-this-buffer
         kmacro-end-or-call-macro
         magit-status
+        mark-whole-buffer
         mc/add-cursor-on-click
         mc/add-cursors-to-all-matches
         mouse-drag-vertical-line
