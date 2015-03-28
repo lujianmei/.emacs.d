@@ -2,6 +2,14 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/assets/" . "js/")
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/" . "assets/")
+ ("/tmp/Download/jqmMobileDemo1_1-master/jqmMobileDemo/assets/" . "www/")
+ ("/tmp/Download/jqmMobileDemo1_1-master/jqmMobileDemo/" . "assets/")
+ ("/tmp/Download/jqmMobileDemo1_1-master/" . "jqmMobileDemo/")
+ ("/tmp/Download/" . "jqmMobileDemo1_1-master/")
+ ("/tmp/" . "Download/")
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/" . "www/")
  ("/tmp/Download/jqmMobileDemo1_1-master/jqmMobileDemo/assets/www/" . "js/")
  ("/home/kevin/workspace/github/work-notes/" . "notes/")
  ("/home/kevin/workspace/github/" . "work-notes/")
@@ -16,7 +24,7 @@
  ("/home/kevin/workspace/zhoushannews/www/" . "assets/")
  ("/home/kevin/workspace/zhoushannews/" . "www/")
  ("/home/kevin/workspace/phonegap/seedgap/" . "www/")
- ("/home/kevin/workspace/phonegap/" . "imgpicker/")
+ ("/home/kevin/workspace/phonegap/" . "mobileappzhoushannews/")
  ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/casarte/" . "css/")
  ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/" . "casarte/")
  ("/home/kevin/workspace/javascript-frameworks/my/" . "bootstrap/")
@@ -38,25 +46,27 @@
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/" . "my/")
  ("/home/kevin/workspace/javascript-frameworks/frames/" . "jquery/")
  ("/home/kevin/workspace/javascript-frameworks/" . "my/")
- ("/home/kevin/workspace/" . "github/")
+ ("/home/kevin/workspace/" . "phonegap/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/kevin/workspace/phonegap/mobileappzhoushannews/www/"
+ #("/home/kevin/.emacs.d/users/kevin/" 12 21 (face flx-highlight-face))
+ "/home/kevin/"
  "/tmp/Download/jqmMobileDemo1_1-master/jqmMobileDemo/assets/www/js/"
+ "/tmp/Download/jqmMobileDemo1_1-master/jqmMobileDemo/assets/www/"
+ "/home/kevin/workspace/phonegap/mobileappzhoushannews/www/assets/js/"
  "/home/kevin/workspace/github/work-notes/notes/"
+ "/home/kevin/.emacs.d/settings/"
+ "/home/kevin/workspace/phonegap/mobileappzhoushannews/www/"
  "/home/kevin/study-material/github/work-notes/"
- "/home/kevin/.emacs.d/users/kevin/"
  "/home/kevin/workspace/system_monitor/metronic/"
  "/home/kevin/workspace/system_monitor/metronic/oldfile/theme_rtl/templates/admin/"
  "/home/kevin/workspace/phonegap/imgpicker/imgpicker/"
  "/sudo:root@localhost:/etc/nginx/"
- "/home/kevin/"
  "/home/kevin/workspace/zhoushannews/www/assets/css/"
  "/home/kevin/workspace/zhoushannews/www/"
  "/home/kevin/notes/"
- "/home/kevin/.emacs.d/settings/"
  "/home/kevin/.emacs.d2/"
  "/home/kevin/workspace/zhoushannews/static/"
  "/sudo:root@localhost:/etc/"
@@ -80,27 +90,53 @@
 
 ;; ----- ido-work-file-list -----
 (
- "index.html"
- "index.js"
- "work-note-in-2015.html"
- "work-note-in-2015.org"
- "responsive-needs.org"
- "zhoushan-project.org"
  "init.el"
- "host_manage.shtml"
- "host_service.shtml"
- "operation_log.shtml"
+ ".conkyrc"
+ "launch_conky.sh"
+ "index.js"
+ "index.html"
+ ".gnus.el"
+ "tool.js"
+ "ajax.js"
+ "guide.js"
+ "init.js"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/" (21781 42851 461153 132000) "manifest.json" "index.html" "css/" "../" "img/" ".project" "test2.html" "www.iml" "js/" ".idea/" "./" "assets/" "test.html")
+ (#("/home/kevin/.emacs.d/" 12 21 (face flx-highlight-face)) (21782 51970 429640 368000) "%backup%~" "var/" "eshell/" ".places" "site-lisp/" "../" "README.md" "defuns/" "themes/" "tramp" ".cask/" "init.el" "backups/" "ido.last" ".gitignore" "custom.el" ".gitmodules" "users/" "./" "settings/" "elpa/" "history" ".git/" "snippets/" "auto-save-list/" ".mc-lists.el" "project-archetypes/")
+
+ ("/home/kevin/" (21782 52881 686296 132000) "launch_conky.sh" ".mplayer/" ".ddd/" ".gemrc" ".xfce4-session.verbose-log" ".conkyrc~" ".netbeans/" ".mozilla/" "xfce4-config" ".emacs.d.originalbakup/" ".viminfo" ".gem/" "News/" "VirtualBox VMs/" ".freemind/" ".m2/" ".emacs.d.fromPurcell2/" ".config/" "#test.org#" ".adobe/" ".fgfs/" "Velositey CS6&CC v1.1.zip" ".cache/" ".asoundrc" "Projects/" ".dmrc" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" "record/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" ".conkyrc" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" ".svnqt/" ".android/" ".sunpinyin/" "study-material/" ".other/" ".cask/" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" ".scorched3d/" ".emacs.d2/" ".xinitrc" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" "test.org" ".wireshark/" ".xfce4-session.verbose-log.last" "tmp/" ".python_history" ".ICEauthority" ".macromedia/" "sync/" "Programe/" "setxkb.sh" ".pki/" "notes/" ".bash_profile~" ".bashrc~" ".dia/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" ".matho_history" ".newsrc-dribble" ".trash/" ".java/" ".w3m/" ".bash_profile" ".sass-cache/" ".thumbnails/" ".IntelliJIdea13/" ".archey3.cfg" ".eclipse/" ".smex-items" ".xinitrc~" ".semanticdb/" "svn/" ".screenlayout/" ".ccache/" "jqmMobileDemo/" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" "Desktop/" ".esd_auth" ".gnome2/" ".chewing/" ".gnupg/" "Downloads/" ".plugman/" ".cgdb/" "TRS/" ".gtkrc-2.0-kde4" ".ssh/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".AndroidStudioBeta/" ".vim/" ".emacs.d/" ".#test.org" "Users/" ".npm/" ".cordova/" ".emacs.keyfreq" ".Skype/" "../" "./")
+
+ ("/tmp/" (21782 29659 546573 990000) ".X11-unix/" ".ICE-unix/" ".XIM-unix/" ".Test-unix/" ".font-unix/" "serverauth.haDcLl4bv8" ".X0-lock" ".xfsm-ICE-M569VX" "ssh-hVV0XKx8u8Vx/" "fcitx-socket-:0" "emacs1000/" ".org.chromium.Chromium.SjMvEY/" "hsperfdata_kevin/" "adb.log" "orbit-kevin/" "Download/" "kde-kevin/" "xauth-1000-_0" ".vbox-kevin-ipc/" "../" "./")
+
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/assets/js/" (21782 25308 109959 388000) "tool.js" "../" "guide.js" "ajax.js" "./" "init.js")
+
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/assets/" (21781 41847 824498 475000) "css/" "../" "js/" "images/" "./")
+
+ ("/tmp/Download/jqmMobileDemo1_1-master/jqmMobileDemo/assets/" (20871 57714 0 0) "www/" "../" "./")
+
+ ("/tmp/Download/jqmMobileDemo1_1-master/jqmMobileDemo/" (20871 57714 0 0) ".classpath" ".project" ".settings/" "AndroidManifest.xml" "assets/" "bin/" "gen/" "ic_launcher-web.png" "libs/" "proguard-project.txt" "project.properties" "readme.txt" "res/" "src/" "../" "./")
+
+ ("/tmp/Download/jqmMobileDemo1_1-master/" (20871 57714 0 0) "README.md" "jqmMobileDemo/" "../" "./")
+
+ ("/tmp/Download/" (21781 39314 961195 448000) "jqmMobileDemo1_1-master/" "../" "./")
+
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/" (21782 25215 579960 496000) "manifest.json" "index.html" "css/" "../" "img/" ".project" "test2.html" "www.iml" "js/" ".idea/" "./" "assets/" "test.html")
+
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/" (21781 65126 983197 743000) "plugins/" "hooks/" "platforms/" "README" "../" ".gitignore" ".idea/" "./" "config.xml" ".git/" "www/")
+
+ ("/home/kevin/workspace/phonegap/" (21781 65126 983197 743000) "hello/" "../" "mobileappzhoushannews/" "seedgap/" "Designs/" "栏目LOGO-PNG图标.rar" "angular-seed/" "sourcecode/" "demo/" "舟山新闻网APP接口说明.txt" "./" "plugin-test/" "appframe/" "imgpicker/" "zhoushannews (copy 1)/")
+
+ ("/home/kevin/workspace/github/work-notes/notes/" (21782 24858 236631 438000) "../" "responsive-needs.html" "work-note-in-2015.org" "responsive-needs.org" "./" "work-note-in-2015.html")
+
+ ("/home/kevin/.emacs.d/users/kevin/" (21782 24402 736636 888000) "aj-compilation.el" "../" "shell-current-directory.el" "smart-forward.el" "init.el" ".# *Minibuf-2*" "zencoding-mode.el" "scss-mode.el" "haml-mode.el" "./" "sass-mode.el" "zencoding-trie.nw")
+
+ ("/home/kevin/.emacs.d/settings/" (21782 23827 843310 434000) "setup-org.el" "setup-ido.el" "setup-markdown-mode.el" "setup-perspective.el" "setup-hippie.el" "../" "setup-ruby-mode.el" "setup-skewer.el" "setup-rgrep.el" "key-bindings.el" "my-misc.el" "setup-ffip.el" "#key-bindings.el#" "setup-yesqlg.el" "setup-paredit.el" "setup-yasnippet.el" "mac.el" "appearance.el" "setup-flycheck.el" "sane-defaults.el" "setup-js2-mode.el" "mode-mappings.el" "setup-package.el" "./" "setup-magit.el" "setup-html-mode.el" ".git/" "setup-shell.el" "setup-clojure-mode.el" "setup-dired.el" "setup-elnode.el")
+
+ ("/tmp/Download/jqmMobileDemo1_1-master/jqmMobileDemo/assets/www/" (21782 23436 259981 785000) "css/" "dialog.html" "img/" "index.html" "input.html" "js/" "menu.html" "../" "./")
 
  ("/tmp/Download/jqmMobileDemo1_1-master/jqmMobileDemo/assets/www/js/" (21781 38548 371204 620000) "cache.js" "frame/" "global.js" "index.js" "myInit.js" "../" "./")
-
- ("/tmp/Download/jqmMobileDemo1_1-master/jqmMobileDemo/assets/www/" (20871 57714 0 0) "css/" "dialog.html" "img/" "index.html" "input.html" "js/" "menu.html" "../" "./")
-
- ("/home/kevin/workspace/github/work-notes/notes/" (21779 56729 493302 338000) "../" "work-note-in-2015.org" "responsive-needs.org" "./" "work-note-in-2015.html" ".#responsive-needs.org" "#responsive-needs.org#")
 
  ("/home/kevin/workspace/github/work-notes/" (21777 16979 343288 891000) "../" "README.md" "schedules/" "notes/" "./" ".git/")
 
@@ -110,13 +146,7 @@
 
  ("/home/kevin/study-material/" (21777 17628 689947 788000) "database/" "4 2014BDTC基于全网内容的新闻客户端推荐系统刘佳.pdf" "php/" "linux_programming/" "2.jpg" "../" "lua05.pdf" "tools/" "ppt resource/" "185952980.jpg" "1983aa0f7cfea0c70b8f9df1eb5c320e1e6a84.png" "CISSP/" "install_record.txt" "network/" "ARM/" "security/" "oops.gif" "./" "架构文档/" "Perl/" "mysheel/" "P020130115022611115602.pdf" "responsive/" "Javascript/" "Android/" "data structure/" "free and open-source software display servers and UI toolkits.svg" ".directory" "Infoq/" "0. First things First/" "videos/" "others/" "system_monitor/" "Python/")
 
- ("/home/kevin/" (21779 6928 296666 53000) ".mplayer/" ".ddd/" ".gemrc" ".xfce4-session.verbose-log" ".netbeans/" ".mozilla/" ".emacs.d.originalbakup/" ".viminfo" ".gem/" "VirtualBox VMs/" ".freemind/" ".m2/" ".emacs.d.fromPurcell2/" ".config/" ".adobe/" ".fgfs/" ".cache/" ".asoundrc" "Projects/" ".dmrc" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" "record/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" ".svnqt/" ".android/" ".sunpinyin/" "study-material/" ".other/" ".cask/" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" ".scorched3d/" ".emacs.d2/" ".xinitrc" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" ".wireshark/" ".xfce4-session.verbose-log.last" "tmp/" ".python_history" ".ICEauthority" ".macromedia/" "sync/" "Programe/" "setxkb.sh" ".pki/" "notes/" ".bash_profile~" ".bashrc~" ".dia/" "青岛办事处员工绩效合同第一季度模板（ 刘丽红）.xlsx" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" ".matho_history" ".newsrc-dribble" ".trash/" ".java/" ".w3m/" ".bash_profile" ".sass-cache/" ".thumbnails/" ".IntelliJIdea13/" ".eclipse/" ".smex-items" ".xinitrc~" ".semanticdb/" "svn/" ".screenlayout/" ".ccache/" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" "Desktop/" ".esd_auth" ".gnome2/" ".chewing/" ".gnupg/" "Downloads/" ".plugman/" ".cgdb/" "TRS/" ".gtkrc-2.0-kde4" ".ssh/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".AndroidStudioBeta/" ".vim/" ".emacs.d/" "Users/" ".npm/" ".cordova/" ".emacs.keyfreq" ".Skype/" "../" "./")
-
  ("/home/kevin/study-material/github/work-notes/" (21777 16475 299961 588000) "org.css" "Haier-infrastructure-automation-discussion.org" "../" "Haier-infrastructure-automation-discussion.html" "README.md" "front-end-dev-plan.org" "work-note-in-2015.org" "zhoushan-project.html" "./" ".git/" "work-note-in-2015.html" "test" "front-end-dev-plan.html" "zhoushan-project.org")
-
- ("/home/kevin/.emacs.d/users/kevin/" (21777 16351 483296 403000) "aj-compilation.el" "../" "shell-current-directory.el" "smart-forward.el" "init.el" ".# *Minibuf-2*" "zencoding-mode.el" "scss-mode.el" "haml-mode.el" "./" "sass-mode.el" "zencoding-trie.nw")
-
- ("/home/kevin/.emacs.d/" (21777 16440 786628 668000) "%backup%~" "var/" "eshell/" ".places" "site-lisp/" "../" "README.md" "defuns/" "themes/" "tramp" ".cask/" "init.el" "backups/" "ido.last" ".gitignore" "custom.el" ".gitmodules" "users/" "./" "settings/" "elpa/" "history" ".git/" "snippets/" "auto-save-list/" ".mc-lists.el" "project-archetypes/")
 
  ("/home/kevin/workspace/system_monitor/metronic/" (21776 22232 837613 770000) "permission_manage.shtml" "access_log.shtml" "system_upgrade.shtml" "hosts_manage_danger.shtml" "index.shtml" "README.md" "host_service.shtml" "hosts_manage.shtml" "hosts_manage_warning.shtml" "user_list.shtml" "package_manage.shtml" "op/" "left-nav.shtml" "scripts_list.shtml" "application_list.shtml" "demo/" "network_env.shtml" ".gitignore" "webserver_list.shtml" "database_list.shtml" "server_list.shtml" "empty-template.shtml" "oldfile/" "service_list.shtml" ".git/" "base_env.shtml" ".#left-nav.shtml" "host_manage.shtml" "assets/" "operation_log.shtml" "../" "./")
 
@@ -136,8 +166,6 @@
 
  ("/home/kevin/workspace/phonegap/imgpicker/" (21769 36558 973082 614000) "../" "./" "imgpicker/")
 
- ("/home/kevin/workspace/phonegap/" (21769 36518 153083 103000) "hello/" "../" "seedgap/" "angular-seed/" "sourcecode/" "./" "imgpicker/")
-
  ("/home/kevin/workspace/zhoushannews/www/assets/css/" (21765 57388 249959 374000) "index.html" "../" "index.scss" "index.css" "index.css.map" ".sass-cache/" "./")
 
  ("/home/kevin/workspace/zhoushannews/www/" (21766 45626 818101 15000) "index.html" "css/" "../" "js/" "images/" "./" "assets/")
@@ -153,8 +181,6 @@
  ("/usr/share/emacs/24.4/etc/" (21740 51162 888000 648000) "yow.lines" "spook.lines" "ses-example.ses" "rgb.txt" "publicsuffix.txt" "ps-prin1.ps" "ps-prin0.ps" "package-keyring.gpg" "grep.txt" "gnus-tut.txt" "future-bug" "enriched.txt" "emacs.icon" "emacs.desktop" "emacs.appdata.xml" "emacs-buffer.gdb" "edt-user.el" "compilation.txt" "WHY-FREE" "TODO" "THE-GNU-PROJECT" "TERMS" "README" "PROBLEMS" "ORG-NEWS" "ORDERS" "NXML-NEWS" "NEXTSTEP" "NEWS.23" "NEWS.22" "NEWS.21" "NEWS.20" "NEWS.19" "NEWS.18" "NEWS.1-17" "NEWS" "MORE.STUFF" "MH-E-NEWS" "MACHINES" "LINUX-GNU" "JOKES" "HELLO" "GNUS-NEWS" "GNU" "FTP" "ETAGS.README" "ETAGS.EBNF" "ERC-NEWS" "DOC" "DISTRIB" "DEVEL.HUMOR" "DEBUG" "COPYING" "CONTRIBUTE" "CENSORSHIP" "CALC-NEWS" "AUTHORS" "schema/" "charsets/" "e/" "forms/" "org/" "srecode/" "tutorials/" "nxml/" "gnus/" "images/" "refcards/" "themes/" "../" "./")
 
  ("/home/kevin/notes/" (21754 38726 223371 583000) "notes.org~" "../" "notes.html~" "notes.html" "front-end-dev-plan.org" "./" "notes.txt" "notes.org")
-
- ("/home/kevin/.emacs.d/settings/" (21761 51420 867016 400000) "setup-org.el" "setup-ido.el" ".#key-bindings.el" "setup-markdown-mode.el" "setup-perspective.el" "setup-hippie.el" "../" "setup-ruby-mode.el" "setup-skewer.el" "setup-rgrep.el" "key-bindings.el" "my-misc.el" "setup-ffip.el" "#key-bindings.el#" "setup-yesqlg.el" "setup-paredit.el" "setup-yasnippet.el" "mac.el" "appearance.el" "setup-flycheck.el" "sane-defaults.el" "setup-js2-mode.el" "mode-mappings.el" "setup-package.el" "./" "setup-magit.el" "setup-html-mode.el" ".git/" "setup-shell.el" "setup-clojure-mode.el" "setup-dired.el" "setup-elnode.el")
 
  ("/home/kevin/workspace/zhoushannews/www/assets/" (21758 60924 320236 719000) "css/" "../" "js/" "images/" "./")
 
