@@ -2,7 +2,6 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/kevin/.config/" . "tint2/")
  ("/home/kevin/jqmMobileDemo/assets/www/" . "js/")
  ("/home/kevin/jqmMobileDemo/assets/" . "www/")
  ("/home/kevin/jqmMobileDemo/" . "assets/")
@@ -43,7 +42,7 @@
  ("/home/kevin/.gem/ruby/2.2.0/gems/i18n-0.7.0.beta1/" . "gemfiles/")
  ("/home/kevin/.gem/ruby/2.2.0/gems/" . "jekyll-watch-1.2.1/")
  ("/home/kevin/.emacs.d/themes/" . "emacs-color-theme-solarized-master/")
- ("/home/kevin/" . ".config/")
+ ("/home/kevin/" . "jqmMobileDemo/")
  ("/home/kevin/.emacs.d/users/" . "kevin/")
  ("/home/kevin/.emacs.d/" . "users/")
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/" . "images/")
@@ -55,17 +54,15 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/kevin/.config/tint2/"
- "/home/kevin/.config/openbox/"
  "/home/kevin/workspace/phonegap/mobileappzhoushannews/www/assets/js/"
- "/home/kevin/workspace/phonegap/mobileappzhoushannews/www/"
- "/home/kevin/"
- "/home/kevin/workspace/github/work-notes/notes/"
  "/home/kevin/jqmMobileDemo/assets/www/js/"
  "/home/kevin/jqmMobileDemo/assets/www/"
+ "/home/kevin/workspace/phonegap/mobileappzhoushannews/www/"
+ "/home/kevin/"
  "/home/kevin/.emacs.d/users/kevin/"
  "/tmp/Download/jqmMobileDemo1_1-master/jqmMobileDemo/assets/www/js/"
  "/tmp/Download/jqmMobileDemo1_1-master/jqmMobileDemo/assets/www/"
+ "/home/kevin/workspace/github/work-notes/notes/"
  "/home/kevin/.emacs.d/settings/"
  "/home/kevin/study-material/github/work-notes/"
  "/home/kevin/workspace/system_monitor/metronic/"
@@ -98,41 +95,33 @@
 
 ;; ----- ido-work-file-list -----
 (
- "tint2rc"
- "menu.xml"
+ "tool.js"
  "index.js"
- "index.html"
- "init.js"
  "ajax.js"
+ "global.js"
+ "guide.js"
+ "cache.js"
+ "index.html"
+ "myInit.js"
  ".conkyrc"
- "rc.xml"
- "autostart"
- ".xinitrc"
+ "init.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/kevin/.config/tint2/" (21787 8547 804407 556000) "../" "tint2rc~" "tint2rc" "./" "tintwizard.conf")
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/assets/js/" (21785 6850 282212 236000) "cache.js" "tool.js" "../" "guide.js" "ajax.js" "index.js" "global.js" "./" "init.js")
 
- ("/home/kevin/.config/openbox/" (21787 8729 387738 717000) "wallpapers.sh" "../" "menu.xml" "rc.xml" "autostart" "./" "environment")
-
- ("/home/kevin/" (21787 8769 794404 902000) ".mplayer/" ".ddd/" ".gemrc" ".xfce4-session.verbose-log" ".conkyrc~" ".netbeans/" ".mozilla/" "xfce4-config" ".msmtprc" ".emacs.d.originalbakup/" ".viminfo" "chaowang.apk" ".gem/" "News/" "VirtualBox VMs/" ".freemind/" ".m2/" ".fehbg" ".emacs.d.fromPurcell2/" ".config/" "MainActivity-debug.apk" "#test.org#" ".adobe/" ".fgfs/" "Velositey CS6&CC v1.1.zip" ".cache/" ".asoundrc" "Projects/" ".dmrc" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" "record/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" ".conkyrc" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" ".svnqt/" ".android/" ".sunpinyin/" "study-material/" ".other/" ".cask/" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" ".scorched3d/" ".emacs.d2/" ".xinitrc" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" "test.org" ".wireshark/" ".xfce4-session.verbose-log.last" "tmp/" ".python_history" ".ICEauthority" ".macromedia/" "sync/" "Programe/" "setxkb.sh" ".pki/" "notes/" ".bash_profile~" ".bashrc~" ".msmtprc~" ".dia/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" ".matho_history" ".newsrc-dribble" ".trash/" ".java/" ".w3m/" ".muttrc" ".bash_profile" ".sass-cache/" ".thumbnails/" ".IntelliJIdea13/" ".archey3.cfg" ".eclipse/" ".smex-items" ".xinitrc~" ".semanticdb/" "svn/" ".screenlayout/" ".ccache/" "jqmMobileDemo/" "sent" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" ".muttrc~" ".pypanelrc" "Desktop/" ".esd_auth" ".gnome2/" ".chewing/" ".gnupg/" "Downloads/" ".plugman/" ".cgdb/" "TRS/" ".gtkrc-2.0-kde4" ".ssh/" ".icons/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".AndroidStudioBeta/" ".vim/" ".emacs.d/" ".#test.org" ".mutt/" "Users/" ".npm/" ".cordova/" ".emacs.keyfreq" ".Skype/" "../" "./")
-
- ("/home/kevin/.config/" (21786 63333 851394 280000) "htop/" "Kingsoft/" "gedit/" "google-chrome/" "xfce4/" "nautilus/" "imsettings/" "vlc/" "0ad/" "libreoffice/" "../" "katesyntaxhighlightingrc" "xfce4-session/" "user-dirs.dirs" "gconf/" "Flavio Tordini/" "Thunar/" "configstore/" "wesnoth/" "Trolltech.conf" "Software/" "tint2/" "smplayer/" "orage/" "ristretto/" "openbox_bak/" "pulse/" "gnome-mplayer/" "menus/" "mimeapps.list" "autostart/" "KDE/" "bcloud/" "QtProject.conf" "tracker/" "sublime-text-2/" "sealert.conf" "enchant/" "gnome-session/" "kdeglobals" "goa-1.0/" "kwriterc" "qBittorrent/" "terminator/" "bleachbit/" "kconf_updaterc" "./" "ImageMagick/" "katevirc" "oxygen-gtk/" "stardict/" "kactivitymanagerdrc" "fcitx/" "gtk-3.0/" "chromium/" "wpa_supplicant/" "evolution/" "dconf/" "VirtualBox/" "globaltime/" "abrt/" "kateschemarc" "user-dirs.locale" "ibus/" "gtk-2.0/" "filezilla/" "katepartrc" "openbox/" "epdfview/")
-
- ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/assets/js/" (21786 54063 231505 203000) "cache.js" "tool.js" "../" "guide.js" "ajax.js" "index.js" "global.js" "./" "init.js")
-
- ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/" (21786 54057 388171 942000) "manifest.json" "index.html" "css/" "../" "img/" ".project" "test2.html" "www.iml" "js/" ".idea/" "#index.html#" "./" "assets/" "test.html")
-
- ("/home/kevin/workspace/phonegap/mobileappzhoushannews/" (21786 30833 526769 862000) "plugins/" "hooks/" "platforms/" "README" "../" "Designs/" "栏目LOGO-PNG图标.rar" ".gitignore" ".idea/" "舟山新闻网APP接口说明.txt" "./" "config.xml" ".git/" "register.log~" "www/")
-
- ("/home/kevin/workspace/phonegap/" (21785 41297 532495 902000) "chaowang/" "hello/" "../" "mobileappzhoushannews/" "seedgap/" "Designs/" "栏目LOGO-PNG图标.rar" "angular-seed/" "sourcecode/" "demo/" "舟山新闻网APP接口说明.txt" "./" "plugin-test/" "mobileappzhoushan_test/" "appframe/" "imgpicker/" "zhoushannews (copy 1)/")
-
- ("/home/kevin/workspace/github/work-notes/notes/" (21785 29055 328740 406000) "work-note-for-dangan.org" "../" "responsive-needs.html" "work-note-in-2015.org" "responsive-needs.org" "./" "work-note-in-2015.html")
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/" (21784 20730 542830 308000) "manifest.json" "index.html" "css/" "../" "img/" ".project" "test2.html" "www.iml" "js/" ".idea/" "./" "assets/" "test.html")
 
  ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/assets/" (21783 15362 521599 477000) "css/" "../" "js/" "images/" "./")
 
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/" (21783 15362 524932 809000) "plugins/" "hooks/" "platforms/" "README" "../" "Designs/" "栏目LOGO-PNG图标.rar" ".gitignore" ".idea/" "舟山新闻网APP接口说明.txt" "./" "config.xml" ".git/" "www/")
+
+ ("/home/kevin/workspace/phonegap/" (21783 15084 408269 470000) "hello/" "../" "mobileappzhoushannews/" "seedgap/" "Designs/" "栏目LOGO-PNG图标.rar" "angular-seed/" "sourcecode/" "demo/" "舟山新闻网APP接口说明.txt" "./" "plugin-test/" "appframe/" "imgpicker/" "zhoushannews (copy 1)/")
+
  ("/home/kevin/jqmMobileDemo/assets/www/" (21784 18413 836191 362000) "index.html" "css/" "../" "img/" "menu.html" "js/" "dialog.html" "./" "input.html")
+
+ ("/home/kevin/" (21784 19030 709517 314000) ".mplayer/" ".ddd/" ".gemrc" ".xfce4-session.verbose-log" ".conkyrc~" ".netbeans/" ".mozilla/" "xfce4-config" ".msmtprc" ".emacs.d.originalbakup/" ".viminfo" ".gem/" "News/" "VirtualBox VMs/" ".freemind/" ".m2/" ".emacs.d.fromPurcell2/" ".config/" "#test.org#" ".adobe/" ".fgfs/" "Velositey CS6&CC v1.1.zip" ".cache/" ".asoundrc" "Projects/" ".dmrc" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" "record/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" ".conkyrc" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" ".svnqt/" ".android/" ".sunpinyin/" "study-material/" ".other/" ".cask/" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" ".scorched3d/" ".emacs.d2/" ".xinitrc" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" "test.org" ".wireshark/" ".xfce4-session.verbose-log.last" "tmp/" ".python_history" ".ICEauthority" ".macromedia/" "sync/" "Programe/" "setxkb.sh" ".pki/" "notes/" ".bash_profile~" ".bashrc~" ".msmtprc~" ".dia/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" ".matho_history" ".newsrc-dribble" ".trash/" ".java/" ".w3m/" ".muttrc" ".bash_profile" ".sass-cache/" ".thumbnails/" ".IntelliJIdea13/" ".archey3.cfg" ".eclipse/" ".smex-items" ".xinitrc~" ".semanticdb/" "svn/" ".screenlayout/" ".ccache/" "jqmMobileDemo/" "sent" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" ".muttrc~" "Desktop/" ".esd_auth" ".gnome2/" ".chewing/" ".gnupg/" "Downloads/" ".plugman/" ".cgdb/" "TRS/" ".gtkrc-2.0-kde4" ".ssh/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".AndroidStudioBeta/" ".vim/" ".emacs.d/" ".#test.org" ".mutt/" "Users/" ".npm/" ".cordova/" ".emacs.keyfreq" ".Skype/" "../" "./")
 
  ("/home/kevin/jqmMobileDemo/assets/www/js/" (21782 33029 313200 336000) "cache.js" "../" "myInit.js" "index.js" "global.js" "./" "frame/")
 
@@ -151,6 +140,8 @@
  ("/tmp/Download/jqmMobileDemo1_1-master/" (20871 57714 0 0) "README.md" "jqmMobileDemo/" "../" "./")
 
  ("/tmp/Download/" (21781 39314 961195 448000) "jqmMobileDemo1_1-master/" "../" "./")
+
+ ("/home/kevin/workspace/github/work-notes/notes/" (21782 24858 236631 438000) "../" "responsive-needs.html" "work-note-in-2015.org" "responsive-needs.org" "./" "work-note-in-2015.html")
 
  ("/home/kevin/.emacs.d/users/kevin/" (21782 24402 736636 888000) "aj-compilation.el" "../" "shell-current-directory.el" "smart-forward.el" "init.el" ".# *Minibuf-2*" "zencoding-mode.el" "scss-mode.el" "haml-mode.el" "./" "sass-mode.el" "zencoding-trie.nw")
 

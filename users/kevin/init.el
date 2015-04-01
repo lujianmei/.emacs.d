@@ -121,6 +121,11 @@
 (global-set-key (kbd "M-<right>") 'smart-forward)
 
 
+;; add quick-jump for quick jump back to the line marked
+(require 'quick-jump)
+(quick-jump-default-keybinding)
+
+
 ;;;;add tagedit
 ;;(setq tagedit-experimental-features-on nil)
 (tagedit-disable-experimental-features)

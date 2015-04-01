@@ -153,7 +153,7 @@
   ;; commend by lujianmei
   ;;(define-key tagedit-mode-map (kbd "<") 'tagedit-insert-lt)
   (define-key tagedit-mode-map (kbd ">") 'tagedit-insert-gt)
-  (define-key tagedit-mode-map (kbd ".") 'tagedit-insert-dot)
+  ;(define-key tagedit-mode-map (kbd ".") 'tagedit-insert-dot)
   (define-key tagedit-mode-map (kbd "#") 'tagedit-insert-hash)
   )
 
