@@ -56,6 +56,8 @@
 (global-set-key (kbd "C-<return>") 'reindent-then-newline-and-indent)
 (global-set-key (kbd "C-S-i") 'indent-region)
 
+;; Config the mark 
+(global-set-key (kbd "S-SPC") 'set-mark-command)
 
                                         ;move line up down
 (defun move-text-internal (arg)
@@ -96,7 +98,7 @@
 (global-set-key [S-C-up] 'move-text-up)
 (global-set-key [S-C-down] 'move-text-down)
 
-
+(global-set-key (kbd "C-c l") 'copy-whole-lines)
 
 ;; add multi cursors:
 (require 'multiple-cursors)
@@ -170,8 +172,6 @@
                                  'background-mode
                                  (if (display-graphic-p frame) 'light 'dark))))
 
-(provide 'init)
-;;; init.el ends here
 
 
 
@@ -346,3 +346,7 @@ bold;}.ra{text-align: right;}</style>")
 ;; enlarge current window
 (global-set-key (kbd "M-[") 'enlarge-window-horizontally)
 (global-set-key (kbd "M-]") 'shrink-window-horizontally)
+
+
+(provide 'init)
+;;; init.el ends here

@@ -77,3 +77,5 @@ cd Worg/
 ls
 4/3
 mv Haier-infrastructure-automation-discussion.md Haier-infrastructure-automation-discussion.org
+sudo pacman -Syu
+reboot

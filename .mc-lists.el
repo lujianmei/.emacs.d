@@ -187,6 +187,7 @@
         handle-switch-frame
         ido-switch-buffer
         indent-region
+        js2-mode-show-node
         js2r-extract-var
         js2r-rename-var
         jump-between-source-and-test-files

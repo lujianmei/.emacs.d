@@ -2,7 +2,13 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/kevin/.config/" . "tint2/")
+ ("/home/kevin/workspace/phonegap/jqm_demo/jqm_test/" . "www/")
+ ("/home/kevin/workspace/phonegap/jqm_demo/" . "jqm_test/")
+ ("/home/kevin/workspace/phonegap/jqm_demo/jqm_test/www/" . "toolbar-fixed-persistent-optimized/")
+ ("/home/kevin/workspace/phonegap/chaowang/assets/www/" . "js/")
+ ("/home/kevin/workspace/phonegap/chaowang/assets/" . "www/")
+ ("/home/kevin/workspace/phonegap/chaowang/" . "assets/")
+ ("/home/kevin/.config/" . "openbox/")
  ("/home/kevin/jqmMobileDemo/assets/www/" . "js/")
  ("/home/kevin/jqmMobileDemo/assets/" . "www/")
  ("/home/kevin/jqmMobileDemo/" . "assets/")
@@ -23,12 +29,12 @@
  ("/home/kevin/workspace/system_monitor/metronic/" . "oldfile/")
  ("/home/kevin/workspace/system_monitor/" . "metronic/")
  ("/home/kevin/workspace/phonegap/imgpicker/" . "imgpicker/")
- ("/sudo:root@localhost:/etc/" . "nginx/")
+ ("/sudo:root@localhost:/etc/" . #("nginx/" 0 4 (face flx-highlight-face)))
  ("/home/kevin/workspace/zhoushannews/www/assets/" . "css/")
  ("/home/kevin/workspace/zhoushannews/www/" . "assets/")
  ("/home/kevin/workspace/zhoushannews/" . "www/")
  ("/home/kevin/workspace/phonegap/seedgap/" . "www/")
- ("/home/kevin/workspace/phonegap/" . "mobileappzhoushannews/")
+ ("/home/kevin/workspace/phonegap/" . "chaowang/")
  ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/casarte/" . "css/")
  ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/" . "casarte/")
  ("/home/kevin/workspace/javascript-frameworks/my/" . "bootstrap/")
@@ -43,27 +49,33 @@
  ("/home/kevin/.gem/ruby/2.2.0/gems/i18n-0.7.0.beta1/" . "gemfiles/")
  ("/home/kevin/.gem/ruby/2.2.0/gems/" . "jekyll-watch-1.2.1/")
  ("/home/kevin/.emacs.d/themes/" . "emacs-color-theme-solarized-master/")
- ("/home/kevin/" . ".config/")
+ ("/home/kevin/" . "workspace/")
  ("/home/kevin/.emacs.d/users/" . "kevin/")
  ("/home/kevin/.emacs.d/" . "users/")
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/" . "images/")
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/" . "my/")
  ("/home/kevin/workspace/javascript-frameworks/frames/" . "jquery/")
  ("/home/kevin/workspace/javascript-frameworks/" . "my/")
- ("/home/kevin/workspace/" . "phonegap/")
+ ("/home/kevin/workspace/" . "github/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/kevin/.config/tint2/"
+ #("/sudo:root@localhost:/etc/nginx/" 22 25 (face flx-highlight-face) 26 30 (face flx-highlight-face))
+ "/home/kevin/workspace/github/work-notes/notes/"
+ "/home/kevin/.emacs.d/users/kevin/"
+ "/home/kevin/jqmMobileDemo/assets/www/js/"
+ "/home/kevin/workspace/phonegap/chaowang/assets/www/"
  "/home/kevin/.config/openbox/"
+ "/home/kevin/workspace/phonegap/jqm_demo/jqm_test/www/"
+ "/usr/share/emacs/24.4/lisp/"
+ "/home/kevin/workspace/phonegap/jqm_demo/jqm_test/www/toolbar-fixed-persistent-optimized/"
+ "/home/kevin/workspace/phonegap/jqm_demo/jqm_test/www/toolbar-fixed-persistent/"
  "/home/kevin/workspace/phonegap/mobileappzhoushannews/www/assets/js/"
  "/home/kevin/workspace/phonegap/mobileappzhoushannews/www/"
+ "/home/kevin/.config/tint2/"
  "/home/kevin/"
- "/home/kevin/workspace/github/work-notes/notes/"
- "/home/kevin/jqmMobileDemo/assets/www/js/"
  "/home/kevin/jqmMobileDemo/assets/www/"
- "/home/kevin/.emacs.d/users/kevin/"
  "/tmp/Download/jqmMobileDemo1_1-master/jqmMobileDemo/assets/www/js/"
  "/tmp/Download/jqmMobileDemo1_1-master/jqmMobileDemo/assets/www/"
  "/home/kevin/.emacs.d/settings/"
@@ -71,7 +83,6 @@
  "/home/kevin/workspace/system_monitor/metronic/"
  "/home/kevin/workspace/system_monitor/metronic/oldfile/theme_rtl/templates/admin/"
  "/home/kevin/workspace/phonegap/imgpicker/imgpicker/"
- "/sudo:root@localhost:/etc/nginx/"
  "/home/kevin/workspace/zhoushannews/www/assets/css/"
  "/home/kevin/workspace/zhoushannews/www/"
  "/home/kevin/notes/"
@@ -98,49 +109,77 @@
 
 ;; ----- ido-work-file-list -----
 (
- "tint2rc"
- "menu.xml"
+ "nginx.conf"
+ "front-end-audit.org"
+ "init.el"
+ "work-note-in-2015.org"
+ "front-end-audit.md"
+ "cache.js"
  "index.js"
- "index.html"
- "init.js"
- "ajax.js"
- ".conkyrc"
- "rc.xml"
- "autostart"
- ".xinitrc"
+ "global.js"
+ "basic.js"
+ "menu.xml"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ (#("/sudo:root@localhost:/etc/nginx/" 22 25 (face flx-highlight-face) 26 30 (face flx-highlight-face)) (ftp . 396811.9038888889) "./" "../" "koi-win" "koi-utf" "win-utf" "mime.types" "fastcgi_params" "fastcgi.conf" "uwsgi_params" "scgi_params" "server.key" "server.csr" "server_nopwd.key" "server.crt" "nginx.conf~" "nginx.conf")
+
+ (#("/sudo:root@localhost:/etc/" 22 25 (face flx-highlight-face)) (ftp . 396811.9033333333) "./" "../" "protocols" "services" "ld.so.conf.d/" "skel/" "profile.d/" "fstab" "ld.so.conf" "resolv.conf" "profile" "locale.gen" "inputrc" "ssl/" "openldap/" "request-key.conf" "request-key.d/" "netconfig" "pam.d/" "default/" "environment" "security/" "dbus-1/" "X11/" "depmod.d/" "modprobe.d/" "systemd/" "udev/" "tmpfiles.d/" "binfmt.d/" "modules-load.d/" "sysctl.d/" "kernel/" "xdg/" "machine-id" ".pwd.lock" "group-" "gshadow-" "passwd-" "shadow-" "xinetd.d/" "iptables/" "iproute2/" "mkinitcpio.conf" "initcpio/" "mkinitcpio.d/" "logrotate.d/" "lvm/" "man_db.conf" "mdadm.conf" "netctl/" "ifplugd/" "ca-certificates/" "pacman.d/" "pacman.conf" "pcmcia/" "sudoers.d/" "sudoers" "hostname" "grub.d/" "os-release" "localtime" ".updated" "fstab_bak" "dhcpcd.duid" "fonts/" "pango/" "pkcs11/" "avahi/" "cups/" "gtk-2.0/" "polkit-1/" "at-spi2/" "gtk-3.0/" "UPower/" "xml/" "udisks2/" "pulse/" "mime.types" "vbox/" "libnl/" "wpa_supplicant/" "NetworkManager/" "ImageMagick-6/" "gconf/" "gnome-vfs-mime-magic" "gnome-vfs-2.0/" "sound/" "bonobo-activation/" "fuse.conf" "pm/" "irman.conf" "mplayer/" "dkms/" "vmware-installer/" "vmware/" "vmware-vix/" "init.d/" "thnuclnt/" "pacman.conf_bak" "libreoffice/" "speech-dispatcher/" "chromium/" "adobe/" "papersize" "libpaper.d/" "libao.conf" "gssapi_mech.conf" "mysql/" "rc_keymaps/" "trusted-key.key" "ssh/" "conf.d/" "passwd" "shadow" "gimp/" "java-8-openjdk/" "openvpn/" "ppp/" "vpnc/" "gdb/" "pam_thinkfinger/" "nginx/" "mail.rc" "bash.bashrc" "bash.bash_logout" "sensors3.conf" "healthd.conf" "sensors.d/" "lirc/" "resolvconf.conf" "rsyncd.conf" "bash_completion.d/" "lxc/" "dhcpcd.secret" "locale.gen.pacnew" "rpc" "nscd.conf" "gai.conf" "mono/" "geoclue/" "krb5.conf" "rc_maps.cfg" "makepkg.conf" "signond.conf" "group.pacnew" "host.conf" "issue" "motd" "nsswitch.conf" "securetty" "shells" "gshadow.pacnew" "crypttab" "arch-release" "gshadow" "group" "mtab" "gemrc" "slsh.rc" "mke2fs.conf" "logrotate.conf" "vdpau_wrapper.cfg" "ansible/" "salt/" "login.defs" "nanorc" "hosts~" "hosts" "conky/" "Muttrc" "Muttrc.dist" "Muttrc.gpg.dist" "drirc" "oblogout.conf" "dhcpcd.conf" "texmf/" "ld.so.cache")
+
+ ("/sudo:root@localhost:/" (ftp . 396811.90305555554) "./" "../" "boot/" "var/" "dev/" "run/" "etc/" "tmp/" "sys/" "proc/" "usr/" "home/" "mnt/" "opt/" "root/" "srv/" "software/" "virtualbox/" ".docker/" "vms/" "config_bakup/" "bin/" "lib/" "lib64/" "sbin/")
+
+ ("/home/kevin/" (21797 31935 994523 789000) "index.html" ".mplayer/" ".ddd/" ".gemrc" ".xfce4-session.verbose-log" ".conkyrc~" ".netbeans/" ".mozilla/" "xfce4-config" ".msmtprc" ".emacs.d.originalbakup/" ".viminfo" "chaowang.apk" "问题" ".gem/" "News/" "VirtualBox VMs/" ".freemind/" ".m2/" ".fehbg" ".emacs.d.fromPurcell2/" ".config/" "MainActivity-debug.apk" "#test.org#" ".adobe/" ".fgfs/" ".cache/" ".asoundrc" "Projects/" ".dmrc" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" "record/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" ".conkyrc" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" ".svnqt/" ".android/" ".sunpinyin/" "study-material/" "2015年执行计划 - 2015-04-01.mpp" ".other/" ".cask/" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" ".scorched3d/" ".emacs.d2/" ".xinitrc" ".subversion/" "missfont.log" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" ".wireshark/" ".fvwm/" ".xfce4-session.verbose-log.last" "tmp/" ".python_history" ".ICEauthority" ".macromedia/" "sync/" "Programe/" "setxkb.sh" ".pki/" "notes/" ".bash_profile~" ".bashrc~" ".msmtprc~" ".dia/" ".texlive/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" ".matho_history" ".newsrc-dribble" ".trash/" ".java/" ".w3m/" ".muttrc" ".bash_profile" ".sass-cache/" ".thumbnails/" ".IntelliJIdea13/" ".archey3.cfg" ".eclipse/" ".smex-items" ".xinitrc~" ".semanticdb/" "test.tex" "svn/" ".screenlayout/" ".ccache/" "jqmMobileDemo/" "sent" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" ".muttrc~" ".pypanelrc" "Desktop/" ".esd_auth" ".gnome2/" ".chewing/" ".gnupg/" "Downloads/" ".plugman/" ".cgdb/" "TRS/" ".gtkrc-2.0-kde4" ".ssh/" ".icons/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" "test.log" ".rtorrent.rc" ".AndroidStudioBeta/" ".vim/" ".emacs.d/" ".#test.org" ".mutt/" "Users/" ".npm/" ".cordova/" ".emacs.keyfreq" ".Skype/" "../" "./")
+
+ ("/home/kevin/workspace/github/work-notes/notes/" (21797 2741 666610 542000) "work-note-for-dangan.org" "front-end-audit.tex" "phonegap-work-note.org" "../" "front-end-audit.md" "responsive-needs.html" "#front-end-audit.org#" "front-end-audit.org" "work-note-in-2015.org" "front-end-audit.pdf" "responsive-needs.org" "./" "front-end-audit.html" "#front-end-audit.md#" "work-note-in-2015.html")
+
+ ("/home/kevin/.emacs.d/users/kevin/" (21792 45386 863457 644000) "aj-compilation.el" "quick-jump.el" "../" "shell-current-directory.el" "smart-forward.el" "init.el" ".# *Minibuf-2*" "zencoding-mode.el" "scss-mode.el" "haml-mode.el" "./" "sass-mode.el" "zencoding-trie.nw")
+
+ ("/home/kevin/.emacs.d/" (21796 59008 339996 371000) "%backup%~" "session.28795f802-4e8c-4b07-ab75-0cbd488ff74c" "var/" "eshell/" ".places" "site-lisp/" "../" "README.md" "session.2bc9e02ab-ffe1-4029-9a5b-457b0d2f7293" "session.21d9342e2-4834-425f-b9e6-216f992c0363" "defuns/" "themes/" "tramp" ".cask/" "init.el" "backups/" "ido.last" ".gitignore" "custom.el" ".gitmodules" "users/" "./" "settings/" "session.204225d81-3dd5-4801-bd3c-347db21f2865" "#ido.last#" "elpa/" "history" ".git/" "snippets/" "auto-save-list/" ".mc-lists.el" "project-archetypes/")
+
+ ("/home/kevin/jqmMobileDemo/assets/www/js/" (21795 47023 469932 499000) "cache.js" "../" "myInit.js" "#index.js#" "index.js" "global.js" "#global.js#" "#cache.js#" "./" "frame/")
+
+ ("/home/kevin/jqmMobileDemo/assets/www/" (21788 3780 39756 675000) "index.html" "css/" "../" "img/" "menu.html" "js/" "dialog.html" "./" "input.html")
+
+ ("/home/kevin/jqmMobileDemo/" (21787 53406 416613 704000) "readme.txt" "../" ".project" "gen/" "bin/" "src/" "res/" "proguard-project.txt" "libs/" ".classpath" "cordova-test/" "AndroidManifest.xml" "ic_launcher-web.png" ".settings/" "project.properties" "./" "assets/")
+
+ ("/home/kevin/.config/" (21792 47813 73541 310000) "htop/" "Kingsoft/" "gedit/" "google-chrome/" "xfce4/" "nautilus/" "imsettings/" "vlc/" "0ad/" "libreoffice/" "../" "katesyntaxhighlightingrc" "xfce4-session/" "user-dirs.dirs" "gconf/" "Flavio Tordini/" "Thunar/" "configstore/" "wesnoth/" "Trolltech.conf" "Software/" "tint2/" "smplayer/" "orage/" "ristretto/" "openbox_bak/" "pulse/" "gnome-mplayer/" "menus/" "mimeapps.list" "autostart/" "KDE/" "bcloud/" "QtProject.conf" "tracker/" "sublime-text-2/" "sealert.conf" "enchant/" "gnome-session/" "kdeglobals" "goa-1.0/" "kwriterc" "qBittorrent/" "terminator/" "bleachbit/" "kconf_updaterc" "./" "ImageMagick/" "katevirc" "oxygen-gtk/" "stardict/" "kactivitymanagerdrc" "fcitx/" "gtk-3.0/" "chromium/" "wpa_supplicant/" "evolution/" "dconf/" "VirtualBox/" "globaltime/" "abrt/" "kateschemarc" "user-dirs.locale" "ibus/" "gtk-2.0/" "filezilla/" "katepartrc" "openbox/" "epdfview/")
+
+ ("/home/kevin/workspace/phonegap/jqm_demo/jqm_test/" (21792 46744 276837 786000) "plugins/" "hooks/" "platforms/" "../" "./" "config.xml" "www/")
+
+ ("/usr/share/emacs/24.4/lisp/" (21740 51161 91333 920000) "xt-mouse.elc" "xt-mouse.el.gz" "xml.elc" "xml.el.gz" "x-dnd.elc" "x-dnd.el.gz" "woman.elc" "woman.el.gz" "winner.elc" "winner.el.gz" "window.elc" "window.el.gz" "windmove.elc" "windmove.el.gz" "widget.elc" "widget.el.gz" "wid-edit.elc" "wid-edit.el.gz" "wid-browse.elc" "wid-browse.el.gz" "whitespace.elc" "whitespace.el.gz" "wdired.elc" "wdired.el.gz" "w32-vars.elc" "w32-vars.el.gz" "w32-fns.elc" "w32-fns.el.gz" "w32-common-fns.elc" "w32-common-fns.el.gz" "vt100-led.elc" "vt100-led.el.gz" "vt-control.elc" "vt-control.el.gz" "view.elc" "view.el.gz" "version.elc" "version.el.gz" "vcursor.elc" "vcursor.el.gz" "userlock.elc" "userlock.el.gz" "uniquify.elc" "uniquify.el.gz" "type-break.elc" "type-break.el.gz" "tutorial.elc" "tutorial.el.gz" "tree-widget.elc" "tree-widget.el.gz" "tooltip.elc" "tooltip.el.gz" "tool-bar.elc" "tool-bar.el.gz" "tmm.elc" "tmm.el.gz" "timezone.elc" "timezone.el.gz" "time.elc" "time.el.gz" "time-stamp.elc" "time-stamp.el.gz" "thumbs.elc" "thumbs.el.gz" "thingatpt.elc" "thingatpt.el.gz" "term.elc" "term.el.gz" "tempo.elc" "tempo.el.gz" "tar-mode.elc" "tar-mode.el.gz" "talk.elc" "talk.el.gz" "tabify.elc" "tabify.el.gz" "t-mouse.elc" "t-mouse.el.gz" "subr.elc" "subr.el.gz" "subdirs.el" "strokes.elc" "strokes.el.gz" "startup.elc" "startup.el.gz" "speedbar.elc" "speedbar.el.gz" "soundex.elc" "soundex.el.gz" "sort.elc" "sort.el.gz" "skeleton.elc" "skeleton.el.gz" "simple.elc" "simple.el.gz" "shell.elc" "shell.el.gz" "shadowfile.elc" "shadowfile.el.gz" "ses.elc" "ses.el.gz" "server.elc" "server.el.gz" "select.elc" "select.el.gz" "scroll-lock.elc" "scroll-lock.el.gz" "scroll-bar.elc" "scroll-bar.el.gz" "scroll-all.elc" "scroll-all.el.gz" "sb-image.elc" "sb-image.el.gz" "saveplace.elc" "saveplace.el.gz" "savehist.elc" "savehist.el.gz" "ruler-mode.elc" "ruler-mode.el.gz" "rot13.elc" "rot13.el.gz" "rfn-eshadow.elc" "rfn-eshadow.el.gz" "reveal.elc" "reveal.el.gz" "reposition.elc" "reposition.el.gz" "replace.elc" "replace.el.gz" "repeat.elc" "repeat.el.gz" "register.elc" "register.el.gz" "rect.elc" "rect.el.gz" "recentf.elc" "recentf.el.gz" "ps-samp.elc" "ps-samp.el.gz" "ps-print.elc" "ps-print.el.gz" "ps-mule.elc" "ps-mule.el.gz" "ps-def.elc" "ps-def.el.gz" "ps-bdf.elc" "ps-bdf.el.gz" "profiler.elc" "profiler.el.gz" "proced.elc" "proced.el.gz" "printing.elc" "printing.el.gz" "pcomplete.elc" "pcomplete.el.gz" "pcmpl-x.elc" "pcmpl-x.el.gz" "pcmpl-unix.elc" "pcmpl-unix.el.gz" "pcmpl-rpm.elc" "pcmpl-rpm.el.gz" "pcmpl-linux.elc" "pcmpl-linux.el.gz" "pcmpl-gnu.elc" "pcmpl-gnu.el.gz" "pcmpl-cvs.elc" "pcmpl-cvs.el.gz" "password-cache.elc" "password-cache.el.gz" "paren.elc" "paren.el.gz" "outline.elc" "outline.el.gz" "novice.elc" "novice.el.gz" "notifications.elc" "notifications.el.gz" "newcomment.elc" "newcomment.el.gz" "mwheel.elc" "mwheel.el.gz" "msb.elc" "msb.el.gz" "mpc.elc" "mpc.el.gz" "mouse.elc" "mouse.el.gz" "mouse-drag.elc" "mouse-drag.el.gz" "mouse-copy.elc" "mouse-copy.el.gz" "misearch.elc" "misearch.el.gz" "misc.elc" "misc.el.gz" "minibuffer.elc" "minibuffer.el.gz" "minibuf-eldef.elc" "minibuf-eldef.el.gz" "midnight.elc" "midnight.el.gz" "menu-bar.elc" "menu-bar.el.gz" "md4.elc" "md4.el.gz" "mb-depth.elc" "mb-depth.el.gz" "master.elc" "master.el.gz" "man.elc" "man.el.gz" "makesum.elc" "makesum.el.gz" "macros.elc" "macros.el.gz" "ls-lisp.elc" "ls-lisp.el.gz" "lpr.elc" "lpr.el.gz" "locate.elc" "locate.el.gz" "loadup.el" "loadhist.elc" "loadhist.el.gz" "loaddefs.el" "linum.elc" "linum.el.gz" "ldefs-boot.el" "kmacro.elc" "kmacro.el.gz" "kermit.elc" "kermit.el.gz" "json.elc" "json.el.gz" "jka-compr.elc" "jka-compr.el.gz" "jka-cmpr-hook.elc" "jka-cmpr-hook.el.gz" "jit-lock.elc" "jit-lock.el.gz" "isearchb.elc" "isearchb.el.gz" "isearch.elc" "isearch.el.gz" "informat.elc" "informat.el.gz" "info.elc" "info.el.gz" "info-xref.elc" "info-xref.el.gz" "info-look.elc" "info-look.el.gz" "indent.elc" "indent.el.gz" "imenu.elc" "imenu.el.gz" "image.elc" "image.el.gz" "image-mode.elc" "image-mode.el.gz" "image-file.elc" "image-file.el.gz" "image-dired.elc" "image-dired.el.gz" "iimage.elc" "iimage.el.gz" "ielm.elc" "ielm.el.gz" "ido.elc" "ido.el.gz" "icomplete.elc" "icomplete.el.gz" "ibuffer.elc" "ibuffer.el.gz" "ibuf-macs.elc" "ibuf-macs.el.gz" "ibuf-ext.elc" "ibuf-ext.el.gz" "htmlfontify.elc" "htmlfontify.el.gz" "hl-line.elc" "hl-line.el.gz" "hippie-exp.elc" "hippie-exp.el.gz" "hilit-chg.elc" "hilit-chg.el.gz" "hi-lock.elc" "hi-lock.el.gz" "hfy-cmap.elc" "hfy-cmap.el.gz" "hexl.elc" "hexl.el.gz" "hex-util.elc" "hex-util.el.gz" "help.elc" "help.el.gz" "help-mode.elc" "help-mode.el.gz" "help-macro.elc" "help-macro.el.gz" "help-fns.elc" "help-fns.el.gz" "help-at-pt.elc" "help-at-pt.el.gz" "gs.elc" "gs.el.gz" "generic-x.elc" "generic-x.el.gz" "fringe.elc" "fringe.el.gz" "frameset.elc" "frameset.el.gz" "frame.elc" "frame.el.gz" "forms.elc" "forms.el.gz" "format.elc" "format.el.gz" "format-spec.elc" "format-spec.el.gz" "font-lock.elc" "font-lock.el.gz" "font-core.elc" "font-core.el.gz" "follow.elc" "follow.el.gz" "foldout.elc" "foldout.el.gz" "flow-ctrl.elc" "flow-ctrl.el.gz" "finder.elc" "finder.el.gz" "finder-inf.el" "find-lisp.elc" "find-lisp.el.gz" "find-file.elc" "find-file.el.gz" "find-dired.elc" "find-dired.el.gz" "find-cmd.elc" "find-cmd.el.gz" "filesets.elc" "filesets.el.gz" "files.elc" "files.el.gz" "files-x.elc" "files-x.el.gz" "filenotify.elc" "filenotify.el.gz" "filecache.elc" "filecache.el.gz" "ffap.elc" "ffap.el.gz" "faces.elc" "faces.el.gz" "facemenu.elc" "facemenu.el.gz" "face-remap.elc" "face-remap.el.gz" "ezimage.elc" "ezimage.el.gz" "expand.elc" "expand.el.gz" "epg.elc" "epg.el.gz" "epg-config.elc" "epg-config.el.gz" "epa.elc" "epa.el.gz" "epa-mail.elc" "epa-mail.el.gz" "epa-hook.elc" "epa-hook.el.gz" "epa-file.elc" "epa-file.el.gz" "epa-dired.elc" "epa-dired.el.gz" "env.elc" "env.el.gz" "emacs-lock.elc" "emacs-lock.el.gz" "elide-head.elc" "elide-head.el.gz" "electric.elc" "electric.el.gz" "elec-pair.elc" "elec-pair.el.gz" "ehelp.elc" "ehelp.el.gz" "edmacro.elc" "edmacro.el.gz" "echistory.elc" "echistory.el.gz" "ebuff-menu.elc" "ebuff-menu.el.gz" "dynamic-setting.elc" "dynamic-setting.el.gz" "double.elc" "double.el.gz" "dos-w32.elc" "dos-w32.el.gz" "dos-vars.elc" "dos-vars.el.gz" "dos-fns.elc" "dos-fns.el.gz" "doc-view.elc" "doc-view.el.gz" "dnd.elc" "dnd.el.gz" "disp-table.elc" "disp-table.el.gz" "dirtrack.elc" "dirtrack.el.gz" "dired.elc" "dired.el.gz" "dired-x.elc" "dired-x.el.gz" "dired-aux.elc" "dired-aux.el.gz" "dframe.elc" "dframe.el.gz" "desktop.elc" "desktop.el.gz" "descr-text.elc" "descr-text.el.gz" "delsel.elc" "delsel.el.gz" "delim-col.elc" "delim-col.el.gz" "dabbrev.elc" "dabbrev.el.gz" "custom.elc" "custom.el.gz" "cus-theme.elc" "cus-theme.el.gz" "cus-start.elc" "cus-start.el.gz" "cus-load.el" "cus-face.elc" "cus-face.el.gz" "cus-edit.elc" "cus-edit.el.gz" "cus-dep.elc" "cus-dep.el.gz" "composite.elc" "composite.el.gz" "completion.elc" "completion.el.gz" "comint.elc" "comint.el.gz" "color.elc" "color.el.gz" "cmuscheme.elc" "cmuscheme.el.gz" "chistory.elc" "chistory.el.gz" "cdl.elc" "cdl.el.gz" "case-table.elc" "case-table.el.gz" "calculator.elc" "calculator.el.gz" "button.elc" "button.el.gz" "buff-menu.elc" "buff-menu.el.gz" "bs.elc" "bs.el.gz" "bookmark.elc" "bookmark.el.gz" "bindings.elc" "bindings.el.gz" "battery.elc" "battery.el.gz" "avoid.elc" "avoid.el.gz" "autorevert.elc" "autorevert.el.gz" "autoinsert.elc" "autoinsert.el.gz" "autoarg.elc" "autoarg.el.gz" "array.elc" "array.el.gz" "arc-mode.elc" "arc-mode.el.gz" "apropos.elc" "apropos.el.gz" "ansi-color.elc" "ansi-color.el.gz" "allout.elc" "allout.el.gz" "allout-widgets.elc" "allout-widgets.el.gz" "align.elc" "align.el.gz" "abbrev.elc" "abbrev.el.gz" "README" "COPYING" "mail/" "term/" "url/" "obsolete/" "cedet/" "org/" "leim/" "calc/" "nxml/" "emacs-lisp/" "play/" "mh-e/" "language/" "international/" "progmodes/" "emulation/" "gnus/" "textmodes/" "vc/" "erc/" "calendar/" "net/" "eshell/" "../" "./")
+
+ ("/home/kevin/workspace/phonegap/jqm_demo/jqm_test/www/toolbar-fixed-persistent-optimized/" (21792 43522 573393 355000) "index.html" "../" "page-b.html" "page-d.html" "page-c.html" "./")
+
+ ("/home/kevin/workspace/phonegap/jqm_demo/jqm_test/www/toolbar-fixed-persistent/" (21792 43480 900058 585000) "index.html" "../" "page-b.html" "page-d.html" "page-c.html" "./")
+
+ ("/home/kevin/workspace/phonegap/jqm_demo/jqm_test/www/" (21792 43091 336711 818000) "toolbar-fixed-persistent/" "favicon.ico" "index.html" "toolbar-fixed-persistent-optimized/" "css/" "../" "img/" "_assets/" "js/" "./")
+
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/" (21790 41207 951963 74000) "manifest.json" "index.html" "css/" "../" "mainpage.html" "img/" ".project" "index.json" "test2.html" "www.iml" "js/" ".idea/" "images/" "./" "assets/" "test.html")
+
+ ("/home/kevin/workspace/phonegap/" (21791 46231 523534 808000) "chaowang/" "hello/" "../" "mobileappzhoushannews/" "seedgap/" "Designs/" "栏目LOGO-PNG图标.rar" "angular-seed/" "sourcecode/" "demo/" "舟山新闻网APP接口说明.txt" "./" "plugin-test/" "mobileappzhoushan_test/" "jqm_demo/" "appframe/" "imgpicker/" "zhoushannews (copy 1)/")
+
+ ("/home/kevin/workspace/phonegap/jqm_demo/" (21791 46298 436870 449000) "jqm_test/" "../" "./")
+
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/assets/js/" (21790 41247 881964 450000) "tool.js" "mainpage.js" "../" "guide.js" "ajax.js" "global.js" "./" "init.js" "old/")
+
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/" (21788 64100 553272 986000) "plugins/" "hooks/" "platforms/" "README" "../" "Designs/" "栏目LOGO-PNG图标.rar" ".gitignore" ".idea/" "舟山新闻网APP接口说明.txt" "./" "config.xml" "publish-packages/" ".git/" "register.log~" "www/")
+
+ ("/home/kevin/workspace/phonegap/chaowang/assets/www/js/" (21785 41319 229163 317000) "md5.js" "../" "./")
+
+ ("/home/kevin/workspace/phonegap/chaowang/assets/www/" (21785 41319 292496 652000) "plugins/" "common.js" "index.html" "cordova.js" "basic.js" "css/" "../" "appframework.js" "ui/" "js/" "images/" "./" "appframework.min.js")
+
+ ("/home/kevin/workspace/phonegap/chaowang/assets/" (21785 41319 112496 646000) "../" "./" "www/")
+
+ ("/home/kevin/workspace/phonegap/chaowang/" (21785 41297 622495 905000) "../" "res/" "AndroidManifest.xml" "./" "classes.dex" "resources.arsc" "assets/" "META-INF/")
+
  ("/home/kevin/.config/tint2/" (21787 8547 804407 556000) "../" "tint2rc~" "tint2rc" "./" "tintwizard.conf")
 
  ("/home/kevin/.config/openbox/" (21787 8729 387738 717000) "wallpapers.sh" "../" "menu.xml" "rc.xml" "autostart" "./" "environment")
 
- ("/home/kevin/" (21787 8769 794404 902000) ".mplayer/" ".ddd/" ".gemrc" ".xfce4-session.verbose-log" ".conkyrc~" ".netbeans/" ".mozilla/" "xfce4-config" ".msmtprc" ".emacs.d.originalbakup/" ".viminfo" "chaowang.apk" ".gem/" "News/" "VirtualBox VMs/" ".freemind/" ".m2/" ".fehbg" ".emacs.d.fromPurcell2/" ".config/" "MainActivity-debug.apk" "#test.org#" ".adobe/" ".fgfs/" "Velositey CS6&CC v1.1.zip" ".cache/" ".asoundrc" "Projects/" ".dmrc" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" "record/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" ".conkyrc" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" ".svnqt/" ".android/" ".sunpinyin/" "study-material/" ".other/" ".cask/" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" ".scorched3d/" ".emacs.d2/" ".xinitrc" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" "test.org" ".wireshark/" ".xfce4-session.verbose-log.last" "tmp/" ".python_history" ".ICEauthority" ".macromedia/" "sync/" "Programe/" "setxkb.sh" ".pki/" "notes/" ".bash_profile~" ".bashrc~" ".msmtprc~" ".dia/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" ".matho_history" ".newsrc-dribble" ".trash/" ".java/" ".w3m/" ".muttrc" ".bash_profile" ".sass-cache/" ".thumbnails/" ".IntelliJIdea13/" ".archey3.cfg" ".eclipse/" ".smex-items" ".xinitrc~" ".semanticdb/" "svn/" ".screenlayout/" ".ccache/" "jqmMobileDemo/" "sent" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" ".muttrc~" ".pypanelrc" "Desktop/" ".esd_auth" ".gnome2/" ".chewing/" ".gnupg/" "Downloads/" ".plugman/" ".cgdb/" "TRS/" ".gtkrc-2.0-kde4" ".ssh/" ".icons/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".AndroidStudioBeta/" ".vim/" ".emacs.d/" ".#test.org" ".mutt/" "Users/" ".npm/" ".cordova/" ".emacs.keyfreq" ".Skype/" "../" "./")
-
- ("/home/kevin/.config/" (21786 63333 851394 280000) "htop/" "Kingsoft/" "gedit/" "google-chrome/" "xfce4/" "nautilus/" "imsettings/" "vlc/" "0ad/" "libreoffice/" "../" "katesyntaxhighlightingrc" "xfce4-session/" "user-dirs.dirs" "gconf/" "Flavio Tordini/" "Thunar/" "configstore/" "wesnoth/" "Trolltech.conf" "Software/" "tint2/" "smplayer/" "orage/" "ristretto/" "openbox_bak/" "pulse/" "gnome-mplayer/" "menus/" "mimeapps.list" "autostart/" "KDE/" "bcloud/" "QtProject.conf" "tracker/" "sublime-text-2/" "sealert.conf" "enchant/" "gnome-session/" "kdeglobals" "goa-1.0/" "kwriterc" "qBittorrent/" "terminator/" "bleachbit/" "kconf_updaterc" "./" "ImageMagick/" "katevirc" "oxygen-gtk/" "stardict/" "kactivitymanagerdrc" "fcitx/" "gtk-3.0/" "chromium/" "wpa_supplicant/" "evolution/" "dconf/" "VirtualBox/" "globaltime/" "abrt/" "kateschemarc" "user-dirs.locale" "ibus/" "gtk-2.0/" "filezilla/" "katepartrc" "openbox/" "epdfview/")
-
- ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/assets/js/" (21786 54063 231505 203000) "cache.js" "tool.js" "../" "guide.js" "ajax.js" "index.js" "global.js" "./" "init.js")
-
- ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/" (21786 54057 388171 942000) "manifest.json" "index.html" "css/" "../" "img/" ".project" "test2.html" "www.iml" "js/" ".idea/" "#index.html#" "./" "assets/" "test.html")
-
- ("/home/kevin/workspace/phonegap/mobileappzhoushannews/" (21786 30833 526769 862000) "plugins/" "hooks/" "platforms/" "README" "../" "Designs/" "栏目LOGO-PNG图标.rar" ".gitignore" ".idea/" "舟山新闻网APP接口说明.txt" "./" "config.xml" ".git/" "register.log~" "www/")
-
- ("/home/kevin/workspace/phonegap/" (21785 41297 532495 902000) "chaowang/" "hello/" "../" "mobileappzhoushannews/" "seedgap/" "Designs/" "栏目LOGO-PNG图标.rar" "angular-seed/" "sourcecode/" "demo/" "舟山新闻网APP接口说明.txt" "./" "plugin-test/" "mobileappzhoushan_test/" "appframe/" "imgpicker/" "zhoushannews (copy 1)/")
-
- ("/home/kevin/workspace/github/work-notes/notes/" (21785 29055 328740 406000) "work-note-for-dangan.org" "../" "responsive-needs.html" "work-note-in-2015.org" "responsive-needs.org" "./" "work-note-in-2015.html")
-
  ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/assets/" (21783 15362 521599 477000) "css/" "../" "js/" "images/" "./")
 
- ("/home/kevin/jqmMobileDemo/assets/www/" (21784 18413 836191 362000) "index.html" "css/" "../" "img/" "menu.html" "js/" "dialog.html" "./" "input.html")
-
- ("/home/kevin/jqmMobileDemo/assets/www/js/" (21782 33029 313200 336000) "cache.js" "../" "myInit.js" "index.js" "global.js" "./" "frame/")
-
  ("/home/kevin/jqmMobileDemo/assets/" (21782 33028 836533 675000) "../" "./" "www/")
-
- ("/home/kevin/jqmMobileDemo/" (21782 33030 26533 660000) "readme.txt" "../" ".project" "gen/" "bin/" "src/" "res/" "proguard-project.txt" "libs/" ".classpath" "AndroidManifest.xml" "ic_launcher-web.png" ".settings/" "project.properties" "./" "assets/")
-
- ("/home/kevin/.emacs.d/" (21782 51970 429640 368000) "%backup%~" "var/" "eshell/" ".places" "site-lisp/" "../" "README.md" "defuns/" "themes/" "tramp" ".cask/" "init.el" "backups/" "ido.last" ".gitignore" "custom.el" ".gitmodules" "users/" "./" "settings/" "elpa/" "history" ".git/" "snippets/" "auto-save-list/" ".mc-lists.el" "project-archetypes/")
 
  ("/tmp/" (21782 29659 546573 990000) ".X11-unix/" ".ICE-unix/" ".XIM-unix/" ".Test-unix/" ".font-unix/" "serverauth.haDcLl4bv8" ".X0-lock" ".xfsm-ICE-M569VX" "ssh-hVV0XKx8u8Vx/" "fcitx-socket-:0" "emacs1000/" ".org.chromium.Chromium.SjMvEY/" "hsperfdata_kevin/" "adb.log" "orbit-kevin/" "Download/" "kde-kevin/" "xauth-1000-_0" ".vbox-kevin-ipc/" "../" "./")
 
@@ -151,8 +190,6 @@
  ("/tmp/Download/jqmMobileDemo1_1-master/" (20871 57714 0 0) "README.md" "jqmMobileDemo/" "../" "./")
 
  ("/tmp/Download/" (21781 39314 961195 448000) "jqmMobileDemo1_1-master/" "../" "./")
-
- ("/home/kevin/.emacs.d/users/kevin/" (21782 24402 736636 888000) "aj-compilation.el" "../" "shell-current-directory.el" "smart-forward.el" "init.el" ".# *Minibuf-2*" "zencoding-mode.el" "scss-mode.el" "haml-mode.el" "./" "sass-mode.el" "zencoding-trie.nw")
 
  ("/home/kevin/.emacs.d/settings/" (21782 23827 843310 434000) "setup-org.el" "setup-ido.el" "setup-markdown-mode.el" "setup-perspective.el" "setup-hippie.el" "../" "setup-ruby-mode.el" "setup-skewer.el" "setup-rgrep.el" "key-bindings.el" "my-misc.el" "setup-ffip.el" "#key-bindings.el#" "setup-yesqlg.el" "setup-paredit.el" "setup-yasnippet.el" "mac.el" "appearance.el" "setup-flycheck.el" "sane-defaults.el" "setup-js2-mode.el" "mode-mappings.el" "setup-package.el" "./" "setup-magit.el" "setup-html-mode.el" ".git/" "setup-shell.el" "setup-clojure-mode.el" "setup-dired.el" "setup-elnode.el")
 
@@ -285,20 +322,6 @@
  ("/home/kevin/study-material/Javascript/" (21723 48063 523356 490000) "javascript/" "../" "css3/" "./")
 
  ("/home/kevin/study-material/Javascript/javascript/" (21743 10699 927700 292000) "JavaScript基础教程（第8版) (1).pdf" "移动优先与响应式Web设计 pdf 试读.pdf" "APP：jQuery Mobile移动应用实战.pdf" "../" "163disk.com_JavaScript框架设计现代魔法指南PDF电子书带目录simple.pdf" "[www.java1234.com]jQuery基础教程（第四版）.pdf" "jquery/" "JavaScript框架高级编程  应用Prototype、YUI、Ext JS、Dojo、MooTools.pdf" "./" "9_95201410302248045017474.pdf" "Bootstrap用户手册：设计响应式网站.mobi" "JavaScript框架设计新迷你书新.pdf" "《JavaScript框架设计》迷你书.pdf")
-
- ("/home/kevin/study-material/Javascript/javascript/jquery/" (21743 11204 441051 23000) "《jQuery Mobile实战》(陶国荣)源码/" "jQuery Mobile快速入门/" "Sams Teach Yourself jQuery Mobile in 24 Hours.pdf" "../" "jQuery Mobile快速入门.pdf" "./")
-
- ("/home/kevin/study-material/Javascript/javascript/jquery/jQuery Mobile快速入门/" (21743 10715 574367 498000) "ch5/" "ch2/" "../" "ch6/" "images/" "ch8/" "ch9/" "jqm-webapp/" "./" "ch10/" "ch7/" "ch3/" "ch4/" "ch1/")
-
- ("/home/kevin/study-material/Javascript/javascript/jquery/jQuery Mobile快速入门/ch2/" (20199 5076 0 0) "action-sheet1.html" ".tmp_template.html.50862~" ".tmp_template.html.48660~" "responsive.html" ".tmp_responsive.html.45824~" "../" ".tmp_multi.html.25311~" "contact.html" ".tmp_responsive.html.38427~" "alert.html" ".tmp_responsive.html.52793~" "action-sheet2.html" "hijax.html" ".tmp_multi.html.37060~" ".tmp_hijax.html.99021~" "template.html" "multi-page.html" ".tmp_responsive.html.13840~" "dialog.html" "./" ".tmp_responsive.html.59100~" ".tmp_login.html.5791~")
-
- ("/home/kevin/workspace/javascript-frameworks/my/" (21720 65062 229607 633000) "casarte/" "third.html" "../" "jquery/" "bootstrap/" "casarteys.zip" "first_home.html" "starter-template.css" "./" "test_media.html" "media.css" "second.html")
-
- ("/home/kevin/workspace/javascript-frameworks/frames/jquery/" (21738 32154 740685 53000) "jquery.mobile/" "qunit/" "../" "my/" "templates/" "jquery-1.11.2.js" "jquery-ui/" "jquery-ui-1.11.3.zip" "jquery-1.11.2.min.js" "./" "jquery-ui-themes-1.11.3.zip")
-
- ("/home/kevin/workspace/javascript-frameworks/frames/" (21731 49135 883332 189000) "../" "metronic.bootstrap.rar" "foundation-5.5/" "yaml412-130728.zip" "快切——响应css框架v1.2.zip" "foundation.zip" "jquery/" "jquery.mobile-1.4.5.zip" "Semantic-UI-1.8.1.zip" "yaml412-130728/" "AmazeUI-2.1.0.zip" "foundation-5.5.0.zip" "bootstrap-3.3.2.zip" "foundation.7z" "./" "bootstrap-3.3.2/" "foundation/")
-
- ("/home/kevin/workspace/javascript-frameworks/" (21731 49129 956665 532000) "../" "my/" "templates/" "npm-debug.log" "demo/" "frames/" "./" "dev_tools/")
 )
 
 ;; ----- ido-unc-hosts-cache -----
