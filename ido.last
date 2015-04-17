@@ -2,6 +2,23 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/kevin/workspace/javascript-frameworks/front-end-casarte-mobile/assets/" . "css/")
+ ("/home/kevin/workspace/javascript-frameworks/front-end-casarte-mobile/" . "assets/")
+ ("/home/kevin/workspace/javascript-frameworks/frames/bootstrap-3.3.2/docs/examples/" . "carousel/")
+ ("/home/kevin/workspace/javascript-frameworks/frames/bootstrap-3.3.2/docs/" . "examples/")
+ ("/home/kevin/workspace/javascript-frameworks/frames/bootstrap-3.3.2/" . "docs/")
+ ("/home/kevin/workspace/javascript-frameworks/frames/appframework-master/" . "src/")
+ ("/home/kevin/workspace/javascript-frameworks/qunit/" . "unit/")
+ ("/home/kevin/workspace/javascript-frameworks/project-front-end-framework/js/akframe/tests/" . "unit/")
+ ("/home/kevin/workspace/javascript-frameworks/project-front-end-framework/js/akframe/" . "tests/")
+ ("/home/kevin/workspace/javascript-frameworks/project-front-end-framework/js/" . "akframe/")
+ ("/home/kevin/workspace/javascript-frameworks/project-front-end-framework/less/" . "akframe/")
+ ("/home/kevin/workspace/javascript-frameworks/project-front-end-framework/" . "js/")
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/platforms/" . "android/")
+ ("/home/kevin/workspace/javascript-frameworks/front-end-framework-project/js/tests/" . "visual/")
+ ("/home/kevin/workspace/javascript-frameworks/front-end-framework-project/js/" . "tests/")
+ ("/home/kevin/workspace/javascript-frameworks/front-end-framework-project/dist/" . "js/")
+ ("/home/kevin/workspace/javascript-frameworks/front-end-framework-project/" . "js/")
  ("/home/kevin/workspace/phonegap/jqm_demo/jqm_test/" . "www/")
  ("/home/kevin/workspace/phonegap/jqm_demo/" . "jqm_test/")
  ("/home/kevin/workspace/phonegap/jqm_demo/jqm_test/www/" . "toolbar-fixed-persistent-optimized/")
@@ -29,12 +46,12 @@
  ("/home/kevin/workspace/system_monitor/metronic/" . "oldfile/")
  ("/home/kevin/workspace/system_monitor/" . "metronic/")
  ("/home/kevin/workspace/phonegap/imgpicker/" . "imgpicker/")
- ("/sudo:root@localhost:/etc/" . #("nginx/" 0 4 (face flx-highlight-face)))
+ ("/sudo:root@localhost:/etc/" . "nginx/")
  ("/home/kevin/workspace/zhoushannews/www/assets/" . "css/")
  ("/home/kevin/workspace/zhoushannews/www/" . "assets/")
  ("/home/kevin/workspace/zhoushannews/" . "www/")
  ("/home/kevin/workspace/phonegap/seedgap/" . "www/")
- ("/home/kevin/workspace/phonegap/" . "chaowang/")
+ ("/home/kevin/workspace/phonegap/" . "mobileappzhoushannews/")
  ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/casarte/" . "css/")
  ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/" . "casarte/")
  ("/home/kevin/workspace/javascript-frameworks/my/" . "bootstrap/")
@@ -54,27 +71,47 @@
  ("/home/kevin/.emacs.d/" . "users/")
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/" . "images/")
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/" . "my/")
- ("/home/kevin/workspace/javascript-frameworks/frames/" . "jquery/")
- ("/home/kevin/workspace/javascript-frameworks/" . "my/")
- ("/home/kevin/workspace/" . "github/")
+ ("/home/kevin/workspace/javascript-frameworks/frames/" . "bootstrap-3.3.2/")
+ ("/home/kevin/workspace/javascript-frameworks/" . "front-end-casarte-mobile/")
+ ("/home/kevin/workspace/" . "phonegap/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- #("/sudo:root@localhost:/etc/nginx/" 22 25 (face flx-highlight-face) 26 30 (face flx-highlight-face))
+ "/home/kevin/workspace/phonegap/mobileappzhoushannews/"
+ "/home/kevin/workspace/phonegap/mobileappzhoushannews/www/assets/js/"
+ "/home/kevin/workspace/phonegap/mobileappzhoushannews/www/"
+ "/home/kevin/workspace/javascript-frameworks/front-end-casarte-mobile/assets/css/"
+ "/home/kevin/workspace/javascript-frameworks/frames/bootstrap-3.3.2/docs/examples/carousel/"
+ "/home/kevin/workspace/javascript-frameworks/frames/bootstrap-3.3.2/docs/examples/grid/"
+ "/home/kevin/workspace/javascript-frameworks/frames/appframework-master/src/"
  "/home/kevin/workspace/github/work-notes/notes/"
+ "/home/kevin/workspace/github/work-notes/"
+ "/home/kevin/workspace/github/Worg/"
+ "/home/kevin/workspace/javascript-frameworks/qunit/unit/"
+ "/home/kevin/workspace/github/work-notes/schedules/"
+ "/home/kevin/workspace/javascript-frameworks/project-front-end-framework/js/"
+ "/home/kevin/workspace/javascript-frameworks/project-front-end-framework/js/akframe/tests/unit/"
+ "/home/kevin/workspace/javascript-frameworks/project-front-end-framework/js/akframe/"
+ "/home/kevin/.config/openbox/"
+ "/home/kevin/workspace/javascript-frameworks/project-front-end-framework/"
+ "/home/kevin/workspace/javascript-frameworks/project-front-end-framework/less/akframe/"
+ "/home/kevin/workspace/javascript-frameworks/project-front-end-framework/grunt/"
+ "/home/kevin/workspace/javascript-frameworks/front-end-framework-project/js/"
+ "/home/kevin/"
+ "/home/kevin/workspace/phonegap/mobileappzhoushannews/platforms/android/"
+ "/home/kevin/workspace/javascript-frameworks/front-end-framework-project/"
+ "/home/kevin/workspace/javascript-frameworks/front-end-framework-project/js/tests/visual/"
+ "/home/kevin/workspace/javascript-frameworks/front-end-framework-project/less/"
+ "/home/kevin/workspace/javascript-frameworks/front-end-framework-project/dist/js/"
  "/home/kevin/.emacs.d/users/kevin/"
  "/home/kevin/jqmMobileDemo/assets/www/js/"
  "/home/kevin/workspace/phonegap/chaowang/assets/www/"
- "/home/kevin/.config/openbox/"
  "/home/kevin/workspace/phonegap/jqm_demo/jqm_test/www/"
  "/usr/share/emacs/24.4/lisp/"
  "/home/kevin/workspace/phonegap/jqm_demo/jqm_test/www/toolbar-fixed-persistent-optimized/"
  "/home/kevin/workspace/phonegap/jqm_demo/jqm_test/www/toolbar-fixed-persistent/"
- "/home/kevin/workspace/phonegap/mobileappzhoushannews/www/assets/js/"
- "/home/kevin/workspace/phonegap/mobileappzhoushannews/www/"
  "/home/kevin/.config/tint2/"
- "/home/kevin/"
  "/home/kevin/jqmMobileDemo/assets/www/"
  "/tmp/Download/jqmMobileDemo1_1-master/jqmMobileDemo/assets/www/js/"
  "/tmp/Download/jqmMobileDemo1_1-master/jqmMobileDemo/assets/www/"
@@ -83,6 +120,7 @@
  "/home/kevin/workspace/system_monitor/metronic/"
  "/home/kevin/workspace/system_monitor/metronic/oldfile/theme_rtl/templates/admin/"
  "/home/kevin/workspace/phonegap/imgpicker/imgpicker/"
+ "/sudo:root@localhost:/etc/nginx/"
  "/home/kevin/workspace/zhoushannews/www/assets/css/"
  "/home/kevin/workspace/zhoushannews/www/"
  "/home/kevin/notes/"
@@ -90,48 +128,115 @@
  "/home/kevin/workspace/zhoushannews/static/"
  "/sudo:root@localhost:/etc/"
  "/home/kevin/workspace/phonegap/seedgap/www/"
- "/home/kevin/workspace/javascript-frameworks/my/bootstrap/casarte/"
- "/home/kevin/workspace/javascript-frameworks/frames/jquery/my/images/"
- "/home/kevin/workspace/javascript-frameworks/my/bootstrap/casarte/css/"
- "/home/kevin/Downloads/bootstrap/dgfp_32_hr/"
- "/home/kevin/workspace/javascript-frameworks/frames/jquery/my/"
- "/home/kevin/study-material/github/Worg/"
- "/home/kevin/study-material/github/jekyllblog/_layouts/"
- "/home/kevin/study-material/github/jekyllblog/_site/"
- "/home/kevin/study-material/github/jekyllblog/"
- "/home/kevin/.gem/ruby/2.2.0/gems/jekyll-watch-1.2.1/lib/jekyll/"
- "/home/kevin/.gem/ruby/2.2.0/gems/jekyll-watch-1.2.1/lib/"
- "/home/kevin/.gem/ruby/2.2.0/gems/i18n-0.7.0.beta1/gemfiles/"
- "/home/kevin/.gem/ruby/2.2.0/gems/jekyll-2.5.3/bin/"
- "/home/kevin/.emacs.d/themes/emacs-color-theme-solarized-master/"
- "/home/kevin/.emacs.d/site-lisp/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "nginx.conf"
- "front-end-audit.org"
- "init.el"
+ "config.xml"
+ "tool.js"
+ "init.js"
+ "ajax.js"
+ "index.html"
+ "main.css"
+ "af.toast.js"
+ "javascript-object-oriented.org"
  "work-note-in-2015.org"
- "front-end-audit.md"
- "cache.js"
- "index.js"
- "global.js"
- "basic.js"
- "menu.xml"
+ "org-blog-wiki.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- (#("/sudo:root@localhost:/etc/nginx/" 22 25 (face flx-highlight-face) 26 30 (face flx-highlight-face)) (ftp . 396811.9038888889) "./" "../" "koi-win" "koi-utf" "win-utf" "mime.types" "fastcgi_params" "fastcgi.conf" "uwsgi_params" "scgi_params" "server.key" "server.csr" "server_nopwd.key" "server.crt" "nginx.conf~" "nginx.conf")
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/" (21808 993 440366 559000) "manifest.json" "index.html" "Flvplayer.swf" "css/" "../" "img/" ".project" "vt.html" "www.iml" "js/" ".idea/" "#index.html#" "./" "assets/")
 
- (#("/sudo:root@localhost:/etc/" 22 25 (face flx-highlight-face)) (ftp . 396811.9033333333) "./" "../" "protocols" "services" "ld.so.conf.d/" "skel/" "profile.d/" "fstab" "ld.so.conf" "resolv.conf" "profile" "locale.gen" "inputrc" "ssl/" "openldap/" "request-key.conf" "request-key.d/" "netconfig" "pam.d/" "default/" "environment" "security/" "dbus-1/" "X11/" "depmod.d/" "modprobe.d/" "systemd/" "udev/" "tmpfiles.d/" "binfmt.d/" "modules-load.d/" "sysctl.d/" "kernel/" "xdg/" "machine-id" ".pwd.lock" "group-" "gshadow-" "passwd-" "shadow-" "xinetd.d/" "iptables/" "iproute2/" "mkinitcpio.conf" "initcpio/" "mkinitcpio.d/" "logrotate.d/" "lvm/" "man_db.conf" "mdadm.conf" "netctl/" "ifplugd/" "ca-certificates/" "pacman.d/" "pacman.conf" "pcmcia/" "sudoers.d/" "sudoers" "hostname" "grub.d/" "os-release" "localtime" ".updated" "fstab_bak" "dhcpcd.duid" "fonts/" "pango/" "pkcs11/" "avahi/" "cups/" "gtk-2.0/" "polkit-1/" "at-spi2/" "gtk-3.0/" "UPower/" "xml/" "udisks2/" "pulse/" "mime.types" "vbox/" "libnl/" "wpa_supplicant/" "NetworkManager/" "ImageMagick-6/" "gconf/" "gnome-vfs-mime-magic" "gnome-vfs-2.0/" "sound/" "bonobo-activation/" "fuse.conf" "pm/" "irman.conf" "mplayer/" "dkms/" "vmware-installer/" "vmware/" "vmware-vix/" "init.d/" "thnuclnt/" "pacman.conf_bak" "libreoffice/" "speech-dispatcher/" "chromium/" "adobe/" "papersize" "libpaper.d/" "libao.conf" "gssapi_mech.conf" "mysql/" "rc_keymaps/" "trusted-key.key" "ssh/" "conf.d/" "passwd" "shadow" "gimp/" "java-8-openjdk/" "openvpn/" "ppp/" "vpnc/" "gdb/" "pam_thinkfinger/" "nginx/" "mail.rc" "bash.bashrc" "bash.bash_logout" "sensors3.conf" "healthd.conf" "sensors.d/" "lirc/" "resolvconf.conf" "rsyncd.conf" "bash_completion.d/" "lxc/" "dhcpcd.secret" "locale.gen.pacnew" "rpc" "nscd.conf" "gai.conf" "mono/" "geoclue/" "krb5.conf" "rc_maps.cfg" "makepkg.conf" "signond.conf" "group.pacnew" "host.conf" "issue" "motd" "nsswitch.conf" "securetty" "shells" "gshadow.pacnew" "crypttab" "arch-release" "gshadow" "group" "mtab" "gemrc" "slsh.rc" "mke2fs.conf" "logrotate.conf" "vdpau_wrapper.cfg" "ansible/" "salt/" "login.defs" "nanorc" "hosts~" "hosts" "conky/" "Muttrc" "Muttrc.dist" "Muttrc.gpg.dist" "drirc" "oblogout.conf" "dhcpcd.conf" "texmf/" "ld.so.cache")
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/assets/js/" (21808 993 433699 892000) "#tool.js#" "tool.js" "../" "guide.js" "ajax.js" "./" "init.js")
 
- ("/sudo:root@localhost:/" (ftp . 396811.90305555554) "./" "../" "boot/" "var/" "dev/" "run/" "etc/" "tmp/" "sys/" "proc/" "usr/" "home/" "mnt/" "opt/" "root/" "srv/" "software/" "virtualbox/" ".docker/" "vms/" "config_bakup/" "bin/" "lib/" "lib64/" "sbin/")
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/" (21807 37022 540719 616000) "plugins/" "hooks/" "platforms/" "README" "../" "Designs/" ".gitignore" ".idea/" "./" "config.xml" "publish-packages/" ".git/" "register.log~" "www/" "old/")
 
- ("/home/kevin/" (21797 31935 994523 789000) "index.html" ".mplayer/" ".ddd/" ".gemrc" ".xfce4-session.verbose-log" ".conkyrc~" ".netbeans/" ".mozilla/" "xfce4-config" ".msmtprc" ".emacs.d.originalbakup/" ".viminfo" "chaowang.apk" "问题" ".gem/" "News/" "VirtualBox VMs/" ".freemind/" ".m2/" ".fehbg" ".emacs.d.fromPurcell2/" ".config/" "MainActivity-debug.apk" "#test.org#" ".adobe/" ".fgfs/" ".cache/" ".asoundrc" "Projects/" ".dmrc" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" "record/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" ".conkyrc" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" ".svnqt/" ".android/" ".sunpinyin/" "study-material/" "2015年执行计划 - 2015-04-01.mpp" ".other/" ".cask/" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" ".scorched3d/" ".emacs.d2/" ".xinitrc" ".subversion/" "missfont.log" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" ".wireshark/" ".fvwm/" ".xfce4-session.verbose-log.last" "tmp/" ".python_history" ".ICEauthority" ".macromedia/" "sync/" "Programe/" "setxkb.sh" ".pki/" "notes/" ".bash_profile~" ".bashrc~" ".msmtprc~" ".dia/" ".texlive/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" ".matho_history" ".newsrc-dribble" ".trash/" ".java/" ".w3m/" ".muttrc" ".bash_profile" ".sass-cache/" ".thumbnails/" ".IntelliJIdea13/" ".archey3.cfg" ".eclipse/" ".smex-items" ".xinitrc~" ".semanticdb/" "test.tex" "svn/" ".screenlayout/" ".ccache/" "jqmMobileDemo/" "sent" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" ".muttrc~" ".pypanelrc" "Desktop/" ".esd_auth" ".gnome2/" ".chewing/" ".gnupg/" "Downloads/" ".plugman/" ".cgdb/" "TRS/" ".gtkrc-2.0-kde4" ".ssh/" ".icons/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" "test.log" ".rtorrent.rc" ".AndroidStudioBeta/" ".vim/" ".emacs.d/" ".#test.org" ".mutt/" "Users/" ".npm/" ".cordova/" ".emacs.keyfreq" ".Skype/" "../" "./")
+ ("/home/kevin/" (21807 38235 940705 98000) ".mplayer/" ".ddd/" ".gemrc" ".xfce4-session.verbose-log" ".conkyrc~" ".netbeans/" ".mozilla/" ".msmtprc" ".emacs.d.originalbakup/" ".viminfo" ".gem/" "News/" "VirtualBox VMs/" ".freemind/" ".m2/" ".fehbg" ".emacs.d.fromPurcell2/" ".config/" ".adobe/" ".fgfs/" ".cache/" ".asoundrc" "Projects/" ".dmrc" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" ".gnus.el" "record/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" ".conkyrc" "Documents/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" ".svnqt/" ".android/" ".sunpinyin/" "study-material/" ".other/" ".cask/" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" ".scorched3d/" ".emacs.d2/" ".xinitrc" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" ".wireshark/" ".fvwm/" ".xfce4-session.verbose-log.last" "tmp/" ".python_history" ".ICEauthority" ".macromedia/" "sync/" "Programe/" ".pki/" ".bash_profile~" ".bashrc~" ".msmtprc~" ".dia/" ".texlive/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" "linux-4.0.tar.xz" ".matho_history" ".newsrc-dribble" ".trash/" ".java/" ".w3m/" ".muttrc" ".bash_profile" ".sass-cache/" ".thumbnails/" ".IntelliJIdea13/" ".archey3.cfg" ".eclipse/" ".smex-items" ".xinitrc~" ".semanticdb/" "svn/" ".screenlayout/" ".ccache/" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" ".muttrc~" ".pypanelrc" "Desktop/" ".esd_auth" ".gnome2/" ".gnupg/" "Downloads/" ".plugman/" "TRS/" ".gtkrc-2.0-kde4" ".purple/" ".ssh/" ".icons/" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".AndroidStudioBeta/" ".vim/" ".emacs.d/" ".#test.org" ".mutt/" "Users/" ".npm/" ".cordova/" ".emacs.keyfreq" ".Skype/" "../" "./")
 
- ("/home/kevin/workspace/github/work-notes/notes/" (21797 2741 666610 542000) "work-note-for-dangan.org" "front-end-audit.tex" "phonegap-work-note.org" "../" "front-end-audit.md" "responsive-needs.html" "#front-end-audit.org#" "front-end-audit.org" "work-note-in-2015.org" "front-end-audit.pdf" "responsive-needs.org" "./" "front-end-audit.html" "#front-end-audit.md#" "work-note-in-2015.html")
+ ("/home/kevin/workspace/javascript-frameworks/front-end-casarte-mobile/assets/css/" (21806 20366 621212 778000) "../" "main.css" "normalize.css" "./")
+
+ ("/home/kevin/workspace/javascript-frameworks/front-end-casarte-mobile/assets/" (21806 30249 939956 734000) "css/" "../" "js/" "images/" "./")
+
+ ("/home/kevin/workspace/javascript-frameworks/front-end-casarte-mobile/" (21806 36787 516545 177000) "plugins/" "index.html" "README" "../" "dist/" "PNG/" "template.html" "./" ".git/" "assets/")
+
+ ("/home/kevin/workspace/javascript-frameworks/frames/bootstrap-3.3.2/docs/examples/carousel/" (21711 63869 693322 256000) "index.html" "../" "./" "carousel.css")
+
+ ("/home/kevin/workspace/javascript-frameworks/frames/bootstrap-3.3.2/docs/examples/grid/" (21693 14541 0 0) "grid.css" "index.html" "../" "./")
+
+ ("/home/kevin/workspace/javascript-frameworks/frames/bootstrap-3.3.2/docs/examples/" (21693 14541 0 0) "jumbotron-narrow/" "jumbotron/" "../" "starter-template/" "sticky-footer-navbar/" "grid/" "dashboard/" "justified-nav/" "navbar/" "screenshots/" "signin/" "offcanvas/" "sticky-footer/" "cover/" "theme/" "navbar-static-top/" "carousel/" "blog/" "./" "navbar-fixed-top/" "tooltip-viewport/" "non-responsive/")
+
+ ("/home/kevin/workspace/javascript-frameworks/frames/bootstrap-3.3.2/docs/" (21693 14541 0 0) "favicon.ico" "index.html" "examples/" "sitemap.xml" "customize.html" "../" "dist/" "javascript.html" "robots.txt" "css.html" "apple-touch-icon.png" "_layouts/" "about.html" "LICENSE" "migration.html" "_data/" "getting-started.html" "./" "_includes/" "_plugins/" "browser-bugs.html" "assets/" "components.html" "_jade/")
+
+ ("/home/kevin/workspace/javascript-frameworks/frames/bootstrap-3.3.2/" (21710 49800 599978 0) "CNAME" "Gruntfile.js" "less/" "fonts/" "../" "composer.json" "dist/" "test-infra/" "README.md" "package.json" ".editorconfig" "CONTRIBUTING.md" ".gitattributes" "grunt/" "LICENSE" "js/" ".gitignore" "bower.json" "./" "_config.yml" "docs/" ".travis.yml")
+
+ ("/home/kevin/workspace/javascript-frameworks/frames/" (21784 20082 382838 63000) "appframework-master.zip" "../" "foundation-5.5/" "appframework-master/" "jquery/" "jquery.mobile-1.4.5.zip" "AmazeUI-2.1.0.zip" "foundation-5.5.0.zip" "./" "bootstrap-3.3.2/" "foundation/")
+
+ ("/home/kevin/workspace/javascript-frameworks/" (21806 19869 281218 729000) "qunit/" "project-front-end-framework/" "../" "my/" "templates/" "npm-debug.log" "demo/" "frames/" "./" "front-end-casarte-mobile/" "dev_tools/")
+
+ ("/home/kevin/workspace/javascript-frameworks/frames/appframework-master/partials/" (21766 51204 0 0) "leftnav.html" "../" "actionsheet.html" "forms.html" "popup.html" "toast.html" "touch.html" "./")
+
+ ("/home/kevin/workspace/javascript-frameworks/frames/appframework-master/src/" (21766 51204 0 0) "af.popup.js" "af.grower.js" "af.drawer.js" "less/" "af.animateheader.js" "../" "af.toast.js" "af.splashscreen.js" "af.ui.js" "af.actionsheet.js" "af.touchEvents.js" "af.animation.js" "./" "af.shim.js" "af.desktopBrowsers.js" "af.swipereveal.js")
+
+ ("/home/kevin/workspace/javascript-frameworks/frames/appframework-master/" (21766 51204 0 0) "index.html" "animgenerator/" "Gruntfile.js" "partials/" "../" "README.md" "package.json" "ajax.html" "lancaster/" "src/" "templates/" ".jshintrc" ".gitignore" "build/" "./" "jquery-widgets/" "test/" "license.txt" "karma.conf.js" "docs/" ".travis.yml" "samples/")
+
+ ("/home/kevin/workspace/javascript-frameworks/frames/appframework-master/build/" (21766 51204 0 0) "icons.min.css" "af.ui.base.css" "af.ui.base.less" "../" "af.ui.css" "icons.css" "af.ui.less" "./" "appframework.ui.min.js" "appframework.ui.js")
+
+ ("/home/kevin/workspace/github/work-notes/notes/" (21805 31073 29999 510000) "work-note-for-dangan.org" "../" "template-git-manage.org" "img/" "responsive-needs.html" "emacs-document.org" "phonegap-document-and-queries.org" "zhoushan-project-document.org" "responsive-needs.org" "./" "front-end-audit-document.org" "front-end-dev-document.org" "front-end-dev-document.html" "app-front-end-dev-document.org")
+
+ ("/home/kevin/workspace/github/work-notes/" (21805 49272 319999 708000) ".#work-note-in-2015.org" "../" "README.md" "schedules/" "notes/" "work-note-in-2015.org" "./" ".git/" "work-note-in-2015.html")
+
+ ("/home/kevin/workspace/" (21805 35407 836647 572000) "zhoushannews/" "TRS.WCM.V6.5Developer/" "kde/" "Qdframe/" "30服务器.txt" "../" "python/" ".metadata/" "taobao/" "linux_c/" "qt/" "bvseo/" "Fillezilla/" "perl/" "HaierFramework/" "github/" "arduino/" "pie/" "Mytest/" "shell/" "./" "phonegap/" "wireshark/" "javascript-frameworks/" "system_monitor/")
+
+ ("/home/kevin/workspace/github/Worg/" (21805 8923 536472 751000) "blorgit.org" "worg-editing.org" "worg-git-ssh-key.org" "org-color-themes.org" "ChangeLog.org" "org-testimonies/" "org-translators.org" "../" "worg-todo_archive" "org-gtd-etc.org" "org-people.org" "worgers.org" "worg-about.org" "org-conference.org" "org-tutorials/" "org-configs/" "org-tools/" "worg-maintainance.org" "orgcamps.org" "org-worg-stats.org" "org-devel.org" "org-issues.org" "index.org" "org-screenshots.org" "org-glossary.org" "worg-header.org" "gitrdone.org" "org-contrib/" "org-faq.org" ".gitignore" "org-mac.org" "style/" "org-info-js.org" "images/" "org-web.org" "org-symbols.org" "users/" "org-quotes.org" "org-hacks.org" "org-mailing-list.org" "worg-todo.org" "sandbox.org" "./" "worg-git-advanced.org" "macros.setupfile" "worg-git.org" "org-screenshots-org-on-the-web.org" "code/" "org-contribute.org" "worg-setup.org" "org-dependencies.org" "FIXME/" "org-tests/" "org-survey.org" "color-themes/" "color-themes-screenshot.org" "gtd-software-comparison.org" "org-blog-wiki.org" "org-blog-articles.org")
+
+ ("/home/kevin/workspace/javascript-frameworks/qunit/unit/" (21804 14188 239989 49000) "../" ".jshintrc" "./")
+
+ ("/home/kevin/workspace/javascript-frameworks/qunit/" (21804 14327 76654 55000) "index.html" "../" "README.md" "./" "vendor/" "visual/" "unit/")
+
+ ("/home/kevin/workspace/github/work-notes/schedules/" (21804 4055 277836 873000) "../" "img/" "front-end-dev-plan.org" "zhoushan-project.html" "./" "#front-end-dev-plan.org#" "front-end-dev-plan.html" "zhoushan-project.org")
+
+ ("/home/kevin/workspace/phonegap/" (21804 1677 227865 326000) "chaowang/" "hello/" "../" "mobileappzhoushannews/" "seedgap/" "Designs/" "栏目LOGO-PNG图标.rar" "angular-seed/" "sourcecode/" "demo/" "舟山新闻网APP接口说明.txt" "hangzhoudangan-mobile/" "dangan/" "./" "jqmMobileDemo/" "plugin-test/" "mobileappzhoushan_test/" "jqm_demo/" "appframe/" "archivedemo/" "imgpicker/" "chaowang.rar" "zhoushannews (copy 1)/")
+
+ ("/home/kevin/workspace/javascript-frameworks/project-front-end-framework/js/akframe/tests/unit/" (21801 35604 566242 253000) "../" ".jshintrc" "alert.js" "./" "affix.js")
+
+ ("/home/kevin/workspace/javascript-frameworks/project-front-end-framework/js/akframe/tests/" (21801 35822 192906 317000) "index.html" "../" "README.md" "./" "vendor/" "visual/" "unit/")
+
+ ("/home/kevin/workspace/javascript-frameworks/project-front-end-framework/js/akframe/" (21801 35964 226237 950000) "../" ".jscsrc" "tests/" ".jshintrc" "alert.js" "./" "affix.js")
+
+ ("/home/kevin/workspace/javascript-frameworks/project-front-end-framework/js/" (21801 2400 196639 551000) "plugins/" "popover.js" "../" "modal.js" ".jscsrc" "carousel.js" "tests/" ".jshintrc" "alert.js" "tooltip.js" "akframe/" "dropdown.js" "scrollspy.js" "./" "collapse.js" "button.js" "tab.js" "transition.js" "affix.js")
+
+ ("/home/kevin/workspace/javascript-frameworks/project-front-end-framework/" (21801 36467 599565 260000) "node_modules/" "_gh_pages/" "Gruntfile.js" "less/" "fonts/" "README" "../" "dist/" "test-infra/" "README.md" "package.json" "CONTRIBUTING.md" "grunt/" "LICENSE" "js/" ".gitignore" "./" ".git/" "third-plugin/" "_config.yml" "docs/")
+
+ ("/home/kevin/.config/openbox/" (21801 38587 539539 895000) "wallpapers.sh" "../" "menu.xml" "rc.xml" "autostart" "./" "environment")
+
+ ("/home/kevin/.config/" (21801 38669 732872 245000) "htop/" "Kingsoft/" "gedit/" "google-chrome/" "xfce4/" "nautilus/" "imsettings/" "vlc/" "0ad/" "libreoffice/" "../" "katesyntaxhighlightingrc" "xfce4-session/" "user-dirs.dirs" "gconf/" "Flavio Tordini/" "Thunar/" "configstore/" "wesnoth/" "Trolltech.conf" "Software/" "tint2/" "smplayer/" "orage/" "ristretto/" "openbox_bak/" "pulse/" "gnome-mplayer/" "menus/" "mimeapps.list" "autostart/" "KDE/" "bcloud/" "QtProject.conf" "tracker/" "sublime-text-2/" "sealert.conf" "enchant/" "gnome-session/" "kdeglobals" "goa-1.0/" "kwriterc" "qBittorrent/" "terminator/" "bleachbit/" "kconf_updaterc" "./" "ImageMagick/" "katevirc" "oxygen-gtk/" "stardict/" "kactivitymanagerdrc" "fcitx/" "gtk-3.0/" "chromium/" "wpa_supplicant/" "evolution/" "dconf/" "VirtualBox/" "globaltime/" "abrt/" "kateschemarc" "user-dirs.locale" "ibus/" "gtk-2.0/" "filezilla/" "katepartrc" "openbox/" "epdfview/")
+
+ ("/home/kevin/workspace/javascript-frameworks/project-front-end-framework/less/akframe/" (21801 16739 496467 978000) "../" "akframe.less" ".csslintrc" ".csscomb.json" "./" "badges.less" "alerts.less")
+
+ ("/home/kevin/workspace/javascript-frameworks/project-front-end-framework/less/" (21801 10925 253204 213000) "mixins.less" "plugins/" "wells.less" "button-groups.less" "tables.less" "breadcrumbs.less" "progress-bars.less" "../" "jumbotron.less" "variables.less" "labels.less" "pager.less" "bootstrap.less" "close.less" "media.less" "carousel.less" "popovers.less" "navs.less" "responsive-embed.less" "grid.less" "panels.less" "responsive-utilities.less" "mixins/" "print.less" "component-animations.less" "akframe/" "input-groups.less" "utilities.less" "theme.less" "navbar.less" ".csslintrc" "type.less" "normalize.less" "code.less" ".csscomb.json" "list-group.less" "pagination.less" "./" "badges.less" "dropdowns.less" "thumbnails.less" "forms.less" "glyphicons.less" "scaffolding.less" "tooltip.less" "modals.less" "buttons.less" "alerts.less")
+
+ ("/home/kevin/workspace/javascript-frameworks/project-front-end-framework/grunt/" (21797 1620 163290 627000) "bs-commonjs-generator.js" "../" "bs-lessdoc-parser.js" "bs-glyphicons-data-generator.js" "sauce_browsers.yml" ".jshintrc" "configBridge.json" "./" "bs-raw-files-generator.js")
+
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/platforms/android/" (21795 47862 786589 122000) "android.iml" "local.properties" "../" "cordova/" ".project" "bin/" "src/" "res/" "libs/" "ant-build/" ".classpath" "AndroidManifest.xml" "ant-gen/" ".gitignore" "platform_www/" "custom_rules.xml" ".settings/" "project.properties" "./" "CordovaLib/" "build.gradle" "build.xml" "assets/")
+
+ ("/home/kevin/workspace/phonegap/mobileappzhoushannews/platforms/" (21783 15362 488266 144000) "../" "android/" "./")
+
+ ("/home/kevin/workspace/javascript-frameworks/front-end-framework-project/js/tests/visual/" (21797 1620 166623 960000) "../" "button.html" "alert.html" "tab.html" "tooltip.html" "carousel.html" "dropdown.html" "modal.html" "./" "affix.html" "popover.html" "collapse.html" "scrollspy.html")
+
+ ("/home/kevin/workspace/javascript-frameworks/front-end-framework-project/js/tests/vendor/" (21797 1620 163290 627000) "../" "qunit.js" "jquery.min.js" "./" "qunit.css")
+
+ ("/home/kevin/workspace/javascript-frameworks/front-end-framework-project/js/tests/" (21797 1620 163290 627000) "index.html" "../" "README.md" "./" "vendor/" "visual/" "unit/")
+
+ ("/home/kevin/workspace/javascript-frameworks/front-end-framework-project/dist/js/" (21797 1620 136623 961000) "../" "bootstrap.min.js" "./" "npm.js" "bootstrap.js")
+
+ ("/home/kevin/workspace/javascript-frameworks/front-end-framework-project/dist/" (21797 1620 136623 961000) "css/" "fonts/" "../" "js/" "./")
+
+ ("/home/kevin/workspace/javascript-frameworks/front-end-framework-project/less/" (21797 18118 58022 457000) "mixins.less" "wells.less" "button-groups.less" "tables.less" "breadcrumbs.less" "progress-bars.less" "../" "jumbotron.less" "variables.less" "labels.less" "pager.less" "bootstrap.less" "close.less" "media.less" "carousel.less" "popovers.less" "qddev/" "navs.less" "responsive-embed.less" "grid.less" "panels.less" "responsive-utilities.less" "mixins/" "print.less" "component-animations.less" "input-groups.less" "utilities.less" "theme.less" "navbar.less" ".csslintrc" "type.less" "normalize.less" "code.less" ".csscomb.json" "list-group.less" "pagination.less" "./" "badges.less" "dropdowns.less" "thumbnails.less" "forms.less" "glyphicons.less" "scaffolding.less" "tooltip.less" "modals.less" "buttons.less" "alerts.less")
+
+ ("/home/kevin/workspace/javascript-frameworks/front-end-framework-project/js/" (21797 18026 138023 558000) "popover.js" "../" "modal.js" ".jscsrc" "carousel.js" "qddev/" "tests/" ".jshintrc" "alert.js" "tooltip.js" "dropdown.js" "scrollspy.js" "./" "collapse.js" "button.js" "tab.js" "transition.js" "affix.js")
+
+ ("/home/kevin/workspace/javascript-frameworks/front-end-framework-project/" (21797 18052 108023 246000) "node_modules/" "_gh_pages/" "Gruntfile.js" "less/" "fonts/" "README" "../" "dist/" "test-infra/" "README.md" "package.json" "CONTRIBUTING.md" "grunt/" "LICENSE" "js/" "package.js" ".gitignore" "./" ".git/" "third-plugin/" "_config.yml" "docs/")
 
  ("/home/kevin/.emacs.d/users/kevin/" (21792 45386 863457 644000) "aj-compilation.el" "quick-jump.el" "../" "shell-current-directory.el" "smart-forward.el" "init.el" ".# *Minibuf-2*" "zencoding-mode.el" "scss-mode.el" "haml-mode.el" "./" "sass-mode.el" "zencoding-trie.nw")
 
@@ -143,8 +248,6 @@
 
  ("/home/kevin/jqmMobileDemo/" (21787 53406 416613 704000) "readme.txt" "../" ".project" "gen/" "bin/" "src/" "res/" "proguard-project.txt" "libs/" ".classpath" "cordova-test/" "AndroidManifest.xml" "ic_launcher-web.png" ".settings/" "project.properties" "./" "assets/")
 
- ("/home/kevin/.config/" (21792 47813 73541 310000) "htop/" "Kingsoft/" "gedit/" "google-chrome/" "xfce4/" "nautilus/" "imsettings/" "vlc/" "0ad/" "libreoffice/" "../" "katesyntaxhighlightingrc" "xfce4-session/" "user-dirs.dirs" "gconf/" "Flavio Tordini/" "Thunar/" "configstore/" "wesnoth/" "Trolltech.conf" "Software/" "tint2/" "smplayer/" "orage/" "ristretto/" "openbox_bak/" "pulse/" "gnome-mplayer/" "menus/" "mimeapps.list" "autostart/" "KDE/" "bcloud/" "QtProject.conf" "tracker/" "sublime-text-2/" "sealert.conf" "enchant/" "gnome-session/" "kdeglobals" "goa-1.0/" "kwriterc" "qBittorrent/" "terminator/" "bleachbit/" "kconf_updaterc" "./" "ImageMagick/" "katevirc" "oxygen-gtk/" "stardict/" "kactivitymanagerdrc" "fcitx/" "gtk-3.0/" "chromium/" "wpa_supplicant/" "evolution/" "dconf/" "VirtualBox/" "globaltime/" "abrt/" "kateschemarc" "user-dirs.locale" "ibus/" "gtk-2.0/" "filezilla/" "katepartrc" "openbox/" "epdfview/")
-
  ("/home/kevin/workspace/phonegap/jqm_demo/jqm_test/" (21792 46744 276837 786000) "plugins/" "hooks/" "platforms/" "../" "./" "config.xml" "www/")
 
  ("/usr/share/emacs/24.4/lisp/" (21740 51161 91333 920000) "xt-mouse.elc" "xt-mouse.el.gz" "xml.elc" "xml.el.gz" "x-dnd.elc" "x-dnd.el.gz" "woman.elc" "woman.el.gz" "winner.elc" "winner.el.gz" "window.elc" "window.el.gz" "windmove.elc" "windmove.el.gz" "widget.elc" "widget.el.gz" "wid-edit.elc" "wid-edit.el.gz" "wid-browse.elc" "wid-browse.el.gz" "whitespace.elc" "whitespace.el.gz" "wdired.elc" "wdired.el.gz" "w32-vars.elc" "w32-vars.el.gz" "w32-fns.elc" "w32-fns.el.gz" "w32-common-fns.elc" "w32-common-fns.el.gz" "vt100-led.elc" "vt100-led.el.gz" "vt-control.elc" "vt-control.el.gz" "view.elc" "view.el.gz" "version.elc" "version.el.gz" "vcursor.elc" "vcursor.el.gz" "userlock.elc" "userlock.el.gz" "uniquify.elc" "uniquify.el.gz" "type-break.elc" "type-break.el.gz" "tutorial.elc" "tutorial.el.gz" "tree-widget.elc" "tree-widget.el.gz" "tooltip.elc" "tooltip.el.gz" "tool-bar.elc" "tool-bar.el.gz" "tmm.elc" "tmm.el.gz" "timezone.elc" "timezone.el.gz" "time.elc" "time.el.gz" "time-stamp.elc" "time-stamp.el.gz" "thumbs.elc" "thumbs.el.gz" "thingatpt.elc" "thingatpt.el.gz" "term.elc" "term.el.gz" "tempo.elc" "tempo.el.gz" "tar-mode.elc" "tar-mode.el.gz" "talk.elc" "talk.el.gz" "tabify.elc" "tabify.el.gz" "t-mouse.elc" "t-mouse.el.gz" "subr.elc" "subr.el.gz" "subdirs.el" "strokes.elc" "strokes.el.gz" "startup.elc" "startup.el.gz" "speedbar.elc" "speedbar.el.gz" "soundex.elc" "soundex.el.gz" "sort.elc" "sort.el.gz" "skeleton.elc" "skeleton.el.gz" "simple.elc" "simple.el.gz" "shell.elc" "shell.el.gz" "shadowfile.elc" "shadowfile.el.gz" "ses.elc" "ses.el.gz" "server.elc" "server.el.gz" "select.elc" "select.el.gz" "scroll-lock.elc" "scroll-lock.el.gz" "scroll-bar.elc" "scroll-bar.el.gz" "scroll-all.elc" "scroll-all.el.gz" "sb-image.elc" "sb-image.el.gz" "saveplace.elc" "saveplace.el.gz" "savehist.elc" "savehist.el.gz" "ruler-mode.elc" "ruler-mode.el.gz" "rot13.elc" "rot13.el.gz" "rfn-eshadow.elc" "rfn-eshadow.el.gz" "reveal.elc" "reveal.el.gz" "reposition.elc" "reposition.el.gz" "replace.elc" "replace.el.gz" "repeat.elc" "repeat.el.gz" "register.elc" "register.el.gz" "rect.elc" "rect.el.gz" "recentf.elc" "recentf.el.gz" "ps-samp.elc" "ps-samp.el.gz" "ps-print.elc" "ps-print.el.gz" "ps-mule.elc" "ps-mule.el.gz" "ps-def.elc" "ps-def.el.gz" "ps-bdf.elc" "ps-bdf.el.gz" "profiler.elc" "profiler.el.gz" "proced.elc" "proced.el.gz" "printing.elc" "printing.el.gz" "pcomplete.elc" "pcomplete.el.gz" "pcmpl-x.elc" "pcmpl-x.el.gz" "pcmpl-unix.elc" "pcmpl-unix.el.gz" "pcmpl-rpm.elc" "pcmpl-rpm.el.gz" "pcmpl-linux.elc" "pcmpl-linux.el.gz" "pcmpl-gnu.elc" "pcmpl-gnu.el.gz" "pcmpl-cvs.elc" "pcmpl-cvs.el.gz" "password-cache.elc" "password-cache.el.gz" "paren.elc" "paren.el.gz" "outline.elc" "outline.el.gz" "novice.elc" "novice.el.gz" "notifications.elc" "notifications.el.gz" "newcomment.elc" "newcomment.el.gz" "mwheel.elc" "mwheel.el.gz" "msb.elc" "msb.el.gz" "mpc.elc" "mpc.el.gz" "mouse.elc" "mouse.el.gz" "mouse-drag.elc" "mouse-drag.el.gz" "mouse-copy.elc" "mouse-copy.el.gz" "misearch.elc" "misearch.el.gz" "misc.elc" "misc.el.gz" "minibuffer.elc" "minibuffer.el.gz" "minibuf-eldef.elc" "minibuf-eldef.el.gz" "midnight.elc" "midnight.el.gz" "menu-bar.elc" "menu-bar.el.gz" "md4.elc" "md4.el.gz" "mb-depth.elc" "mb-depth.el.gz" "master.elc" "master.el.gz" "man.elc" "man.el.gz" "makesum.elc" "makesum.el.gz" "macros.elc" "macros.el.gz" "ls-lisp.elc" "ls-lisp.el.gz" "lpr.elc" "lpr.el.gz" "locate.elc" "locate.el.gz" "loadup.el" "loadhist.elc" "loadhist.el.gz" "loaddefs.el" "linum.elc" "linum.el.gz" "ldefs-boot.el" "kmacro.elc" "kmacro.el.gz" "kermit.elc" "kermit.el.gz" "json.elc" "json.el.gz" "jka-compr.elc" "jka-compr.el.gz" "jka-cmpr-hook.elc" "jka-cmpr-hook.el.gz" "jit-lock.elc" "jit-lock.el.gz" "isearchb.elc" "isearchb.el.gz" "isearch.elc" "isearch.el.gz" "informat.elc" "informat.el.gz" "info.elc" "info.el.gz" "info-xref.elc" "info-xref.el.gz" "info-look.elc" "info-look.el.gz" "indent.elc" "indent.el.gz" "imenu.elc" "imenu.el.gz" "image.elc" "image.el.gz" "image-mode.elc" "image-mode.el.gz" "image-file.elc" "image-file.el.gz" "image-dired.elc" "image-dired.el.gz" "iimage.elc" "iimage.el.gz" "ielm.elc" "ielm.el.gz" "ido.elc" "ido.el.gz" "icomplete.elc" "icomplete.el.gz" "ibuffer.elc" "ibuffer.el.gz" "ibuf-macs.elc" "ibuf-macs.el.gz" "ibuf-ext.elc" "ibuf-ext.el.gz" "htmlfontify.elc" "htmlfontify.el.gz" "hl-line.elc" "hl-line.el.gz" "hippie-exp.elc" "hippie-exp.el.gz" "hilit-chg.elc" "hilit-chg.el.gz" "hi-lock.elc" "hi-lock.el.gz" "hfy-cmap.elc" "hfy-cmap.el.gz" "hexl.elc" "hexl.el.gz" "hex-util.elc" "hex-util.el.gz" "help.elc" "help.el.gz" "help-mode.elc" "help-mode.el.gz" "help-macro.elc" "help-macro.el.gz" "help-fns.elc" "help-fns.el.gz" "help-at-pt.elc" "help-at-pt.el.gz" "gs.elc" "gs.el.gz" "generic-x.elc" "generic-x.el.gz" "fringe.elc" "fringe.el.gz" "frameset.elc" "frameset.el.gz" "frame.elc" "frame.el.gz" "forms.elc" "forms.el.gz" "format.elc" "format.el.gz" "format-spec.elc" "format-spec.el.gz" "font-lock.elc" "font-lock.el.gz" "font-core.elc" "font-core.el.gz" "follow.elc" "follow.el.gz" "foldout.elc" "foldout.el.gz" "flow-ctrl.elc" "flow-ctrl.el.gz" "finder.elc" "finder.el.gz" "finder-inf.el" "find-lisp.elc" "find-lisp.el.gz" "find-file.elc" "find-file.el.gz" "find-dired.elc" "find-dired.el.gz" "find-cmd.elc" "find-cmd.el.gz" "filesets.elc" "filesets.el.gz" "files.elc" "files.el.gz" "files-x.elc" "files-x.el.gz" "filenotify.elc" "filenotify.el.gz" "filecache.elc" "filecache.el.gz" "ffap.elc" "ffap.el.gz" "faces.elc" "faces.el.gz" "facemenu.elc" "facemenu.el.gz" "face-remap.elc" "face-remap.el.gz" "ezimage.elc" "ezimage.el.gz" "expand.elc" "expand.el.gz" "epg.elc" "epg.el.gz" "epg-config.elc" "epg-config.el.gz" "epa.elc" "epa.el.gz" "epa-mail.elc" "epa-mail.el.gz" "epa-hook.elc" "epa-hook.el.gz" "epa-file.elc" "epa-file.el.gz" "epa-dired.elc" "epa-dired.el.gz" "env.elc" "env.el.gz" "emacs-lock.elc" "emacs-lock.el.gz" "elide-head.elc" "elide-head.el.gz" "electric.elc" "electric.el.gz" "elec-pair.elc" "elec-pair.el.gz" "ehelp.elc" "ehelp.el.gz" "edmacro.elc" "edmacro.el.gz" "echistory.elc" "echistory.el.gz" "ebuff-menu.elc" "ebuff-menu.el.gz" "dynamic-setting.elc" "dynamic-setting.el.gz" "double.elc" "double.el.gz" "dos-w32.elc" "dos-w32.el.gz" "dos-vars.elc" "dos-vars.el.gz" "dos-fns.elc" "dos-fns.el.gz" "doc-view.elc" "doc-view.el.gz" "dnd.elc" "dnd.el.gz" "disp-table.elc" "disp-table.el.gz" "dirtrack.elc" "dirtrack.el.gz" "dired.elc" "dired.el.gz" "dired-x.elc" "dired-x.el.gz" "dired-aux.elc" "dired-aux.el.gz" "dframe.elc" "dframe.el.gz" "desktop.elc" "desktop.el.gz" "descr-text.elc" "descr-text.el.gz" "delsel.elc" "delsel.el.gz" "delim-col.elc" "delim-col.el.gz" "dabbrev.elc" "dabbrev.el.gz" "custom.elc" "custom.el.gz" "cus-theme.elc" "cus-theme.el.gz" "cus-start.elc" "cus-start.el.gz" "cus-load.el" "cus-face.elc" "cus-face.el.gz" "cus-edit.elc" "cus-edit.el.gz" "cus-dep.elc" "cus-dep.el.gz" "composite.elc" "composite.el.gz" "completion.elc" "completion.el.gz" "comint.elc" "comint.el.gz" "color.elc" "color.el.gz" "cmuscheme.elc" "cmuscheme.el.gz" "chistory.elc" "chistory.el.gz" "cdl.elc" "cdl.el.gz" "case-table.elc" "case-table.el.gz" "calculator.elc" "calculator.el.gz" "button.elc" "button.el.gz" "buff-menu.elc" "buff-menu.el.gz" "bs.elc" "bs.el.gz" "bookmark.elc" "bookmark.el.gz" "bindings.elc" "bindings.el.gz" "battery.elc" "battery.el.gz" "avoid.elc" "avoid.el.gz" "autorevert.elc" "autorevert.el.gz" "autoinsert.elc" "autoinsert.el.gz" "autoarg.elc" "autoarg.el.gz" "array.elc" "array.el.gz" "arc-mode.elc" "arc-mode.el.gz" "apropos.elc" "apropos.el.gz" "ansi-color.elc" "ansi-color.el.gz" "allout.elc" "allout.el.gz" "allout-widgets.elc" "allout-widgets.el.gz" "align.elc" "align.el.gz" "abbrev.elc" "abbrev.el.gz" "README" "COPYING" "mail/" "term/" "url/" "obsolete/" "cedet/" "org/" "leim/" "calc/" "nxml/" "emacs-lisp/" "play/" "mh-e/" "language/" "international/" "progmodes/" "emulation/" "gnus/" "textmodes/" "vc/" "erc/" "calendar/" "net/" "eshell/" "../" "./")
@@ -155,15 +258,7 @@
 
  ("/home/kevin/workspace/phonegap/jqm_demo/jqm_test/www/" (21792 43091 336711 818000) "toolbar-fixed-persistent/" "favicon.ico" "index.html" "toolbar-fixed-persistent-optimized/" "css/" "../" "img/" "_assets/" "js/" "./")
 
- ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/" (21790 41207 951963 74000) "manifest.json" "index.html" "css/" "../" "mainpage.html" "img/" ".project" "index.json" "test2.html" "www.iml" "js/" ".idea/" "images/" "./" "assets/" "test.html")
-
- ("/home/kevin/workspace/phonegap/" (21791 46231 523534 808000) "chaowang/" "hello/" "../" "mobileappzhoushannews/" "seedgap/" "Designs/" "栏目LOGO-PNG图标.rar" "angular-seed/" "sourcecode/" "demo/" "舟山新闻网APP接口说明.txt" "./" "plugin-test/" "mobileappzhoushan_test/" "jqm_demo/" "appframe/" "imgpicker/" "zhoushannews (copy 1)/")
-
  ("/home/kevin/workspace/phonegap/jqm_demo/" (21791 46298 436870 449000) "jqm_test/" "../" "./")
-
- ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/assets/js/" (21790 41247 881964 450000) "tool.js" "mainpage.js" "../" "guide.js" "ajax.js" "global.js" "./" "init.js" "old/")
-
- ("/home/kevin/workspace/phonegap/mobileappzhoushannews/" (21788 64100 553272 986000) "plugins/" "hooks/" "platforms/" "README" "../" "Designs/" "栏目LOGO-PNG图标.rar" ".gitignore" ".idea/" "舟山新闻网APP接口说明.txt" "./" "config.xml" "publish-packages/" ".git/" "register.log~" "www/")
 
  ("/home/kevin/workspace/phonegap/chaowang/assets/www/js/" (21785 41319 229163 317000) "md5.js" "../" "./")
 
@@ -174,8 +269,6 @@
  ("/home/kevin/workspace/phonegap/chaowang/" (21785 41297 622495 905000) "../" "res/" "AndroidManifest.xml" "./" "classes.dex" "resources.arsc" "assets/" "META-INF/")
 
  ("/home/kevin/.config/tint2/" (21787 8547 804407 556000) "../" "tint2rc~" "tint2rc" "./" "tintwizard.conf")
-
- ("/home/kevin/.config/openbox/" (21787 8729 387738 717000) "wallpapers.sh" "../" "menu.xml" "rc.xml" "autostart" "./" "environment")
 
  ("/home/kevin/workspace/phonegap/mobileappzhoushannews/www/assets/" (21783 15362 521599 477000) "css/" "../" "js/" "images/" "./")
 
@@ -197,11 +290,7 @@
 
  ("/tmp/Download/jqmMobileDemo1_1-master/jqmMobileDemo/assets/www/js/" (21781 38548 371204 620000) "cache.js" "frame/" "global.js" "index.js" "myInit.js" "../" "./")
 
- ("/home/kevin/workspace/github/work-notes/" (21777 16979 343288 891000) "../" "README.md" "schedules/" "notes/" "./" ".git/")
-
  ("/home/kevin/workspace/github/" (21751 8034 939994 137000) "jekyllblog/" "../" "qdframe-project/" "./" "Worg-3b157bd120a9ad360644f91bfe12738e42f8941a.tar.gz" "jekyllblog_back/" ".git/" "work-notes/" "responsive/" "Worg/")
-
- ("/home/kevin/workspace/" (21777 17730 249946 572000) "zhoushannews/" "TRS.WCM.V6.5Developer/" "BV_SEO2/" "kde/" "bv_seo/" "Qdframe/" "../" "python/" ".metadata/" "taobao/" "linux_c/" "qt/" "Fillezilla/" "bv_seo_dynamic/" "perl/" "HaierFramework/" "github/" "arduino/" "pie/" "Mytest/" "shell/" "./" "phonegap/" "javascript-frameworks/" "system_monitor/")
 
  ("/home/kevin/study-material/" (21777 17628 689947 788000) "database/" "4 2014BDTC基于全网内容的新闻客户端推荐系统刘佳.pdf" "php/" "linux_programming/" "2.jpg" "../" "lua05.pdf" "tools/" "ppt resource/" "185952980.jpg" "1983aa0f7cfea0c70b8f9df1eb5c320e1e6a84.png" "CISSP/" "install_record.txt" "network/" "ARM/" "security/" "oops.gif" "./" "架构文档/" "Perl/" "mysheel/" "P020130115022611115602.pdf" "responsive/" "Javascript/" "Android/" "data structure/" "free and open-source software display servers and UI toolkits.svg" ".directory" "Infoq/" "0. First things First/" "videos/" "others/" "system_monitor/" "Python/")
 
@@ -256,72 +345,6 @@
  ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/casarte/" (21757 2448 466812 759000) "index.html" "template/" "css/" "../" "js/" "images/" "./" "casarte.zip" "index-finished.html")
 
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/images/" (21756 9823 806815 11000) "home.css" "pro1.jpg" "pro5.jpg" "ad.jpg" "test1.css" "download.html" "pro2.jpg" "../" "test1.scss" "footer_ma.gif" "test1 (copy 1).scss" "base_ico.png" "test1.css.map" "test1.js" "pro3.jpg" "home.scss" "pro2_1.jpg" "ico2.gif" "banner3.jpg" ".sass-cache/" "./" "home.js" "tessssss" "test1 (copy 1).css" "ico1.gif" "pro4.jpg" "banner2.jpg" "ad1-small.jpg" "ad1.jpg" "home.css.map" "test1 (copy 1).css.map" "banner1.jpg")
-
- ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/" (21756 42549 832998 644000) "index.html" "resposivedemo.html" "casarte.html" "#casarte_test.html#" "../" "casarte_test.html" "oritationdemo.html" "casartehome.html" "pages/" "my.css" "test1 (copy 1).html" "images/" "test1.html" "./" "test1 (copy 2).html" "casarte_files/")
-
- ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/casarte/css/" (21756 44487 812669 162000) "jquery.fancybox.css" "../" "etalage.css" "./" "style.css" "bootstrap.css" "magnific-popup.css" "fwslider.css")
-
- ("/home/kevin/workspace/javascript-frameworks/my/bootstrap/" (21756 12739 295780 695000) "casarte/" "css/" "fonts/" "../" "js/" "./")
-
- ("/home/kevin/Downloads/bootstrap/dgfp_32_hr/" (21756 11465 986871 640000) "index.html" "css/" "../" "contact.html" "checkout.html" "shop.html" "js/" "images/" "txt.txt" "experiance.html" "team.html" "./" "single.html" "login.html" "register.html")
-
- ("/home/kevin/Downloads/bootstrap/" (21756 12475 725783 849000) "dgfp_32_hr/" "../" "tpmo_433_gloss/" "zip files original/" "./")
-
- ("/home/kevin/Downloads/" (21756 11370 620201 685000) ".session/" "mozrepl-master/" "movie/" "Data Structures & Algorithms In Java 5th Edition.pdf" "mozrepl-master.zip" "bootstrap/" "Data Structures and Algorithms in C++, 4th edition.pdf" "bbc/" "Data Structures/" "P020140221378749677867/" "Learning_by_Breaking_A_New_Project_Insecure_Web_Apps-Chuck_Willis.ppt" "../" "./")
-
- ("/home/kevin/workspace/javascript-frameworks/frames/jquery/templates/" (21738 32951 567379 198000) "ryrych-rlightbox2-1.1.1-0-g5d7c953.zip" "johnpolacek-ResponsiveThumbnailGallery-46cb2e2.zip" "../" "ConvertMenuToDropdown.zip" "Mobilize.html" "ResponsiveSlides.js-master.zip" "Mobilize_files/" "./" "HeadsUpGrid_download.zip")
-
- ("/home/kevin/study-material/github/" (21751 8034 939994 137000) "jekyllblog/" "../" "qdframe-project/" "./" "Worg-3b157bd120a9ad360644f91bfe12738e42f8941a.tar.gz" "jekyllblog_back/" ".git/" "work-notes/" "responsive/" "Worg/")
-
- ("/home/kevin/study-material/github/Worg/" (20274 4346 0 0) "blorgit.org" "worg-editing.org" "worg-git-ssh-key.org" "org-color-themes.org" "ChangeLog.org" "org-testimonies/" "org-translators.org" "../" "worg-todo_archive" "org-gtd-etc.org" "org-people.org" "worgers.org" "worg-about.org" "org-conference.org" "org-tutorials/" "org-configs/" "org-tools/" "worg-maintainance.org" "orgcamps.org" "org-worg-stats.org" "org-devel.org" "org-issues.org" "index.org" "org-screenshots.org" "org-glossary.org" "worg-header.org" "gitrdone.org" "org-contrib/" "org-faq.org" ".gitignore" "org-mac.org" "style/" "org-info-js.org" "images/" "org-web.org" "org-symbols.org" "users/" "org-quotes.org" "org-hacks.org" "org-mailing-list.org" "worg-todo.org" "sandbox.org" "./" "worg-git-advanced.org" "macros.setupfile" "worg-git.org" "org-screenshots-org-on-the-web.org" "code/" "org-contribute.org" "worg-setup.org" "org-dependencies.org" "FIXME/" "org-tests/" "org-survey.org" "color-themes/" "color-themes-screenshot.org" "gtd-software-comparison.org" "org-blog-wiki.org" "org-blog-articles.org")
-
- ("/home/kevin/.emacs.d2/" (21712 39750 773297 859000) "plugins/" "var/" "site-lisp/" "../" ".session" "README.md" ".agignore" ".emacs.desktop" "LICENSE" "init.el" "ido.last" "ac-comphist.dat" "lisp/" ".gitignore" "custom.el" "./" ".smex-items" "elpa/" "history" ".git/" "snippets/" "auto-save-list/")
-
- ("/home/kevin/study-material/github/jekyllblog/_posts/" (21748 12544 496639 739000) "2014-11-01-archlinux-xfce4-complete-installation-1.md" "../" "2015-03-01-work-note-in-2015.md" "2014-11-04-archlinux-xfce4-complete-installation-4.md" "olds/" "2014-11-02-archlinux-xfce4-complete-installation-2.md" "./" "2014-11-03-archlinux-xfce4-complete-installation-3.md")
-
- ("/home/kevin/study-material/github/jekyllblog/_layouts/" (21748 11310 763321 167000) "post-index-server-side.html" "post-client.html" "../" "post-index-personal.html" "post-index-client-side.html" "home.html" "post-linux.html" "post-server.html" "post-personal.html" "./" "post-index-linux.html" "page.html")
-
- ("/home/kevin/study-material/github/jekyllblog/" (21747 49687 880440 58000) "favicon.ico" "CNAME" "404.md" "../" "personal.md" "README.md" "package.json" "_layouts/" "favicon.png" "client-side.md" "_site/" "linux.md" "index.md" "feed.xml" "images/" "_posts/" "server-side.md" "./" "_includes/" ".git/" "assets/" "about.md" "_config.yml")
-
- ("/home/kevin/study-material/github/jekyllblog/_site/" (21621 60295 896649 947000) "favicon.ico" "index.html" "CNAME" "Gemfile.lock" "client-side/" "../" "README.md" "Gemfile" "about/" "linux/" "favicon.png" "server-side/" "feed.xml" "images/" "./" "assets/" "404.html")
-
- ("/home/kevin/.gem/" (21619 1559 522922 480000) "../" "ruby/" "specs/" "./")
-
- ("/home/kevin/.gem/ruby/" (21714 15772 926590 737000) "../" "2.1.0/" "2.2.0/" "./")
-
- ("/home/kevin/.gem/ruby/2.2.0/" (21714 15786 853257 236000) "../" "specifications/" "extensions/" "doc/" "bin/" "build_info/" "cache/" "./" "gems/")
-
- ("/home/kevin/.gem/ruby/2.2.0/gems/" (21747 44905 713830 611000) "execjs-2.3.0/" "blankslate-2.1.2.4/" "tzinfo-1.2.2/" "compass-1.0.3/" "i18n-0.7.0.beta1/" "safe_yaml-1.0.4/" "jekyll-coffeescript-1.0.1/" "listen-2.8.5/" "thor-0.19.1/" "jekyll-2.5.3/" "hitimes-1.2.2/" "classifier-reborn-2.0.3/" "../" "rb-inotify-0.9.5/" "parslet-1.5.0/" "celluloid-0.16.0/" "compass-import-once-1.0.5/" "coffee-script-source-1.9.1/" "thread_safe-0.3.4/" "chunky_png-1.3.3/" "multi_json-1.10.1/" "redcarpet-3.2.2/" "i18n-0.7.0/" "timers-4.0.1/" "yajl-ruby-1.2.1/" "jekyll-sass-converter-1.3.0/" "jekyll-watch-1.2.1/" "activesupport-4.2.0/" "liquid-2.6.2/" "kramdown-1.6.0/" "toml-0.1.2/" "coffee-script-2.3.0/" "./" "RedCloth-4.2.9/" "fast-stemmer-1.0.2/" "jekyll-gist-1.1.0/" "foundation-1.0.4/" "ffi-1.9.6/" "compass-core-1.0.3/" "sass-3.4.11/" "pygments.rb-0.6.2/" "mercenary-0.3.5/" "bundler-1.7.12/" "rb-fsevent-0.9.4/" "jekyll-paginate-1.1.0/" "posix-spawn-0.3.10/" "colorator-0.1/")
-
- ("/home/kevin/.gem/ruby/2.2.0/gems/jekyll-watch-1.2.1/lib/jekyll/" (21747 41137 123168 332000) "../" "commands/" "watcher.rb" "./")
-
- ("/home/kevin/.gem/ruby/2.2.0/gems/jekyll-watch-1.2.1/lib/" (21747 41137 123168 332000) "../" "jekyll-watch.rb" "./" "jekyll/")
-
- ("/home/kevin/.gem/ruby/2.2.0/gems/jekyll-watch-1.2.1/" (21747 41137 119834 998000) "../" "lib/" "./")
-
- ("/home/kevin/.gem/ruby/2.2.0/gems/i18n-0.7.0.beta1/gemfiles/" (21747 42418 446486 334000) "Gemfile.rails-master" "Gemfile.rails-master.lock" "Gemfile.rails-4.0.x.lock" "Gemfile.rails-4.1.x.lock" "../" "Gemfile.rails-3.2.x" "Gemfile.rails-4.0.x" "./" "Gemfile.rails-4.1.x" "Gemfile.rails-3.2.x.lock")
-
- ("/home/kevin/.gem/ruby/2.2.0/gems/i18n-0.7.0.beta1/" (21747 42418 489819 667000) "MIT-LICENSE" "gemfiles/" "../" "README.md" "lib/" "./" "test/")
-
- ("/home/kevin/.gem/ruby/2.2.0/gems/jekyll-2.5.3/" (21747 41233 656500 510000) "../" "lib/" "README.markdown" "bin/" "LICENSE" "./")
-
- ("/home/kevin/.gem/ruby/2.2.0/gems/jekyll-2.5.3/bin/" (21747 41233 656500 510000) "../" "./" "jekyll")
-
- ("/home/kevin/study-material/github/jekyllblog/_includes/" (21619 28421 939267 732000) "../" "_footer.html" "_author-bio.html" "_head.html" "_scripts.html" "_navigation.html" "./" "_browser-upgrade.html")
-
- ("/home/kevin/.emacs.d/themes/emacs-color-theme-solarized-master/" (21744 39111 499991 809000) "solarized-theme.el" "../" "solarized-light-theme.el" "solarized-dark-theme.el" "README.md" "LICENSE" ".gitignore" "solarized-definitions.el" "./" "color-theme-solarized-pkg.el" "ert-tests/" "color-theme-solarized.el" "Makefile" "makepkg.sh" ".travis.yml")
-
- ("/home/kevin/.emacs.d/themes/" (21744 7829 73388 338000) "../" "prez-theme.el" "emacs-color-theme-solarized-master/" "./" "default-black-theme.el")
-
- ("/home/kevin/.emacs.d/site-lisp/" (21741 1693 368554 687000) "mouse-slider-mode.el" "smex/" "groovy-mode/" "delsel/" "yaml-mode/" "buster-snippets/" "tern/" "smooth-scrolling.el" "annoying-arrows-mode/" "feature-mode/" "../" "diminish.el" "buster-mode/" "angular-snippets/" "single-quotes-mode.el" "datomic-snippets/" "apache-mode.el" "find-file-in-project/" "jump-char/" "rhtml-mode/" "browse-kill-ring/" "fill-column-indicator/" "oppdrag-mode.el" "s/" "change-inner/" "bash-completion/" "js2-mode/" "shell-command.el" "evil/" "clj-refactor/" "undo-tree.el" "skewer-mode/" "multifiles/" "puppet-mode/" "perspective/" "jade-mode/" "multiple-cursors/" "eproject/" "frame-fns.el" "dash/" "js2-refactor/" "frame-cmds.el" "./" "php-mode/" "expand-region/" "hardcore-mode/" "ido-ubiquitous/" "wgrep/" "smart-forward/" "ace-jump-mode/" "tagedit/" "fold-this/" "project-archetypes/" "crappy-jsp-mode/" "zoom-frm.el" "simplezen/" "top-mode.el")
-
- ("/home/kevin/.emacs.d/users/" (21743 37436 689538 116000) "../" "kevin/" "./")
-
- ("/home/" (21627 17885 376688 128000) "../" "lost+found/" "kevin/" "./" "root/")
-
- ("/home/kevin/study-material/Javascript/" (21723 48063 523356 490000) "javascript/" "../" "css3/" "./")
-
- ("/home/kevin/study-material/Javascript/javascript/" (21743 10699 927700 292000) "JavaScript基础教程（第8版) (1).pdf" "移动优先与响应式Web设计 pdf 试读.pdf" "APP：jQuery Mobile移动应用实战.pdf" "../" "163disk.com_JavaScript框架设计现代魔法指南PDF电子书带目录simple.pdf" "[www.java1234.com]jQuery基础教程（第四版）.pdf" "jquery/" "JavaScript框架高级编程  应用Prototype、YUI、Ext JS、Dojo、MooTools.pdf" "./" "9_95201410302248045017474.pdf" "Bootstrap用户手册：设计响应式网站.mobi" "JavaScript框架设计新迷你书新.pdf" "《JavaScript框架设计》迷你书.pdf")
 )
 
 ;; ----- ido-unc-hosts-cache -----

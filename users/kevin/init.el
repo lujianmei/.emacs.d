@@ -348,5 +348,67 @@ bold;}.ra{text-align: right;}</style>")
 (global-set-key (kbd "M-]") 'shrink-window-horizontally)
 
 
+
+
+;; mew收发邮件配置, should install mew first
+;; 
+(autoload 'mew "mew" nil t)
+(autoload 'mew-send "mew" nil t)
+(setq mew-use-cached-passwd t)
+(setq mew-pop-delete nil)
+;; Optional setup (Read Mail menu for Emacs 21):
+(if (boundp 'read-mail-command)
+(setq read-mail-command 'mew))
+;; Optional setup (e.g. C-xm for sending a message):
+(autoload 'mew-user-agent-compose "mew" nil t)
+(if (boundp 'mail-user-agent)
+(setq mail-user-agent 'mew-user-agent))
+(if (fboundp 'define-mail-user-agent)
+(define-mail-user-agent
+'mew-user-agent
+'mew-user-agent-compose
+'mew-draft-send-message
+'mew-draft-kill
+'mew-send-hook))
+(when (boundp 'utf-translate-cjk)
+(setq utf-translate-cjk t)
+(custom-set-variables
+'(utf-translate-cjk t)))
+(if (fboundp 'utf-translate-cjk-mode)
+(utf-translate-cjk-mode 1))
+;;用w3m来读html格式邮件
+(setq mew-mime-multipart-alternative-list '("Text/Html" "Text/Plain" "*."))
+(condition-case nil
+(require 'mew-w3m)
+(file-error nil))
+(setq mew-use-w3m-minor-mode t)
+(setq mew-w3m-auto-insert-image t) ; 调用W3M读取读取HTML邮件，自动显示图片
+(setq mew-use-text/html t)
+(setq mew-charset-m17n "utf-8") ; 设置字符集
+(setq mew-internal-utf-8p) ; 设置字符集
+(setq mew-fcc "%Sent Items") ; 发送文件抄送到%Sent Items目录
+(setq mew-imap-trash-folder "%Trash") ; 删除邮件到%Trash目录
+;;设置邮件签名档
+(setq mew-signature-file "~/Mail/signature")
+(setq mew-signature-as-lastpart t)
+(setq mew-signature-insert-last t)
+(add-hook 'mew-before-cite-hook 'mew-header-goto-body)
+(add-hook 'mew-draft-mode-newdraft-hook 'mew-draft-insert-signature)
+;;设置邮件显示栏目
+(setq mew-summary-form
+      '(type (10 date) " " (40 from) " " t (0 subj)))
+(setq mew-summary-form-extract-rule '(name))
+;;设置回复在前面出现
+(setq mew-summary-reply-with-citation-position "body")
+;; Biff - check new mail 
+(setq mew-use-biff t) ;; nil 
+(setq mew-use-biff-bell t) ;; nil 
+(setq mew-pop-biff-interval 5) ;; 5 (minutes) 
+(setq mew-summary-form-mark-spam t);; autoadd a D in front of spam messages
+
+
+
+
 (provide 'init)
 ;;; init.el ends here
+
