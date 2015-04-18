@@ -97,7 +97,8 @@
 
 
 ;;----------------
-;;LOADING dired-dd
+;;LOADING dired-dd, you can check the
+;; http://www.asahi-net.or.jp/~pi9s-nnb/dired-dd-home.html
 ;;----------------
 ;;Include something like
 
@@ -114,7 +115,7 @@
 ;;; Basic configuration
 
 (setq user-full-name "Lu Jianmei")
-(setq user-mail-address "lu.jianmei@trs.com.c")
+(setq user-mail-address "lu.jianmei@trs.com.cn")
 
 ;; Example: imap4.exaple.org as main IMAP server
 (setq elmo-imap4-default-user "lu.jianmei@trs.com.cn")
@@ -149,7 +150,7 @@
       ;; Automatic signature insertion
       signature-file-name "~/mails/Signatures/TRSAddress"
       signature-insert-at-eof t
-      signature-delete-blank-lines-at-eof t
+      signature-delete-blank-lines-at-eof nil
 
       ;; User Email addresses
       wl-user-mail-address-list t
@@ -449,10 +450,10 @@ e.g.
         wl-smtp-posting-server "smtp.gmail.com"
         wl-local-domain "gmail.com"))
 (defun my-wl-trs-smtp-server ()
-  "Configure the use of the GMail SMTP server for sending"
-  (setq wl-smtp-connection-type 'stats
+  "Configure the use of the TRS SMTP server for sending"
+  (setq ;;wl-smtp-connection-type 'stats
         wl-smtp-authenticate-type "plain"
-        wl-smtp-posting-port 597 ;;25, 465, 597
+        wl-smtp-posting-port 25 ;;25, 465, 597
         wl-smtp-posting-user "lu.jianmei@trs.com.cn"
         wl-smtp-posting-server "smtp.qiye.163.com"
         wl-local-domain "mail.trs.com.cn"))
@@ -732,7 +733,7 @@ and clean-up citation for replies."
    ;; Fold over-lenght lines
   (setq truncate-lines nil)
   (turn-on-auto-fill)
-  (flyspell-mode t)
+;;  (flyspell-mode t)
   (wl-draft-config-exec)
   ;; Switch on the completion selection mode
   ;; and set the default completion-selection to bbdb
