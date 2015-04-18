@@ -89,9 +89,26 @@
 
 ;; ----------------------------------------------------------------------------
 ;;; w3m octet configuration for handling attachments
-
+(require 'mime-w3m)
 (require 'octet)
+(require 'w3m-util)
 (octet-mime-setup)
+
+
+
+;;----------------
+;;LOADING dired-dd
+;;----------------
+;;Include something like
+
+(add-hook
+ 'dired-load-hook
+ (function
+  (lambda ()
+    (load "dired-x")
+    ;; Set dired-x variables here.
+    ;; To and flo...
+    (if window-system (require 'dired-dd)))))
 
 ;; ----------------------------------------------------------------------------
 ;;; Basic configuration
