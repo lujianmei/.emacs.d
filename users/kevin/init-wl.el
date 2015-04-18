@@ -97,7 +97,14 @@
 ;;; Basic configuration
 
 (setq user-full-name "Lu Jianmei")
-(setq user-mail-address "lu.jianmei@trs.com.cn")
+(setq user-mail-address "lu.jianmei@trs.com.c")
+
+;; Example: imap4.exaple.org as main IMAP server
+(setq elmo-imap4-default-user "lu.jianmei@trs.com.cn")
+(setq elmo-imap4-default-authenticate-type 'clear)
+(setq elmo-imap4-default-server  "imap.qiye.163.com")
+(setq elmo-imap4-default-port 143)
+;;(setq elmo-imap4-default-stream-type 'ssl)
 
 
 (setq wl-icon-directory "~/.emacs.d/site-lisp/wl/etc/icons"
@@ -118,10 +125,9 @@
 
       wl-fcc ".Sent"
       wl-fcc-force-as-read t
-;;      wl-from (concat user-full-name " <" user-mail-address ">")
-;;      wl-from (concat user-full-name "< lu.jianmei@trs.com.cn > ")
       wl-from (concat user-full-name " <" user-mail-address ">")
-      wl-organization "TRS"
+;;      wl-from (concat user-full-name "< lu.jianmei@trs.com.cn > ")
+      wl-organization "TRS Ltd."
 
       ;; Automatic signature insertion
       signature-file-name "~/mails/Signatures/TRSAddress"
@@ -129,7 +135,7 @@
       signature-delete-blank-lines-at-eof t
 
       ;; User Email addresses
-      wl-user-mail-address-list nil
+      wl-user-mail-address-list t
 
       wl-draft-reply-buffer-style 'keep
       wl-interactive-send nil
@@ -162,12 +168,6 @@
       'wl-draft-kill
       'mail-send-hook))
 
-;; Speed-up rendering on Emacs-24
-(setq-default bidi-display-reordering nil)
-
-;; Do not delete temporary files to allow HTML Emails to be viewed in Conkeror
-(setq mime-play-delete-file-immediately nil)
-
 ;; ----------------------------------------------------------------------------
 ;;; Folders
 
@@ -175,8 +175,8 @@
       wl-folder-window-width 30
       wl-folder-desktop-name "Email"
       wl-default-folder "%inbox"
-      my-wl-default-filing-folder ".wl"
-      wl-default-spec ".wl/Customers"
+      my-wl-default-filing-folder "~/mail/.wl/"
+      wl-default-spec "~/mails/.wl/Customers/"
       wl-draft-folder ".Drafts"
       wl-trash-folder ".Trash"
       wl-interactive-save-folders nil
@@ -241,11 +241,21 @@
 
 (setq wl-draft-config-alist
       '(
-        ((string-match ".*@*haier.*" wl-draft-parent-folder)
+        ((string-match ".*x\\.haier.*\\|.*haier/.*" wl-draft-parent-folder)
          ("From" . "Lu Jianmei <lu.jianmei@trs.com.cn>")
-         ("Organization" . nil)
+         ("Organization" . "trs")
          ("X-Attribution" . "trs")
          (signature . "~/mails/Signatures/TRSAddress"))
+        ((string-match ".*130@imap\\.163\\.com.*" wl-draft-parent-folder)
+         ("From" . "lu jianmei <anysky130@163.com>")
+         ("Organization" . nil)
+         ("X-Attribution" . "anysky130")
+         (signature . "~/mails/Signatures/homeAddress"))
+        ((string-match ".*133@imap\\.163\\.com.*" wl-draft-parent-folder)
+         ("From" . "lu jianmei <anysky133@163.com>")
+         ("Organization" . nil)
+         ("X-Attribution" . "anysky133")
+         (signature . "~/mails/Signatures/homeAddress"))
         )
 
       wl-draft-reply-without-argument-list
@@ -305,58 +315,15 @@
         (type . application)(subtype . pdf)
         (method . my-mime-save-content-find-file)))))
 
-
-
-(require 'wl-summary)
-(require 'filladapt)
-(defun wl-summary-fill-message (all)
-  (interactive "P")
-  (if (and wl-message-buffer (get-buffer-window wl-message-buffer))
-      (progn
-        (wl-summary-toggle-disp-msg 'on)
-        (save-excursion
-          (set-buffer wl-message-buffer)
-          (goto-char (point-min))
-          (re-search-forward "^$")
-          (while (or (looking-at "^\\[[1-9]") (looking-at "^$"))
-            (forward-line 1))
-          (let* ((buffer-read-only nil)
-                 (find (lambda (regexp)
-                         (save-excursion
-                           (if (re-search-forward regexp nil t)
-                               (match-beginning 0)
-                             (point-max)))))
-                 (start (point))
-                 (end (if all
-                          (point-max)
-                        (min (funcall find "^[^>\n]* wrote:[ \n]+")
-                             (funcall find "^>>>>>")
-                             (funcall find "^ *>.*\n *>")
-                             (funcall find "^-----Original Message-----")))))
-            (save-restriction
-              (narrow-to-region start end)
-              (filladapt-mode 1)
-              (fill-region (point-min) (point-max)))))
-        (message "Message re-filled"))
-    (message "No message to re-fill")))
-
-(define-key wl-summary-mode-map "\M-q" 'wl-summary-fill-message)
-
-(require 'wl-folder)
-(define-key wl-folder-mode-map [mouse-2] 'wl-folder-jump-to-current-entity)
-
-
 ;; ----------------------------------------------------------------------------
 ;;; Biff: Check for new mail
 
 
 ;; You should set this variable if you use multiple e-mail addresses.
-(setq wl-user-mail-address-list  '("lu.jianmei@trs.com.cn"
-                                   "anysky133@163.com"
-                                   "anysky130@163.com"))
+(setq wl-user-mail-address-list  '("lu.jianmei@trs.com.cn"))
 
 (setq wl-biff-check-folder-list
-      '("&lu.jianmei/user@imap.qiye.163.com:143"
+      '("%lu.jianmei/user@imap.qiye.163.com:143"
 ;;        "&anysky133/user@imap.163.com:143"
 ;;        "&xxxxxxx+enquiries/user@mail.plus.net:110!direct"
 ;;        "%inbox:hxxxxxx0/clear@imap.gmail.com:993!"
