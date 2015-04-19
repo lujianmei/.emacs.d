@@ -79,3 +79,5 @@ ls
 mv Haier-infrastructure-automation-discussion.md Haier-infrastructure-automation-discussion.org
 sudo pacman -Syu
 reboot
+note
+node

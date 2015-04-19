@@ -259,7 +259,7 @@
 
 (setq wl-draft-config-alist
       '(
-        ((string-match ".*@imap\\.qiye\\.163.com.*" wl-draft-parent-folder)
+        ((string-match "" wl-draft-parent-folder)
          ("From" . "lu jianmei <lu.jianmei@trs.com.cn>")
          ("Bcc" . "lu jianmei <lu.jianmei@trs.com.cn>")
          ("Organization" . nil)
