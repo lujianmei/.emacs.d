@@ -129,6 +129,10 @@
       elmo-msgdb-directory "~/mails/Wanderlust/Elmo"
       elmo-split-log-file "~/mails/Wanderlust/Elmo/split-log"
 
+      ;; config passwd
+      elmo-passwd-alist-file-name "~/mails/passwd"
+      elmo-passwd-life-time 100000
+
       ;; Offline and synchronization
       wl-plugged t
       elmo-imap4-use-modified-utf7 t
@@ -150,10 +154,10 @@
       ;; Automatic signature insertion
       signature-file-name "~/mails/Signatures/TRSAddress"
       signature-insert-at-eof t
-      signature-delete-blank-lines-at-eof nil
+      signature-delete-blank-lines-at-eof t
 
       ;; User Email addresses
-      wl-user-mail-address-list t
+      wl-user-mail-address-list nil
 
       wl-draft-reply-buffer-style 'keep
       wl-interactive-send nil
