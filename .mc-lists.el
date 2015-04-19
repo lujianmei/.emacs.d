@@ -163,6 +163,7 @@
         transpose-sexps
         wdired-next-line
         wdired-previous-line
+        wl-summary-next
         wrap-region-trigger
         yaml-electric-backspace
         yaml-electric-dash-and-dot

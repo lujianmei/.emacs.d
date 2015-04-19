@@ -606,6 +606,9 @@ or `wl-draft-reply-with-argument-list' if WITH-ARG argument is non-nil."
     (setq mail-followup-to (std11-field-body "Mail-Followup-To"))
     (setq content-type (std11-field-body "Content-Type"))
     (setq content-transfer-encoding (std11-field-body "Content-Transfer-Encoding"))
+
+    (setq content-transfer-encoding "utf-8")
+
     (goto-char (point-min))
     (or (re-search-forward "\n\n" nil t)
 	(search-forward (concat mail-header-separator "\n") nil t))

@@ -1,0 +1,51 @@
+##### -*- conf-unix -*-
+##163{
+##   %INBOX: anysky130/clear@imap.163.com         "In"
+##   %163: anysky130/clear@imap.163.com         "In"
+##   %163/Sent   "Sent"
+##   %163/Draft "Draft"
+##   %163/Trash "Trash"
+##   %163/Spam  "Spam"
+##
+###   Buy{
+###      %buy/Apple:anysky130/clear@imap.163.com:993!     "Apple"
+###      %buy/FT:anysky130/clear@imap.163.com:993!  "FT"
+###      %buy/books:anysky130/clear@imap.163.com:993!    "Books"
+###   }
+##
+
+##}
+#
+#163{
+#   %INBOX:anysky130/clear@imap.163.com:993!         "In"
+#   %[163]/Sent:anysky130/clear@imap.163.com:993!  "Sent"
+#   %[163]/Draft:anysky130/clear@imap.163.com:993! "Draft"
+#   %[163]/Trash:anysky130/clear@imap.163.com:993! "Trash"
+#   %[163]/Spam:anysky130/clear@imap.163.com:993!  "Spam"
+#
+#   Buy{
+#      %buy/Apple:anysky130/clear@imap.163.com:993!     "Apple"
+#      %buy/FT:anysky130/clear@imap.163.com:993!  "FT"
+#      %buy/books:anysky130/clear@imap.163.com:993!    "Books"
+#   }
+#
+#}
+#
+
+##
+#Note: usernames with "strange" characters (like "@") must be written
+#like: "myname@company.com". Folders at my work are delimited by dot '.'.
+WORK{
+   %INBOX: "lu.jianmei"/clear@imap.qiye.163.com        "Inbox"
+   %INBOX.Sent: "lu.jianmei"/clear@imap.qiye.163.com   "Sent"
+   %INBOX.Drafts: "lu.jianmei"/clear@imap.qiye.163.com "Draft"
+   %INBOX.Trash: "lu.jianmei"/clear@imap.qiye.163.com  "Trash"
+   %INBOX.Haier: "lu.jianmei"/clear@imap.qiye.163.com  "Haier"
+
+#   Notifications{
+#      %INBOX.nagios:lu.jianmei/clear@imap.qiye.163.com "nagios"
+#      %INBOX.pm:lu.jianmei/clear@imap.qiye.163.com "pm"
+#      %INBOX.errors:lu.jianmei/clear@imap.qiye.163.com "errors"
+#   }
+}
+
