@@ -349,7 +349,24 @@ bold;}.ra{text-align: right;}</style>")
 (global-set-key (kbd "M-[") 'enlarge-window-horizontally)
 (global-set-key (kbd "M-]") 'shrink-window-horizontally)
 
-
+;; add folding mode, Folding mode is a MinorMode that uses a special string to
+;; find the regions to hide: {{{ and }}}. The variable fold-mode-marks-alist
+;; defines the strings for each MajorMode separately. From the folding menu you
+;; can enter, show, hide, etc. regions. With the Mouse-3 (the rightmost mouse
+;; button) when there is no other context menu defined a right mouse click will
+;; toggle the visibility of fold.
+;; Example in C
+;;   /* {{{ This is the parent level */
+;;    main()
+;;    {
+;;    /* {{{ This is the first child level (var initialized) */
+;;    int i,j,k;
+;;    float l,m,n;
+;;    char a,b,c;
+;;    /* }}} child level ended */
+(load "folding" 'nomessage 'noerror)
+(folding-mode-add-find-file-hook)
+(setq folding-narrow-by-default nil)
 
 
 (provide 'init)
