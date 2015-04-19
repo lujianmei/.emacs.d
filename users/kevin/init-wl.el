@@ -129,7 +129,12 @@
       elmo-msgdb-directory "~/mails/Wanderlust/Elmo"
       elmo-split-log-file "~/mails/Wanderlust/Elmo/split-log"
 
-      ;; config passwd
+      ;; config passwd for imap, need to use M-x call function: "elmo-passwd-alist-name" after login&sent a mail
+      ;; then wl will encry your password and save into this file for cache.
+      ;; the file's content would be like this:
+      ;; (("IMAP:user/clear@imap_server:143" . "passwd encrypt") ("SMTP:user/PLAIN@smtp_server" . "passwd encrypted"))
+      ;; eg. (("IMAP:lu.jianmei@trs.com.cn/clear@imap.qiye.163.com:143" . "passwd encrypt") ("SMTP:lu.jianmei@trs.com.cn/PLAIN@smtp.qiye.163.com" . "passwd encrypted"))
+
       elmo-passwd-alist-file-name "~/mails/passwd"
       elmo-passwd-life-time 100000
 
