@@ -364,6 +364,7 @@ bold;}.ra{text-align: right;}</style>")
 ;;    float l,m,n;
 ;;    char a,b,c;
 ;;    /* }}} child level ended */
+;; another extension that fold by indentation: https://github.com/zenozeng/yafolding.el
 (load "folding" 'nomessage 'noerror)
 (folding-mode-add-find-file-hook)
 (setq folding-narrow-by-default nil)
