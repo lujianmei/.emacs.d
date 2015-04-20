@@ -53,13 +53,6 @@
 (loop for x downfrom 40 to 1 do
       (setq tab-stop-list (cons (* x 4) tab-stop-list)))
 
-;; 回车缩进
-;;(global-set-key "\C-m" 'reindent-then-newline-and-indent)
-(global-set-key (kbd "C-<return>") 'reindent-then-newline-and-indent)
-(global-set-key (kbd "C-S-i") 'indent-region)
-
-;; Config the mark 
-(global-set-key (kbd "S-SPC") 'set-mark-command)
 
                                         ;move line up down
 (defun move-text-internal (arg)
@@ -97,18 +90,6 @@
   (interactive "*p")
   (move-text-internal (- arg)))
 
-(global-set-key [S-C-up] 'move-text-up)
-(global-set-key [S-C-down] 'move-text-down)
-
-(global-set-key (kbd "C-c l") 'copy-whole-lines)
-
-;; add multi cursors:
-(require 'multiple-cursors)
-(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
-(global-set-key (kbd "C->") 'mc/mark-next-like-this)
-(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
-(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
-
 ;;add angular snippets
 (require 'angular-snippets)
 
@@ -119,10 +100,7 @@
 
 ;;add smart forward
 (require 'smart-forward)
-(global-set-key (kbd "M-<up>") 'smart-up)
-(global-set-key (kbd "M-<down>") 'smart-down)
-(global-set-key (kbd "M-<left>") 'smart-backward)
-(global-set-key (kbd "M-<right>") 'smart-forward)
+
 
 
 ;; add quick-jump for quick jump back to the line marked
@@ -133,21 +111,6 @@
 ;;;;add tagedit
 ;;(setq tagedit-experimental-features-on nil)
 (tagedit-disable-experimental-features)
-
-;;(define-key html-mode-map (kbd "C-t C-d") 'tagedit-disable-experimental-features)
-;;(define-key html-mode-map (kbd "C-t C-e") 'tagedit-add-experimental-features)
-
-(define-key html-mode-map (kbd "C-<right>") 'tagedit-forward-slurp-tag)
-(define-key html-mode-map (kbd "C-<left>") 'tagedit-forward-barf-tag)
-;;(define-key html-mode-map (kbd "M-r") 'tagedit-raise-tag)
-;;(define-key html-mode-map (kbd "M-s") 'tagedit-splice-tag)
-;;(define-key html-mode-map (kbd "M-J") 'tagedit-join-tags)
-;;(define-key html-mode-map (kbd "M-S") 'tagedit-split-tag)
-;;(define-key html-mode-map (kbd "M-?") 'tagedit-convolute-tags)
-;;(define-key html-mode-map (kbd "C-k") 'tagedit-kill)
-
-(define-key html-mode-map (kbd "S-k") 'tagedit-kill-attribute)
-
 
 ;; set flycheck run on all buffers:
 (add-hook 'after-init-hook #'global-flycheck-mode)
@@ -322,11 +285,6 @@ solid #777; padding: .3em; margin: 2px;}th{background:
 underline;}.fixme{background: #ff0; font-weight:
 bold;}.ra{text-align: right;}</style>")
 
-;; key bindings for org
-;;(global-set-key (kbd "<f12>") 'org-agenda) ;; configured blew
-(global-set-key (kbd "<f9> c") 'calendar)
-(global-set-key (kbd "<f9> v") 'visible-mode)
-(global-set-key (kbd "C-c c") 'org-capture)
 
 ;; emacs-w3m-cvs, should install emacs-w3m-cvs first
 (require 'w3m-load)
@@ -339,15 +297,7 @@ bold;}.ra{text-align: right;}</style>")
 
 (add-hook 'org-after-todo-statistics-hook 'org-summary-todo)
 
-;; add ~/notes/front-end-dev-plan.org into agenda
-(setq org-agenda-files (list "~/notes/front-end-dev-plan.org"))
-(global-set-key "\C-c a" 'org-agenda)
 
-
-
-;; enlarge current window
-(global-set-key (kbd "M-[") 'enlarge-window-horizontally)
-(global-set-key (kbd "M-]") 'shrink-window-horizontally)
 
 ;; add folding mode, Folding mode is a MinorMode that uses a special string to
 ;; find the regions to hide: {{{ and }}}. The variable fold-mode-marks-alist
