@@ -321,16 +321,6 @@ bold;}.ra{text-align: right;}</style>")
 
 
 
-;; config markdown mode, for supporting local css file and Chinese
-;; there is no way to generate css code into html file for now, will solve this later.
-;; TODO: copy css code into generated html
-;;(setq markdown-css-path "/home/kevin/.emacs.d/users/kevin/markdown-css/")
-(setq markdown-content-type "text/html")
-(setq markdown-coding-system nil) 
-(setq buffer-file-coding-system "utf-8")
-
-(setq markdown-css-dir "/home/kevin/.emacs.d/users/kevin/markdown-css/")
-(setq markdown-css-theme "clearness")
 
 (provide 'init)
 ;;; init.el ends here
