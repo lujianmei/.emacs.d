@@ -341,7 +341,7 @@
 (setq wl-user-mail-address-list  '("lu.jianmei@trs.com.cn"))
 
 (setq wl-biff-check-folder-list
-      '("%lu.jianmei/user@imap.qiye.163.com:143"
+      '("%INBOX: lu.jianmei/user@imap.qiye.163.com:143"
 ;;        "&anysky133/user@imap.163.com:143"
 ;;        "&xxxxxxx+enquiries/user@mail.plus.net:110!direct"
 ;;        "%inbox:hxxxxxx0/clear@imap.gmail.com:993!"
