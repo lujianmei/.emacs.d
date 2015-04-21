@@ -73,7 +73,7 @@
  ("/home/kevin/.emacs.d/themes/" . "emacs-color-theme-solarized-master/")
  ("/home/kevin/" . ".emacs.d/")
  ("/home/kevin/.emacs.d/users/" . "kevin/")
- ("/home/kevin/.emacs.d/" . "users/")
+ ("/home/kevin/.emacs.d/" . "themes/")
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/my/" . "images/")
  ("/home/kevin/workspace/javascript-frameworks/frames/jquery/" . "my/")
  ("/home/kevin/workspace/javascript-frameworks/frames/" . "bootstrap-3.3.2/")
@@ -83,9 +83,12 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/kevin/.emacs.d/my-site-lisp/markdown-mode-export-color-theme/"
+ "/home/kevin/.emacs.d/themes/emacs-color-theme-solarized-master/"
+ "/home/kevin/.emacs.d/users/kevin/"
+ "/home/kevin/.emacs.d/themes/"
  "/tmp/Download/markdown-mode-css-master/tests/"
  "/home/kevin/.emacs.d/users/kevin/markdown-css/"
- "/home/kevin/.emacs.d/users/kevin/"
  "/home/kevin/.emacs.d/elpa/markdown-mode-20150121.1229/"
  "/home/kevin/workspace/github/Worg/"
  "/home/kevin/workspace/github/work-notes/"
@@ -130,38 +133,41 @@
  "/home/kevin/.emacs.d/settings/"
  "/home/kevin/study-material/github/work-notes/"
  "/home/kevin/workspace/system_monitor/metronic/"
- "/home/kevin/workspace/system_monitor/metronic/oldfile/theme_rtl/templates/admin/"
- "/home/kevin/workspace/phonegap/imgpicker/imgpicker/"
- "/sudo:root@localhost:/etc/nginx/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "markdown-setting.el"
+ "README.md"
+ "init.el"
+ "default-black-theme.el"
  "gfm.text"
  "nested-list.text"
  "lists.text"
  "clearness.css"
- "init.el"
  "markdown-mode.el"
  "index.org"
- "work-note-in-2015.org"
- "responsive-needs.md"
- "index.js"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/kevin/.emacs.d/my-site-lisp/markdown-mode-export-color-theme/" (21813 61939 987971 483000) "../" "README.md" "tests/" "markdown-mode.el" "./" ".git/" "markdown-setting.el")
+
+ ("/home/kevin/.emacs.d/" (21813 39858 316486 562000) "%backup%~" ".folders" "session.28795f802-4e8c-4b07-ab75-0cbd488ff74c" "var/" "eshell/" ".places" "site-lisp/" "../" "README.md" "session.2bc9e02ab-ffe1-4029-9a5b-457b0d2f7293" ".emacs.desktop" "session.21d9342e2-4834-425f-b9e6-216f992c0363" "defuns/" "themes/" "tramp" ".cask/" "init.el" "backups/" "ido.last" ".gitignore" "custom.el" ".gitmodules" "users/" "./" "settings/" "session.204225d81-3dd5-4801-bd3c-347db21f2865" "elpa/" "history" ".git/" "snippets/" "auto-save-list/" ".mc-lists.el" "project-archetypes/")
+
+ ("/home/kevin/" (21813 39858 263153 230000) ".mplayer/" ".ddd/" ".gemrc" ".xfce4-session.verbose-log" ".conkyrc~" ".netbeans/" ".mozilla/" ".msmtprc" ".emacs.d.originalbakup/" ".viminfo" ".gem/" "VirtualBox VMs/" ".freemind/" ".m2/" ".fehbg" ".emacs.d.fromPurcell2/" ".config/" ".bbdb" ".adobe/" ".fgfs/" ".cache/" ".asoundrc" "Projects/" ".dmrc" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" ".gnus.el" "record/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" ".conkyrc" "Documents/" ".emacs.d_bak/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" ".svnqt/" ".android/" ".sunpinyin/" "study-material/" ".other/" ".cask/" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" ".scorched3d/" ".xinitrc" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" ".wireshark/" ".fvwm/" ".xfce4-session.verbose-log.last" "tmp/" ".python_history" ".ICEauthority" ".macromedia/" "sync/" "Programe/" ".pki/" ".bash_profile~" ".bashrc~" ".msmtprc~" ".dia/" ".texlive/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" ".matho_history" ".newsrc-dribble" ".trash/" ".java/" ".w3m/" ".muttrc" ".bash_profile" ".sass-cache/" ".thumbnails/" ".IntelliJIdea13/" ".archey3.cfg" ".eclipse/" ".smex-items" ".xinitrc~" ".semanticdb/" "svn/" ".screenlayout/" "mails/" ".ccache/" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" ".muttrc~" ".pypanelrc" "Desktop/" ".esd_auth" ".gnome2/" ".gnupg/" ".addresses" "Downloads/" ".plugman/" "TRS/" ".mime-example" ".gtkrc-2.0-kde4" ".purple/" ".ssh/" ".icons/" ".wl_bak" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".AndroidStudioBeta/" ".vim/" ".emacs.d/" ".#test.org" ".mutt/" ".elmo/" "Users/" ".npm/" ".cordova/" ".emacs.keyfreq" ".Skype/" "../" "./")
+
+ ("/home/kevin/.emacs.d/themes/emacs-color-theme-solarized-master/" (21744 39111 499991 809000) "solarized-theme.el" "../" "solarized-light-theme.el" "solarized-dark-theme.el" "README.md" "LICENSE" ".gitignore" "solarized-definitions.el" "./" "color-theme-solarized-pkg.el" "ert-tests/" "color-theme-solarized.el" "Makefile" "makepkg.sh" ".travis.yml")
+
+ ("/home/kevin/.emacs.d/users/kevin/" (21813 39716 443154 927000) "aj-compilation.el" "quick-jump.el" "markdown-css/" "../" "shell-current-directory.el" "init-wl.el" "smart-forward.el" "my-key-bindings.el" "init.el" "boxquote.el" ".# *Minibuf-2*" "mairix.el" "zencoding-mode.el" "scss-mode.el" "folding.el" "haml-mode.el" "./" "personal/" "markdown-setting.el" "sass-mode.el" "folders" "zencoding-trie.nw" "filladapt.el")
+
+ ("/home/kevin/.emacs.d/themes/" (21813 39685 273155 299000) "../" "prez-theme.el" "emacs-color-theme-solarized-master/" "./" "default-black-theme.el")
+
  ("/tmp/Download/markdown-mode-css-master/tests/" (21813 36285 216529 315000) ".gitignore" "Makefile" "gfm.text" "inline.text" "lists.text" "markdown-test.el" "math.text" "nested-list.text" "outline.text" "syntax.text" "wiki-links.text" "syntax.html" "lists.html" "math.html" "inline.html" "#gfm.html#" "nested-list.html" "gfm.html" "../" "./")
 
  ("/tmp/" (21813 36361 316528 405000) ".X11-unix/" ".XIM-unix/" ".ICE-unix/" ".font-unix/" ".Test-unix/" "serverauth.QJRu70Qs2S" ".X0-lock" "fcitx-socket-:0" "orbit-kevin/" "emacs1000/" "text" "c9oyJrT1uI" "D6srfgn4Fe" "kde-kevin/" "xauth-1000-_0" "wireshark_pcapng_vboxnet0_20150420103305_h9fOAL" "wireshark_pcapng_enp0s25_20150420103636_HvHJPh" "1429529729225.7966" "1429529736012.1975" "1429529736826.0393" "hsperfdata_kevin/" "Download/" "git/" "adb.log" "docview1000/" ".vbox-kevin-ipc/" "burl26519IWF.html" ".org.chromium.Chromium.Frrwm2/" "../" "./")
 
- ("/home/kevin/" (21813 36358 229861 775000) ".mplayer/" ".ddd/" ".gemrc" ".xfce4-session.verbose-log" ".conkyrc~" ".netbeans/" ".mozilla/" ".msmtprc" ".emacs.d.originalbakup/" ".viminfo" ".gem/" "VirtualBox VMs/" ".freemind/" ".m2/" ".fehbg" ".emacs.d.fromPurcell2/" ".config/" ".bbdb" ".adobe/" ".fgfs/" ".cache/" ".asoundrc" "Projects/" ".dmrc" ".swt/" ".bashrc" ".emacs.d_configured_bakup/" ".recentf~" ".kde/" ".gnus.el" "record/" ".thunderbird/" ".mldonkey/" ".shutter/" ".gnome/" ".bash_history" ".gstreamer-0.10/" "thunderbird/" ".conkyrc" "Documents/" ".emacs.d_bak/" ".emacs.d_backupwithecb/" "workspace/" "linux/" ".emacs.d.fromPurcell/" ".speed-dreams-2/" ".local/" ".svnqt/" ".android/" ".sunpinyin/" "study-material/" ".other/" ".cask/" ".bash_logout" ".srecode/" ".vimrc" ".recently-used" ".openoffice/" ".scorched3d/" ".xinitrc" ".subversion/" ".Xauthority" ".emacs.d_magnars/" ".backups/" ".fbtermrc" ".wireshark/" ".fvwm/" ".xfce4-session.verbose-log.last" "tmp/" ".python_history" ".ICEauthority" ".macromedia/" "sync/" "Programe/" ".pki/" ".bash_profile~" ".bashrc~" ".msmtprc~" ".dia/" ".texlive/" "Pictures/" ".gimp-2.8/" ".emacs.d_purcellbak/" ".matho_history" ".newsrc-dribble" ".trash/" ".java/" ".w3m/" ".muttrc" ".bash_profile" ".sass-cache/" ".thumbnails/" ".IntelliJIdea13/" ".archey3.cfg" ".eclipse/" ".smex-items" ".xinitrc~" ".semanticdb/" "svn/" ".screenlayout/" "mails/" ".ccache/" ".recentf" "software/" ".Xresources" ".dbus/" ".kde4/" ".visualvm/" ".jrebel/" ".muttrc~" ".pypanelrc" "Desktop/" ".esd_auth" ".gnome2/" ".gnupg/" ".addresses" "Downloads/" ".plugman/" "TRS/" ".mime-example" ".gtkrc-2.0-kde4" ".purple/" ".ssh/" ".icons/" ".wl_bak" ".gitconfig" ".IntelliJIdea14/" ".gnome2_private/" ".tgdb/" ".rtorrent.rc" ".AndroidStudioBeta/" ".vim/" ".emacs.d/" ".#test.org" ".mutt/" ".elmo/" "Users/" ".npm/" ".cordova/" ".emacs.keyfreq" ".Skype/" "../" "./")
-
  ("/home/kevin/.emacs.d/users/kevin/markdown-css/" (21813 18609 253119 990000) "solarized-light.css" "../" "solarized-dark.css" "markdown.css" "node-dark.css" "clearness-dark.css" "haroopad.css" "storm.css" "github-rhio.css" "clearness.css" "./" "github.css")
-
- ("/home/kevin/.emacs.d/users/kevin/" (21813 23681 333307 749000) "aj-compilation.el" "quick-jump.el" "markdown-css/" "../" "shell-current-directory.el" "init-wl.el" "smart-forward.el" "my-key-bindings.el" "init.el" "boxquote.el" ".# *Minibuf-2*" "mairix.el" "zencoding-mode.el" "scss-mode.el" "folding.el" "haml-mode.el" "./" "personal/" "sass-mode.el" "folders" "zencoding-trie.nw" "filladapt.el")
-
- ("/home/kevin/.emacs.d/" (21813 23788 533306 465000) "%backup%~" ".folders" "session.28795f802-4e8c-4b07-ab75-0cbd488ff74c" "var/" "eshell/" ".places" "site-lisp/" "../" "README.md" "session.2bc9e02ab-ffe1-4029-9a5b-457b0d2f7293" ".emacs.desktop" "session.21d9342e2-4834-425f-b9e6-216f992c0363" "defuns/" "themes/" "tramp" ".cask/" "init.el" "backups/" "ido.last" ".gitignore" "custom.el" ".gitmodules" "users/" "./" "settings/" "session.204225d81-3dd5-4801-bd3c-347db21f2865" "elpa/" "history" ".git/" "snippets/" "auto-save-list/" ".mc-lists.el" "project-archetypes/")
 
  ("/tmp/Download/markdown-mode-css-master/" (21813 18578 439787 26000) ".gitignore" "README.md" "markdown-mode.el" "tests/" "webpage.sh" "markdown-css/" "../" "./")
 
@@ -344,12 +350,6 @@
  ("/home/kevin/workspace/phonegap/imgpicker/imgpicker/" (21769 36559 23082 613000) "plugins/" "hooks/" "platforms/" "../" "./" "config.xml" "www/")
 
  ("/home/kevin/workspace/phonegap/imgpicker/" (21769 36558 973082 614000) "../" "./" "imgpicker/")
-
- ("/home/kevin/workspace/zhoushannews/www/assets/css/" (21765 57388 249959 374000) "index.html" "../" "index.scss" "index.css" "index.css.map" ".sass-cache/" "./")
-
- ("/home/kevin/workspace/zhoushannews/www/" (21766 45626 818101 15000) "index.html" "css/" "../" "js/" "images/" "./" "assets/")
-
- ("/usr/" (21741 48725 458875 10000) "etc/" "sbin/" "lib64/" "lib32/" "usr/" "local/" "src/" "bin/" "lib/" "share/" "include/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

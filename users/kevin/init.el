@@ -130,7 +130,7 @@
 (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on t)
 
 ;; change theme to solarized,use light frames in the GUI and dark frames in my terminal
-(load-theme 'solarized-light t)
+(load-theme 'solarized-dark t)
 (add-hook 'after-make-frame-functions
           (lambda (frame)
             (set-frame-parameter frame
