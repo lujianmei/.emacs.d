@@ -87,6 +87,7 @@
         org-delete-backward-char
         org-delete-char
         org-end-of-line
+        org-force-self-insert
         org-metaleft
         org-metaright
         org-return-indent

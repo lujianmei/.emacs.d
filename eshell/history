@@ -81,3 +81,26 @@ sudo pacman -Syu
 reboot
 note
 node
+sudo nginx -s reload
+ls
+cd /var
+ls
+cd /etc/nginx/
+ls
+cd /usr/share/nginx
+ls
+cd html/
+ls
+sudo nginx -s reload
+cd /var/log/
+ls
+find -name error.log
+cd ..
+find -name error.log
+nginx
+nginx -s reload
+cd ..
+find -name nginx.pid
+cd ..
+cd .emacs.d
+git add .

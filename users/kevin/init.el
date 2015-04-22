@@ -321,6 +321,9 @@ bold;}.ra{text-align: right;}</style>")
 
 
 
+;; Enable Dired-view hook for Dired Mode
+(add-hook 'dired-mode-hook 'dired-view-minor-mode-on)
+
 
 (provide 'init)
 ;;; init.el ends here

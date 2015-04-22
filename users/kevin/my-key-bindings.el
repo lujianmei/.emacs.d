@@ -57,6 +57,10 @@
 (global-set-key (kbd "M-[") 'enlarge-window-horizontally)
 (global-set-key (kbd "M-]") 'shrink-window-horizontally)
 
+;; Using dired-view for allowing select file in Dired-Mode by file's fist name.
+(define-key dired-mode-map (kbd ";") 'dired-view-minor-mode-toggle)
+(define-key dired-mode-map (kbd ":") 'dired-view-minor-mode-dired-toggle)
+
 (provide 'my-key-binding)
 ;;; my-key-binding.el ends here
 
