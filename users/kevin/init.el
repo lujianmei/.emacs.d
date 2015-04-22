@@ -323,7 +323,11 @@ bold;}.ra{text-align: right;}</style>")
 
 ;; Enable Dired-view hook for Dired Mode
 (add-hook 'dired-mode-hook 'dired-view-minor-mode-on)
-
+;; hide those hidden files/directories
+(add-hook 'dired-mode-hook
+          (lambda ()
+            (setq dired-omit-files "^#\\|^\\..*") ; omit all hidden file which starts with `.'
+            (dired-omit-mode 1)))                 ; initially omit unintrested files, set quick-key for this omit function
 
 (provide 'init)
 ;;; init.el ends here

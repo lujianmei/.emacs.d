@@ -61,6 +61,13 @@
 (define-key dired-mode-map (kbd ";") 'dired-view-minor-mode-toggle)
 (define-key dired-mode-map (kbd ":") 'dired-view-minor-mode-dired-toggle)
 
+;; Jump to current buffer's directory it is in.
+(define-key global-map (kbd "C-x C-j") 'dired-jump)
+(define-key global-map (kbd "C-x 4 C-j") 'dired-jump-other-window)
+(define-key global-map (kbd "C-x C-h") 'dired-omit-mode)
+
+
+
 (provide 'my-key-binding)
 ;;; my-key-binding.el ends here
 
